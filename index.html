@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Picks — MLB Statistics — July 22, 2026</title>
+<style>
+:root{--g:#1a7f4b;--y:#8a929d;--r:#b4342a;--bg:#15181c;--card:#ffffff;--bd:#dde1e6;--turq:#2dd4bf;}
+*{box-sizing:border-box;}
+body{
+  margin:0;padding:20px;
+  background:
+    radial-gradient(900px 500px at 8% -5%, rgba(45,212,191,.14), transparent 60%),
+    radial-gradient(700px 500px at 100% 0%, rgba(45,212,191,.08), transparent 55%),
+    linear-gradient(180deg, #1b1f24 0%, #121417 100%);
+  background-attachment:fixed;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  color:#1c1f24;font-variant-numeric:tabular-nums;
+}
+.pageheader{max-width:1100px;margin:0 auto 20px;display:flex;align-items:center;gap:16px;}
+.logo-wrap{display:flex;align-items:center;gap:10px;flex-shrink:0;}
+.logo-text{display:flex;flex-direction:column;line-height:1;font-family:'Arial Black',Impact,sans-serif;}
+.logo-text .ai{color:var(--turq);font-size:15px;font-weight:900;letter-spacing:.04em;}
+.logo-text .picks{color:#ffffff;font-size:15px;font-weight:900;letter-spacing:.04em;-webkit-text-stroke:.5px #0d0f11;}
+.headtext{border-left:1px solid rgba(255,255,255,.18);padding-left:16px;}
+h1{font-size:21px;margin:0 0 4px;color:#ffffff;font-weight:700;letter-spacing:.01em;}
+h1 .accent{color:var(--turq);}
+.sub{color:#c3c9d1;font-size:13px;}
+.board{display:flex;flex-direction:column;gap:14px;max-width:1100px;margin:0 auto;}
+.game{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:12px 14px;}
+.cardhdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;border-bottom:1px solid var(--bd);padding-bottom:6px;}
+.matchup{font-size:13.5px;font-weight:600;display:flex;align-items:center;gap:5px;}
+.tlogo{width:20px;height:20px;vertical-align:middle;}
+.time{font-size:13px;color:#6b7280;font-weight:600;}
+.cardbody{display:grid;grid-template-columns:1fr 150px 1fr;gap:8px;align-items:start;}
+.pblock.right{text-align:right;}
+.pteam{display:flex;align-items:center;gap:5px;font-size:12px;color:#4b5563;font-weight:600;}
+.pblock.right .pteam{justify-content:flex-end;}
+.plogo{width:18px;height:18px;}
+.pheadrow{display:flex;align-items:center;gap:8px;margin-top:4px;}
+.pblock.right .pheadrow{flex-direction:row-reverse;}
+.photo{width:44px;height:44px;border-radius:50%;object-fit:cover;background:#eef0f3;flex-shrink:0;}
+.pinfo{min-width:0;}
+.side{color:#9aa1ab;font-weight:500;}
+.pname{font-size:14px;font-weight:700;margin-top:2px;}
+.pline1{font-size:13px;font-weight:700;margin-top:2px;}
+.pline2{font-size:11.5px;color:#6b7280;}
+.mixedflag{color:#b4342a;font-weight:800;cursor:help;margin-left:1px;}
+.teamstatlbl{font-size:9.5px;font-weight:800;color:#9aa1ab;text-transform:uppercase;letter-spacing:.05em;margin-top:8px;padding-top:6px;border-top:1px solid var(--bd);}
+.bpline{font-size:11px;color:#374151;margin-top:5px;}
+.l15line{font-size:11px;color:#374151;margin-top:3px;}
+.l15lbl{color:#9aa1ab;}
+.rk-g{color:var(--g);font-weight:700;}
+.rk-y{color:var(--y);font-weight:700;}
+.rk-r{color:var(--r);font-weight:700;}
+.rec-g{color:var(--g);font-weight:700;}
+.rec-r{color:var(--r);font-weight:700;}
+.rec-k{color:#1c1f24;font-weight:700;}
+.oddscol{font-size:11px;text-align:center;border-left:1px solid var(--bd);border-right:1px solid var(--bd);padding:0 6px;}
+.oddslbl{font-weight:700;color:#6b7280;font-size:10px;letter-spacing:.03em;text-transform:uppercase;margin-bottom:4px;}
+.odds-row{display:flex;flex-direction:column;margin-bottom:5px;line-height:1.3;}
+.odds-row span:first-child{font-weight:700;color:#9aa1ab;font-size:9.5px;text-transform:uppercase;}
+.odds-line{color:#9aa1ab;font-style:italic;}
+.injrow{display:flex;gap:8px;margin-top:10px;}
+.injbtn{flex:1;text-align:center;background:#fdeceb;color:#a63a31;border:1px solid #f3c8c4;border-radius:6px;padding:5px 8px;font-size:11px;text-decoration:none;font-weight:600;}
+.injbtn:hover{background:#fadcd9;}
+.logs{margin-top:10px;}
+.logs summary{cursor:pointer;text-align:center;background:#fef6d8;color:#8a6d10;border:1px solid #f0e0a0;border-radius:6px;padding:5px 8px;font-size:11px;font-weight:600;list-style:none;}
+.logs summary::-webkit-details-marker{display:none;}
+.logs summary::before{content:"\25BE";display:inline-block;margin-right:6px;font-size:15px;line-height:0;vertical-align:-1px;}
+.logs summary:hover{background:#fbedb8;}
+.teamscores{margin-top:8px;}
+.teamscores summary{cursor:pointer;text-align:center;background:#eef0fd;color:#4338ca;border:1px solid #d3d8fb;border-radius:6px;padding:5px 8px;font-size:11px;font-weight:600;list-style:none;}
+.teamscores summary::-webkit-details-marker{display:none;}
+.teamscores summary::before{content:"\25BE";display:inline-block;margin-right:6px;font-size:15px;line-height:0;vertical-align:-1px;}
+.teamscores summary:hover{background:#e2e5fc;}
+.logwrap{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px;}
+.logh{font-size:11px;font-weight:700;margin-bottom:4px;}
+.logtbl{width:100%;border-collapse:collapse;font-size:10.5px;}
+.logtbl th{text-align:left;color:#9aa1ab;font-weight:600;border-bottom:1px solid var(--bd);padding:2px 3px;}
+.logtbl td{padding:2px 3px;border-bottom:1px solid #f0f1f3;}
+.er0{color:var(--g);font-weight:700;}
+.er5{color:var(--r);font-weight:700;}
+.unavail{color:#b4342a;font-style:italic;}
+.w-win{color:var(--g);font-weight:700;}
+.w-loss{color:var(--r);font-weight:700;}
+.nolog{font-size:11px;color:#9aa1ab;}
+footer{max-width:1100px;margin:24px auto 0;font-size:11px;color:#c3c9d1;line-height:1.6;border-top:1px solid rgba(255,255,255,.18);padding-top:12px;}
+footer b{color:#ffffff;}
+@media(max-width:720px){.board{grid-template-columns:1fr;}.cardbody{grid-template-columns:1fr;}.oddscol{border:none;border-top:1px solid var(--bd);border-bottom:1px solid var(--bd);padding:8px 0;margin:6px 0;}.pblock.right{text-align:left;}.pblock.right .pteam{justify-content:flex-start;}.logwrap{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div class="pageheader">
+  <div class="logo-wrap">
+    <svg width="40" height="40" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+<rect x="18" y="6" width="6" height="10" rx="2" fill="#2dd4bf"/>
+<circle cx="21" cy="5" r="3" fill="#2dd4bf"/>
+<rect x="10" y="16" width="44" height="34" rx="10" fill="#0d0f11" stroke="#2dd4bf" stroke-width="2.5"/>
+<rect x="17" y="25" width="12" height="9" rx="4" fill="#2dd4bf"/>
+<rect x="35" y="25" width="12" height="9" rx="4" fill="#2dd4bf"/>
+<rect x="22" y="41" width="20" height="4" rx="2" fill="#2dd4bf"/>
+<rect x="2" y="26" width="6" height="14" rx="3" fill="#0d0f11" stroke="#2dd4bf" stroke-width="2"/>
+<rect x="56" y="26" width="6" height="14" rx="3" fill="#0d0f11" stroke="#2dd4bf" stroke-width="2"/>
+</svg>
+    <div class="logo-text"><span class="ai">AI</span><span class="picks">PICKS</span></div>
+  </div>
+  <div class="headtext">
+    <h1><span class="accent">MLB</span> Statistics</h1>
+    <div class="sub">Probables, Lines &amp; Game Logs — Wednesday, July 22, 2026 · 17 games (incl. 1 doubleheader) · all times ET</div>
+  </div>
+</div>
+<div class="board">
+<div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/134.svg"> Pirates (52-49) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/147.svg"> Yankees (56-44)</div>
+      <div class="time">1:05p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/134.svg"> <span>Pirates</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/656605/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Mitch Keller</div>
+          <div class="pline1">6-7, 5.14 ERA</div>
+          <div class="pline2">1.33 WHIP · 5.42 IP/G · 6.9 K/9 · 3.07 BB/9 · 108.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.40</b> ERA (<span class="rk-r">22nd-Season</span>) | <b>4.09</b> ERA (<span class="rk-y">17th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-g">9-6</span> · <b>98</b> R (<span class="rk-g">2nd</span>) · <b>155</b> H (<span class="rk-g">1st</span>) · <b>55</b> BB (<span class="rk-g">9th</span>) · <b>147</b> SO (<span class="rk-g">1st</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Pirates +153 / Yankees -186</span></div><div class="odds-row"><span>RL</span><span>Pirates +1.5 (-135) / Yankees -1.5 (+112)</span></div><div class="odds-row"><span>O/U</span><span>9.5 (O -105 / U -114)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/147.svg"> <span>Yankees</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/543037/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Gerrit Cole</div>
+          <div class="pline1">3-5, 3.93 ERA</div>
+          <div class="pline2">1.16 WHIP · 5.64 IP/G · 9.58 K/9 · 1.74 BB/9 · 62.0 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>3.09</b> ERA (<span class="rk-g">2nd-Season</span>) | <b>2.61</b> ERA (<span class="rk-g">3rd-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-k">8-7</span> · <b>60</b> R (<span class="rk-r">24th</span>) · <b>118</b> H (<span class="rk-r">21st</span>) · <b>37</b> BB (<span class="rk-r">29th</span>) · <b>145</b> SO (<span class="rk-g">3rd</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Mitch Keller</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-19</td><td>Cardinals</td><td>5.2</td><td>4</td><td class="">4</td><td>1</td><td>3</td></tr><tr><td>05-24</td><td>Blue Jays</td><td>6.0</td><td>4</td><td class="">1</td><td>3</td><td>5</td></tr><tr><td>05-30</td><td>Twins</td><td>4.0</td><td>10</td><td class="er5">7</td><td>1</td><td>5</td></tr><tr><td>06-05</td><td>Braves</td><td>4.2</td><td>7</td><td class="er5">6</td><td>3</td><td>4</td></tr><tr><td>06-11</td><td>Dodgers</td><td>4.0</td><td>7</td><td class="er5">5</td><td>4</td><td>3</td></tr><tr><td>06-16</td><td>Athletics</td><td>5.1</td><td>4</td><td class="">1</td><td>4</td><td>7</td></tr><tr><td>06-23</td><td>Mariners</td><td>6.0</td><td>7</td><td class="">3</td><td>1</td><td>4</td></tr><tr><td>06-28</td><td>Reds</td><td>6.0</td><td>5</td><td class="">3</td><td>1</td><td>4</td></tr><tr><td>07-03</td><td>Nationals</td><td>6.0</td><td>8</td><td class="er5">5</td><td>0</td><td>1</td></tr><tr><td>07-09</td><td>Braves</td><td>3.0</td><td>4</td><td class="">3</td><td>2</td><td>3</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Gerrit Cole</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-22</td><td>Rays</td><td>6.0</td><td>2</td><td class="er0">0</td><td>3</td><td>2</td></tr><tr><td>05-27</td><td>Royals</td><td>6.2</td><td>4</td><td class="er0">0</td><td>0</td><td>10</td></tr><tr><td>06-03</td><td>Guardians</td><td>5.1</td><td>6</td><td class="">4</td><td>1</td><td>2</td></tr><tr><td>06-09</td><td>Guardians</td><td>4.0</td><td>5</td><td class="">2</td><td>2</td><td>4</td></tr><tr><td>06-16</td><td>White Sox</td><td>6.0</td><td>3</td><td class="">2</td><td>2</td><td>6</td></tr><tr><td>06-22</td><td>Tigers</td><td>4.1</td><td>9</td><td class="er5">5</td><td>1</td><td>5</td></tr><tr><td>06-27</td><td>Red Sox</td><td>5.1</td><td>7</td><td class="">4</td><td>1</td><td>5</td></tr><tr><td>07-03</td><td>Twins</td><td>5.0</td><td>5</td><td class="">2</td><td>0</td><td>7</td></tr><tr><td>07-08</td><td>Rays</td><td>6.1</td><td>7</td><td class="">3</td><td>1</td><td>6</td></tr><tr><td>07-17</td><td>Dodgers</td><td>6.0</td><td>4</td><td class="">2</td><td>1</td><td>8</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Pirates</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Nationals</td><td>7-1</td><td class="w-win">W</td><td class="sp">Carson Palmquist (8.74)</td></tr><tr><td>07-05</td><td>@</td><td>Nationals</td><td>11-5</td><td class="w-win">W</td><td class="sp">Cade Cavalli (3.78)</td></tr><tr><td>07-07</td><td>vs</td><td>Braves</td><td>12-4</td><td class="w-win">W</td><td class="sp">Hurston Waldrep (8.44)</td></tr><tr><td>07-08</td><td>vs</td><td>Braves</td><td>0-3</td><td class="w-loss">L</td><td class="sp">Grant Holmes (3.70)</td></tr><tr><td>07-09</td><td>vs</td><td>Braves</td><td>5-10</td><td class="w-loss">L</td><td class="sp">Bryce Elder (4.06)</td></tr><tr><td>07-11</td><td>vs</td><td>Brewers</td><td>7-6</td><td class="w-win">W</td><td class="sp">Shane Drohan (3.20)</td></tr><tr><td>07-11</td><td>vs</td><td>Brewers</td><td>3-2</td><td class="w-win">W</td><td class="sp">Shane Drohan (3.20)</td></tr><tr><td>07-12</td><td>vs</td><td>Brewers</td><td>14-5</td><td class="w-win">W</td><td class="sp">Robert Gasser (4.91)</td></tr><tr><td>07-18</td><td>@</td><td>Guardians</td><td>7-1</td><td class="w-win">W</td><td class="sp">Logan Allen (2.45)</td></tr><tr><td>07-18</td><td>@</td><td>Guardians</td><td>3-5</td><td class="w-loss">L</td><td class="sp">Logan Allen (2.45)</td></tr><tr><td>07-19</td><td>@</td><td>Guardians</td><td>7-1</td><td class="w-win">W</td><td class="sp">Joey Cantillo (3.74)</td></tr><tr><td>07-20</td><td>@</td><td>Yankees</td><td>5-8</td><td class="w-loss">L</td><td class="sp">Ryan Weathers (4.40)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Yankees</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Twins</td><td>4-11</td><td class="w-loss">L</td><td class="sp">Zebby Matthews (5.40)</td></tr><tr><td>07-05</td><td>vs</td><td>Twins</td><td>1-6</td><td class="w-loss">L</td><td class="sp">Joe Ryan (3.38)</td></tr><tr><td>07-06</td><td>@</td><td>Rays</td><td>5-1</td><td class="w-win">W</td><td class="sp">Griffin Jax (4.08)</td></tr><tr><td>07-07</td><td>@</td><td>Rays</td><td>4-6</td><td class="w-loss">L</td><td class="sp">Ian Seymour (4.79)</td></tr><tr><td>07-08</td><td>@</td><td>Rays</td><td>0-3</td><td class="w-loss">L</td><td class="sp">Shane McClanahan (3.16)</td></tr><tr><td>07-09</td><td>@</td><td>Rays</td><td>12-4</td><td class="w-win">W</td><td class="sp">Drew Rasmussen (3.28)</td></tr><tr><td>07-10</td><td>@</td><td>Nationals</td><td>5-3</td><td class="w-win">W</td><td class="sp">Carson Palmquist (8.74)</td></tr><tr><td>07-11</td><td>@</td><td>Nationals</td><td>4-2</td><td class="w-win">W</td><td class="sp">PJ Poulin (2.70)</td></tr><tr><td>07-12</td><td>@</td><td>Nationals</td><td>5-3</td><td class="w-win">W</td><td class="sp">Cade Cavalli (3.78)</td></tr><tr><td>07-17</td><td>vs</td><td>Dodgers</td><td>1-2</td><td class="w-loss">L</td><td class="sp">Roki Sasaki (4.98)</td></tr><tr><td>07-19</td><td>vs</td><td>Dodgers</td><td>2-8</td><td class="w-loss">L</td><td class="sp">Will Klein (2.58)</td></tr><tr><td>07-19</td><td>vs</td><td>Dodgers</td><td>2-1</td><td class="w-win">W</td><td class="sp">Will Klein (2.58)</td></tr><tr><td>07-20</td><td>vs</td><td>Pirates</td><td>8-5</td><td class="w-win">W</td><td class="sp">Braxton Ashcraft (3.95)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/pirates" target="_blank" rel="noopener">Pirates injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/yankees" target="_blank" rel="noopener">Yankees injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/134.svg"> Pirates (52-49) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/147.svg"> Yankees (56-44)</div>
+      <div class="time">7:05p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/134.svg"> <span>Pirates</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/696149/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Bubba Chandler</div>
+          <div class="pline1">3-8, 4.77 ERA</div>
+          <div class="pline2">1.45 WHIP · 5.24 IP/G · 8.11 K/9 · 5.25 BB/9 · 94.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.40</b> ERA (<span class="rk-r">22nd-Season</span>) | <b>4.09</b> ERA (<span class="rk-y">17th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-g">9-6</span> · <b>98</b> R (<span class="rk-g">2nd</span>) · <b>155</b> H (<span class="rk-g">1st</span>) · <b>55</b> BB (<span class="rk-g">9th</span>) · <b>147</b> SO (<span class="rk-g">1st</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Pirates +139 / Yankees -168</span></div><div class="odds-row"><span>RL</span><span>Pirates +1.5 (-149) / Yankees -1.5 (+123)</span></div><div class="odds-row"><span>O/U</span><span>9 (O -103 / U -117)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/147.svg"> <span>Yankees</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/608331/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Max Fried</div>
+          <div class="pline1">4-3, 3.21 ERA</div>
+          <div class="pline2">1.01 WHIP · 6.17 IP/G · 7.3 K/9 · 2.77 BB/9 · 61.2 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>3.09</b> ERA (<span class="rk-g">2nd-Season</span>) | <b>2.61</b> ERA (<span class="rk-g">3rd-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-k">8-7</span> · <b>60</b> R (<span class="rk-r">24th</span>) · <b>118</b> H (<span class="rk-r">21st</span>) · <b>37</b> BB (<span class="rk-r">29th</span>) · <b>145</b> SO (<span class="rk-g">3rd</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Bubba Chandler</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-22</td><td>Blue Jays</td><td>5.0</td><td>2</td><td class="er0">0</td><td>3</td><td>11</td></tr><tr><td>05-27</td><td>Cubs</td><td>5.0</td><td>8</td><td class="">4</td><td>2</td><td>5</td></tr><tr><td>06-02</td><td>Astros</td><td>5.0</td><td>6</td><td class="">4</td><td>2</td><td>3</td></tr><tr><td>06-07</td><td>Braves</td><td>5.1</td><td>1</td><td class="">2</td><td>2</td><td>7</td></tr><tr><td>06-13</td><td>Marlins</td><td>5.2</td><td>3</td><td class="">2</td><td>1</td><td>6</td></tr><tr><td>06-19</td><td>Rockies</td><td>6.0</td><td>6</td><td class="">2</td><td>2</td><td>1</td></tr><tr><td>06-25</td><td>Mariners</td><td>5.1</td><td>5</td><td class="">1</td><td>3</td><td>4</td></tr><tr><td>06-30</td><td>Phillies</td><td>6.1</td><td>7</td><td class="er5">5</td><td>2</td><td>6</td></tr><tr><td>07-05</td><td>Nationals</td><td>4.0</td><td>6</td><td class="">4</td><td>4</td><td>0</td></tr><tr><td>07-11</td><td>Brewers</td><td>4.2</td><td>5</td><td class="">2</td><td>3</td><td>6</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Max Fried</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>03-25</td><td>Giants</td><td>6.1</td><td>2</td><td class="er0">0</td><td>1</td><td>4</td></tr><tr><td>03-31</td><td>Mariners</td><td>7.0</td><td>3</td><td class="er0">0</td><td>1</td><td>6</td></tr><tr><td>04-05</td><td>Marlins</td><td>6.2</td><td>5</td><td class="">3</td><td>3</td><td>4</td></tr><tr><td>04-11</td><td>Rays</td><td>8.0</td><td>6</td><td class="">3</td><td>0</td><td>6</td></tr><tr><td>04-16</td><td>Angels</td><td>5.1</td><td>3</td><td class="er5">5</td><td>3</td><td>3</td></tr><tr><td>04-22</td><td>Red Sox</td><td>8.0</td><td>3</td><td class="er0">0</td><td>2</td><td>9</td></tr><tr><td>04-27</td><td>Rangers</td><td>6.0</td><td>4</td><td class="er0">0</td><td>2</td><td>5</td></tr><tr><td>05-03</td><td>Orioles</td><td>5.1</td><td>6</td><td class="">3</td><td>3</td><td>6</td></tr><tr><td>05-08</td><td>Brewers</td><td>6.0</td><td>6</td><td class="er5">5</td><td>3</td><td>5</td></tr><tr><td>05-13</td><td>Orioles</td><td>3.0</td><td>5</td><td class="">3</td><td>1</td><td>2</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Pirates</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Nationals</td><td>7-1</td><td class="w-win">W</td><td class="sp">Carson Palmquist (8.74)</td></tr><tr><td>07-05</td><td>@</td><td>Nationals</td><td>11-5</td><td class="w-win">W</td><td class="sp">Cade Cavalli (3.78)</td></tr><tr><td>07-07</td><td>vs</td><td>Braves</td><td>12-4</td><td class="w-win">W</td><td class="sp">Hurston Waldrep (8.44)</td></tr><tr><td>07-08</td><td>vs</td><td>Braves</td><td>0-3</td><td class="w-loss">L</td><td class="sp">Grant Holmes (3.70)</td></tr><tr><td>07-09</td><td>vs</td><td>Braves</td><td>5-10</td><td class="w-loss">L</td><td class="sp">Bryce Elder (4.06)</td></tr><tr><td>07-11</td><td>vs</td><td>Brewers</td><td>7-6</td><td class="w-win">W</td><td class="sp">Shane Drohan (3.20)</td></tr><tr><td>07-11</td><td>vs</td><td>Brewers</td><td>3-2</td><td class="w-win">W</td><td class="sp">Shane Drohan (3.20)</td></tr><tr><td>07-12</td><td>vs</td><td>Brewers</td><td>14-5</td><td class="w-win">W</td><td class="sp">Robert Gasser (4.91)</td></tr><tr><td>07-18</td><td>@</td><td>Guardians</td><td>7-1</td><td class="w-win">W</td><td class="sp">Logan Allen (2.45)</td></tr><tr><td>07-18</td><td>@</td><td>Guardians</td><td>3-5</td><td class="w-loss">L</td><td class="sp">Logan Allen (2.45)</td></tr><tr><td>07-19</td><td>@</td><td>Guardians</td><td>7-1</td><td class="w-win">W</td><td class="sp">Joey Cantillo (3.74)</td></tr><tr><td>07-20</td><td>@</td><td>Yankees</td><td>5-8</td><td class="w-loss">L</td><td class="sp">Ryan Weathers (4.40)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Yankees</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Twins</td><td>4-11</td><td class="w-loss">L</td><td class="sp">Zebby Matthews (5.40)</td></tr><tr><td>07-05</td><td>vs</td><td>Twins</td><td>1-6</td><td class="w-loss">L</td><td class="sp">Joe Ryan (3.38)</td></tr><tr><td>07-06</td><td>@</td><td>Rays</td><td>5-1</td><td class="w-win">W</td><td class="sp">Griffin Jax (4.08)</td></tr><tr><td>07-07</td><td>@</td><td>Rays</td><td>4-6</td><td class="w-loss">L</td><td class="sp">Ian Seymour (4.79)</td></tr><tr><td>07-08</td><td>@</td><td>Rays</td><td>0-3</td><td class="w-loss">L</td><td class="sp">Shane McClanahan (3.16)</td></tr><tr><td>07-09</td><td>@</td><td>Rays</td><td>12-4</td><td class="w-win">W</td><td class="sp">Drew Rasmussen (3.28)</td></tr><tr><td>07-10</td><td>@</td><td>Nationals</td><td>5-3</td><td class="w-win">W</td><td class="sp">Carson Palmquist (8.74)</td></tr><tr><td>07-11</td><td>@</td><td>Nationals</td><td>4-2</td><td class="w-win">W</td><td class="sp">PJ Poulin (2.70)</td></tr><tr><td>07-12</td><td>@</td><td>Nationals</td><td>5-3</td><td class="w-win">W</td><td class="sp">Cade Cavalli (3.78)</td></tr><tr><td>07-17</td><td>vs</td><td>Dodgers</td><td>1-2</td><td class="w-loss">L</td><td class="sp">Roki Sasaki (4.98)</td></tr><tr><td>07-19</td><td>vs</td><td>Dodgers</td><td>2-8</td><td class="w-loss">L</td><td class="sp">Will Klein (2.58)</td></tr><tr><td>07-19</td><td>vs</td><td>Dodgers</td><td>2-1</td><td class="w-win">W</td><td class="sp">Will Klein (2.58)</td></tr><tr><td>07-20</td><td>vs</td><td>Pirates</td><td>8-5</td><td class="w-win">W</td><td class="sp">Braxton Ashcraft (3.95)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/pirates" target="_blank" rel="noopener">Pirates injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/yankees" target="_blank" rel="noopener">Yankees injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/110.svg"> Orioles (49-52) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/111.svg"> Red Sox (51-48)</div>
+      <div class="time">1:35p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/110.svg"> <span>Orioles</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/665152/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Dean Kremer</div>
+          <div class="pline1">1-2, 4.15 ERA</div>
+          <div class="pline2">1.12 WHIP · 5.33 IP/G · 9.56 K/9 · 2.25 BB/9 · 32.0 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.13</b> ERA (<span class="rk-y">16th-Season</span>) | <b>2.47</b> ERA (<span class="rk-g">2nd-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-g">10-5</span> · <b>70</b> R (<span class="rk-y">12th</span>) · <b>114</b> H (<span class="rk-r">24th</span>) · <b>66</b> BB (<span class="rk-g">2nd</span>) · <b>142</b> SO (<span class="rk-g">5th</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Orioles +134 / Red Sox -162</span></div><div class="odds-row"><span>RL</span><span>Orioles +1.5 (-157) / Red Sox -1.5 (+130)</span></div><div class="odds-row"><span>O/U</span><span>9.5 (O -108 / U -112)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/111.svg"> <span>Red Sox</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/687562/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Jake Bennett</div>
+          <div class="pline1">5-3, 2.35 ERA</div>
+          <div class="pline2">0.88 WHIP · 5.93 IP/G · 6.37 K/9 · 1.37 BB/9 · 59.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>3.06</b> ERA (<span class="rk-g">1st-Season</span>) | <b>1.62</b> ERA (<span class="rk-g">1st-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-g">14-1</span> · <b>84</b> R (<span class="rk-g">5th</span>) · <b>128</b> H (<span class="rk-y">12th</span>) · <b>56</b> BB (<span class="rk-g">7th</span>) · <b>123</b> SO (<span class="rk-y">18th</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Dean Kremer</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>04-13</td><td>D-backs</td><td>5.0</td><td>6</td><td class="">2</td><td>0</td><td>9</td></tr><tr><td>04-18</td><td>Guardians</td><td>6.0</td><td>2</td><td class="">3</td><td>2</td><td>7</td></tr><tr><td>07-01</td><td>White Sox</td><td>6.0</td><td>4</td><td class="">1</td><td>1</td><td>4</td></tr><tr><td>07-08</td><td>Cubs</td><td>5.0</td><td>6</td><td class="">4</td><td>1</td><td>4</td></tr><tr><td>07-17</td><td>Astros</td><td>4.0</td><td>4</td><td class="">2</td><td>3</td><td>5</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Jake Bennett</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-01</td><td>Astros</td><td>5.0</td><td>5</td><td class="">1</td><td>2</td><td>3</td></tr><tr><td>05-07</td><td>Rays</td><td>5.1</td><td>6</td><td class="">4</td><td>2</td><td>1</td></tr><tr><td>06-10</td><td>Rays</td><td>5.0</td><td>7</td><td class="">4</td><td>1</td><td>4</td></tr><tr><td>06-17</td><td>Blue Jays</td><td>5.1</td><td>3</td><td class="">2</td><td>0</td><td>5</td></tr><tr><td>06-22</td><td>Rockies</td><td>6.0</td><td>4</td><td class="er0">0</td><td>0</td><td>9</td></tr><tr><td>06-27</td><td>Yankees</td><td>6.1</td><td>3</td><td class="">1</td><td>2</td><td>3</td></tr><tr><td>07-03</td><td>Angels</td><td>7.2</td><td>5</td><td class="">2</td><td>0</td><td>6</td></tr><tr><td>07-08</td><td>White Sox</td><td>7.0</td><td>4</td><td class="er0">0</td><td>1</td><td>4</td></tr><tr><td>07-17</td><td>Rays</td><td>6.0</td><td>1</td><td class="er0">0</td><td>1</td><td>3</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Orioles</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Reds</td><td>8-5</td><td class="w-win">W</td><td class="sp">Hunter Greene (6.06)</td></tr><tr><td>07-05</td><td>@</td><td>Reds</td><td>2-3</td><td class="w-loss">L</td><td class="sp">Nick Lodolo (4.60)</td></tr><tr><td>07-07</td><td>vs</td><td>Cubs</td><td>2-5</td><td class="w-loss">L</td><td class="sp">Matthew Boyd (4.15)</td></tr><tr><td>07-08</td><td>vs</td><td>Cubs</td><td>7-9</td><td class="w-loss">L</td><td class="sp">Colin Rea (4.74)</td></tr><tr><td>07-09</td><td>vs</td><td>Cubs</td><td>3-2</td><td class="w-win">W</td><td class="sp">David Peterson (5.97)</td></tr><tr><td>07-10</td><td>vs</td><td>Royals</td><td>5-3</td><td class="w-win">W</td><td class="sp">Luinder Avila (4.86)</td></tr><tr><td>07-11</td><td>vs</td><td>Royals</td><td>6-1</td><td class="w-win">W</td><td class="sp">Noah Cameron (5.27)</td></tr><tr><td>07-12</td><td>vs</td><td>Royals</td><td>8-2</td><td class="w-win">W</td><td class="sp">Seth Lugo (4.39)</td></tr><tr><td>07-17</td><td>@</td><td>Astros</td><td>3-2</td><td class="w-win">W</td><td class="sp">Peter Lambert (3.03)</td></tr><tr><td>07-18</td><td>@</td><td>Astros</td><td>4-2</td><td class="w-win">W</td><td class="sp">Spencer Arrighetti (4.34)</td></tr><tr><td>07-19</td><td>@</td><td>Astros</td><td>5-2</td><td class="w-win">W</td><td class="sp">Hunter Brown (4.05)</td></tr><tr><td>07-20</td><td>@</td><td>Red Sox</td><td>5-6</td><td class="w-loss">L</td><td class="sp">Payton Tolle (3.31)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Red Sox</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Angels</td><td>8-1</td><td class="w-win">W</td><td class="sp">Sam Aldegheri (5.08)</td></tr><tr><td>07-05</td><td>@</td><td>Angels</td><td>7-5</td><td class="w-win">W</td><td class="sp">Ryan Johnson (6.10)</td></tr><tr><td>07-07</td><td>@</td><td>White Sox</td><td>8-1</td><td class="w-win">W</td><td class="sp">Noah Schultz (6.04)</td></tr><tr><td>07-08</td><td>@</td><td>White Sox</td><td>5-0</td><td class="w-win">W</td><td class="sp">Davis Martin (3.31)</td></tr><tr><td>07-09</td><td>@</td><td>White Sox</td><td>2-1</td><td class="w-win">W</td><td class="sp">Anthony Kay (4.24)</td></tr><tr><td>07-10</td><td>@</td><td>Mets</td><td>6-2</td><td class="w-win">W</td><td class="sp">Nolan McLean (3.34)</td></tr><tr><td>07-11</td><td>@</td><td>Mets</td><td>4-0</td><td class="w-win">W</td><td class="sp">Freddy Peralta (5.01)</td></tr><tr><td>07-12</td><td>@</td><td>Mets</td><td>3-2</td><td class="w-win">W</td><td class="sp">Zac Thornton (1.93)</td></tr><tr><td>07-17</td><td>vs</td><td>Rays</td><td>10-0</td><td class="w-win">W</td><td class="sp">Mason Englert (4.54)</td></tr><tr><td>07-17</td><td>vs</td><td>Rays</td><td>5-3</td><td class="w-win">W</td><td class="sp">Mason Englert (4.54)</td></tr><tr><td>07-18</td><td>vs</td><td>Rays</td><td>7-6</td><td class="w-win">W</td><td class="sp">Ian Seymour (4.79)</td></tr><tr><td>07-19</td><td>vs</td><td>Rays</td><td>6-1</td><td class="w-win">W</td><td class="sp">Shane McClanahan (3.16)</td></tr><tr><td>07-20</td><td>vs</td><td>Orioles</td><td>6-5</td><td class="w-win">W</td><td class="sp">Shane Baz (4.13)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/orioles" target="_blank" rel="noopener">Orioles injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/red-sox" target="_blank" rel="noopener">Red Sox injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/110.svg"> Orioles (49-52) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/111.svg"> Red Sox (51-48)</div>
+      <div class="time">7:10p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/110.svg"> <span>Orioles</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/680694/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Kyle Bradish</div>
+          <div class="pline1">6-9, 3.61 ERA</div>
+          <div class="pline2">1.35 WHIP · 5.65 IP/G · 8.89 K/9 · 4.19 BB/9 · 107.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.13</b> ERA (<span class="rk-y">16th-Season</span>) | <b>2.47</b> ERA (<span class="rk-g">2nd-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-g">10-5</span> · <b>70</b> R (<span class="rk-y">12th</span>) · <b>114</b> H (<span class="rk-r">24th</span>) · <b>66</b> BB (<span class="rk-g">2nd</span>) · <b>142</b> SO (<span class="rk-g">5th</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Orioles +119 / Red Sox -143</span></div><div class="odds-row"><span>RL</span><span>Orioles +1.5 (-181) / Red Sox -1.5 (+149)</span></div><div class="odds-row"><span>O/U</span><span>9 (O +102 / U -122)</span></div></div><div class="pblock right">
+          <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/111.svg"> <span>Red Sox</span> <span class="side">Home</span></div>
+          <div class="pname">Not yet announced</div>
+        </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Kyle Bradish</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-19</td><td>Rays</td><td>5.1</td><td>4</td><td class="">2</td><td>3</td><td>6</td></tr><tr><td>05-25</td><td>Rays</td><td>6.0</td><td>5</td><td class="">1</td><td>2</td><td>3</td></tr><tr><td>05-31</td><td>Blue Jays</td><td>7.0</td><td>4</td><td class="er0">0</td><td>3</td><td>4</td></tr><tr><td>06-06</td><td>Blue Jays</td><td>4.0</td><td>9</td><td class="er5">5</td><td>3</td><td>3</td></tr><tr><td>06-11</td><td>Mariners</td><td>4.0</td><td>7</td><td class="er5">5</td><td>3</td><td>5</td></tr><tr><td>06-17</td><td>Mariners</td><td>7.2</td><td>5</td><td class="">1</td><td>2</td><td>12</td></tr><tr><td>06-22</td><td>Angels</td><td>8.0</td><td>6</td><td class="er0">0</td><td>1</td><td>9</td></tr><tr><td>06-28</td><td>Nationals</td><td>4.0</td><td>1</td><td class="">3</td><td>5</td><td>2</td></tr><tr><td>07-05</td><td>Reds</td><td>7.2</td><td>5</td><td class="">3</td><td>1</td><td>5</td></tr><tr><td>07-11</td><td>Royals</td><td>6.2</td><td>2</td><td class="">1</td><td>2</td><td>5</td></tr></tbody></table>
+    </div><div class="logcol"><div class="logh">Red Sox (TBD)</div><div class="nolog">no data</div></div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Orioles</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Reds</td><td>8-5</td><td class="w-win">W</td><td class="sp">Hunter Greene (6.06)</td></tr><tr><td>07-05</td><td>@</td><td>Reds</td><td>2-3</td><td class="w-loss">L</td><td class="sp">Nick Lodolo (4.60)</td></tr><tr><td>07-07</td><td>vs</td><td>Cubs</td><td>2-5</td><td class="w-loss">L</td><td class="sp">Matthew Boyd (4.15)</td></tr><tr><td>07-08</td><td>vs</td><td>Cubs</td><td>7-9</td><td class="w-loss">L</td><td class="sp">Colin Rea (4.74)</td></tr><tr><td>07-09</td><td>vs</td><td>Cubs</td><td>3-2</td><td class="w-win">W</td><td class="sp">David Peterson (5.97)</td></tr><tr><td>07-10</td><td>vs</td><td>Royals</td><td>5-3</td><td class="w-win">W</td><td class="sp">Luinder Avila (4.86)</td></tr><tr><td>07-11</td><td>vs</td><td>Royals</td><td>6-1</td><td class="w-win">W</td><td class="sp">Noah Cameron (5.27)</td></tr><tr><td>07-12</td><td>vs</td><td>Royals</td><td>8-2</td><td class="w-win">W</td><td class="sp">Seth Lugo (4.39)</td></tr><tr><td>07-17</td><td>@</td><td>Astros</td><td>3-2</td><td class="w-win">W</td><td class="sp">Peter Lambert (3.03)</td></tr><tr><td>07-18</td><td>@</td><td>Astros</td><td>4-2</td><td class="w-win">W</td><td class="sp">Spencer Arrighetti (4.34)</td></tr><tr><td>07-19</td><td>@</td><td>Astros</td><td>5-2</td><td class="w-win">W</td><td class="sp">Hunter Brown (4.05)</td></tr><tr><td>07-20</td><td>@</td><td>Red Sox</td><td>5-6</td><td class="w-loss">L</td><td class="sp">Payton Tolle (3.31)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Red Sox</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Angels</td><td>8-1</td><td class="w-win">W</td><td class="sp">Sam Aldegheri (5.08)</td></tr><tr><td>07-05</td><td>@</td><td>Angels</td><td>7-5</td><td class="w-win">W</td><td class="sp">Ryan Johnson (6.10)</td></tr><tr><td>07-07</td><td>@</td><td>White Sox</td><td>8-1</td><td class="w-win">W</td><td class="sp">Noah Schultz (6.04)</td></tr><tr><td>07-08</td><td>@</td><td>White Sox</td><td>5-0</td><td class="w-win">W</td><td class="sp">Davis Martin (3.31)</td></tr><tr><td>07-09</td><td>@</td><td>White Sox</td><td>2-1</td><td class="w-win">W</td><td class="sp">Anthony Kay (4.24)</td></tr><tr><td>07-10</td><td>@</td><td>Mets</td><td>6-2</td><td class="w-win">W</td><td class="sp">Nolan McLean (3.34)</td></tr><tr><td>07-11</td><td>@</td><td>Mets</td><td>4-0</td><td class="w-win">W</td><td class="sp">Freddy Peralta (5.01)</td></tr><tr><td>07-12</td><td>@</td><td>Mets</td><td>3-2</td><td class="w-win">W</td><td class="sp">Zac Thornton (1.93)</td></tr><tr><td>07-17</td><td>vs</td><td>Rays</td><td>10-0</td><td class="w-win">W</td><td class="sp">Mason Englert (4.54)</td></tr><tr><td>07-17</td><td>vs</td><td>Rays</td><td>5-3</td><td class="w-win">W</td><td class="sp">Mason Englert (4.54)</td></tr><tr><td>07-18</td><td>vs</td><td>Rays</td><td>7-6</td><td class="w-win">W</td><td class="sp">Ian Seymour (4.79)</td></tr><tr><td>07-19</td><td>vs</td><td>Rays</td><td>6-1</td><td class="w-win">W</td><td class="sp">Shane McClanahan (3.16)</td></tr><tr><td>07-20</td><td>vs</td><td>Orioles</td><td>6-5</td><td class="w-win">W</td><td class="sp">Shane Baz (4.13)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/orioles" target="_blank" rel="noopener">Orioles injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/red-sox" target="_blank" rel="noopener">Red Sox injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/137.svg"> Giants (42-58) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/118.svg"> Royals (41-60)</div>
+      <div class="time">2:10p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/137.svg"> <span>Giants</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/694738/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Landen Roupp</div>
+          <div class="pline1">7-8, 3.98 ERA</div>
+          <div class="pline2">1.27 WHIP · 5.5 IP/G · 9.25 K/9 · 3.68 BB/9 · 110.0 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.42</b> ERA (<span class="rk-r">23rd-Season</span>) | <b>4.85</b> ERA (<span class="rk-y">20th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-r">6-9</span> · <b>64</b> R (<span class="rk-y">20th</span>) · <b>124</b> H (<span class="rk-y">16th</span>) · <b>47</b> BB (<span class="rk-y">16th</span>) · <b>135</b> SO (<span class="rk-g">8th</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Giants -126 / Royals +104</span></div><div class="odds-row"><span>RL</span><span>Giants -1.5 (+130) / Royals +1.5 (-157)</span></div><div class="odds-row"><span>O/U</span><span>8.5 (O -111 / U -109)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/118.svg"> <span>Royals</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/607625/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Seth Lugo</div>
+          <div class="pline1">3-6, 4.39 ERA</div>
+          <div class="pline2">1.41 WHIP · 5.6 IP/G · 7.19 K/9 · 2.91 BB/9 · 117.2 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>5.38</b> ERA (<span class="rk-r">29th-Season</span>) | <b>5.20</b> ERA (<span class="rk-r">21st-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-k">7-8</span> · <b>72</b> R (<span class="rk-g">10th</span>) · <b>141</b> H (<span class="rk-g">3rd</span>) · <b>39</b> BB (<span class="rk-r">25th</span>) · <b>129</b> SO (<span class="rk-y">11th</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Landen Roupp</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-19</td><td>D-backs</td><td>6.0</td><td>7</td><td class="">1</td><td>0</td><td>3</td></tr><tr><td>05-25</td><td>D-backs</td><td>5.0</td><td>7</td><td class="">2</td><td>1</td><td>7</td></tr><tr><td>06-01</td><td>Brewers</td><td>4.0</td><td>8</td><td class="er5">8</td><td>5</td><td>4</td></tr><tr><td>06-06</td><td>Cubs</td><td>5.2</td><td>3</td><td class="">1</td><td>3</td><td>5</td></tr><tr><td>06-12</td><td>Cubs</td><td>4.2</td><td>4</td><td class="">4</td><td>2</td><td>5</td></tr><tr><td>06-19</td><td>Marlins</td><td>6.0</td><td>7</td><td class="">2</td><td>1</td><td>7</td></tr><tr><td>06-25</td><td>Athletics</td><td>6.0</td><td>6</td><td class="">2</td><td>1</td><td>6</td></tr><tr><td>06-30</td><td>D-backs</td><td>2.2</td><td>5</td><td class="er5">6</td><td>6</td><td>4</td></tr><tr><td>07-06</td><td>Blue Jays</td><td>8.0</td><td>3</td><td class="">1</td><td>2</td><td>5</td></tr><tr><td>07-17</td><td>Mariners</td><td>7.0</td><td>2</td><td class="er0">0</td><td>3</td><td>2</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Seth Lugo</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-24</td><td>Mariners</td><td>6.1</td><td>6</td><td class="">3</td><td>2</td><td>3</td></tr><tr><td>05-30</td><td>Rangers</td><td>6.0</td><td>6</td><td class="">1</td><td>0</td><td>6</td></tr><tr><td>06-04</td><td>Twins</td><td>5.0</td><td>6</td><td class="er5">5</td><td>1</td><td>4</td></tr><tr><td>06-10</td><td>Rangers</td><td>3.1</td><td>3</td><td class="">1</td><td>1</td><td>2</td></tr><tr><td>06-19</td><td>Cardinals</td><td>6.0</td><td>5</td><td class="">1</td><td>3</td><td>0</td></tr><tr><td>06-25</td><td>Rays</td><td>5.0</td><td>7</td><td class="er5">7</td><td>2</td><td>3</td></tr><tr><td>07-01</td><td>Rays</td><td>6.0</td><td>9</td><td class="">3</td><td>0</td><td>7</td></tr><tr><td>07-07</td><td>Mets</td><td>4.1</td><td>9</td><td class="er5">6</td><td>2</td><td>4</td></tr><tr><td>07-12</td><td>Orioles</td><td>4.0</td><td>4</td><td class="">2</td><td>2</td><td>6</td></tr><tr><td>07-17</td><td>Padres</td><td>6.0</td><td>4</td><td class="">1</td><td>2</td><td>3</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Giants</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Rockies</td><td>6-4</td><td class="w-win">W</td><td class="sp">Sean Sullivan (8.87)</td></tr><tr><td>07-05</td><td>@</td><td>Rockies</td><td>6-7</td><td class="w-loss">L</td><td class="sp">Tanner Gordon (5.95)</td></tr><tr><td>07-06</td><td>vs</td><td>Blue Jays</td><td>10-1</td><td class="w-win">W</td><td class="sp">Kevin Gausman (4.51)</td></tr><tr><td>07-07</td><td>vs</td><td>Blue Jays</td><td>3-9</td><td class="w-loss">L</td><td class="sp">Spencer Miles (3.52)</td></tr><tr><td>07-08</td><td>vs</td><td>Blue Jays</td><td>0-10</td><td class="w-loss">L</td><td class="sp">Dylan Cease (2.67)</td></tr><tr><td>07-09</td><td>vs</td><td>Rockies</td><td>8-2</td><td class="w-win">W</td><td class="sp">Ryan Feltner (5.48)</td></tr><tr><td>07-10</td><td>vs</td><td>Rockies</td><td>3-4</td><td class="w-loss">L</td><td class="sp">Tanner Gordon (5.95)</td></tr><tr><td>07-11</td><td>vs</td><td>Rockies</td><td>4-2</td><td class="w-win">W</td><td class="sp">Kyle Freeland (7.28)</td></tr><tr><td>07-12</td><td>vs</td><td>Rockies</td><td>3-1</td><td class="w-win">W</td><td class="sp">Michael Lorenzen (6.53)</td></tr><tr><td>07-17</td><td>@</td><td>Mariners</td><td>7-0</td><td class="w-win">W</td><td class="sp">Bryce Miller (2.27)</td></tr><tr><td>07-18</td><td>@</td><td>Mariners</td><td>3-4</td><td class="w-loss">L</td><td class="sp">Bryan Woo (4.16)</td></tr><tr><td>07-19</td><td>@</td><td>Mariners</td><td>3-6</td><td class="w-loss">L</td><td class="sp">Logan Gilbert (3.38)</td></tr><tr><td>07-20</td><td>@</td><td>Royals</td><td>3-4</td><td class="w-loss">L</td><td class="sp">Michael Wacha (3.66)</td></tr><tr><td>07-21</td><td>@</td><td>Royals</td><td>2-3</td><td class="w-loss">L</td><td class="sp">Luinder Avila (4.86)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Royals</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Phillies</td><td>1-6</td><td class="w-loss">L</td><td class="sp">Jesús Luzardo (3.43)</td></tr><tr><td>07-05</td><td>vs</td><td>Phillies</td><td>5-2</td><td class="w-win">W</td><td class="sp">Aaron Nola (5.68)</td></tr><tr><td>07-06</td><td>vs</td><td>Phillies</td><td>15-1</td><td class="w-win">W</td><td class="sp">Cristopher Sánchez (2.71)</td></tr><tr><td>07-07</td><td>@</td><td>Mets</td><td>16-12</td><td class="w-win">W</td><td class="sp">Cionel Pérez (5.59)</td></tr><tr><td>07-08</td><td>@</td><td>Mets</td><td>2-6</td><td class="w-loss">L</td><td class="sp">Christian Scott (2.87)</td></tr><tr><td>07-09</td><td>@</td><td>Mets</td><td>3-7</td><td class="w-loss">L</td><td class="sp">Sean Manaea (4.74)</td></tr><tr><td>07-10</td><td>@</td><td>Orioles</td><td>3-5</td><td class="w-loss">L</td><td class="sp">Brandon Young (3.25)</td></tr><tr><td>07-11</td><td>@</td><td>Orioles</td><td>1-6</td><td class="w-loss">L</td><td class="sp">Kyle Bradish (3.61)</td></tr><tr><td>07-12</td><td>@</td><td>Orioles</td><td>2-8</td><td class="w-loss">L</td><td class="sp">Shane Baz (4.13)</td></tr><tr><td>07-17</td><td>vs</td><td>Padres</td><td>7-6</td><td class="w-win">W</td><td class="sp">Michael King (3.34)</td></tr><tr><td>07-18</td><td>vs</td><td>Padres</td><td>6-1</td><td class="w-win">W</td><td class="sp">Griffin Canning (6.67)</td></tr><tr><td>07-19</td><td>vs</td><td>Padres</td><td>2-19</td><td class="w-loss">L</td><td class="sp">Germán Márquez (5.24)</td></tr><tr><td>07-20</td><td>vs</td><td>Giants</td><td>4-3</td><td class="w-win">W</td><td class="sp">Trevor McDonald (5.12)</td></tr><tr><td>07-21</td><td>vs</td><td>Giants</td><td>3-2</td><td class="w-win">W</td><td class="sp">Tyler Mahle (5.31)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/giants" target="_blank" rel="noopener">Giants injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/royals" target="_blank" rel="noopener">Royals injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/121.svg"> Mets (42-59) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/158.svg"> Brewers (63-37)</div>
+      <div class="time">2:10p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/121.svg"> <span>Mets</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/681035/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Christian Scott</div>
+          <div class="pline1">3-1, 2.87 ERA</div>
+          <div class="pline2">1.22 WHIP · 4.52 IP/G · 11.08 K/9 · 4.12 BB/9 · 63.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>3.95</b> ERA (<span class="rk-y">13th-Season</span>) | <b>7.89</b> ERA (<span class="rk-r">30th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-k">7-8</span> · <b>70</b> R (<span class="rk-y">12th</span>) · <b>137</b> H (<span class="rk-g">5th</span>) · <b>60</b> BB (<span class="rk-g">4th</span>) · <b>120</b> SO (<span class="rk-r">22nd</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Mets +119 / Brewers -143</span></div><div class="odds-row"><span>RL</span><span>Mets +1.5 (-181) / Brewers -1.5 (+149)</span></div><div class="odds-row"><span>O/U</span><span>7.5 (O -103 / U -117)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/158.svg"> <span>Brewers</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/701656/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Logan Henderson</div>
+          <div class="pline1">3-1, 2.97 ERA</div>
+          <div class="pline2">0.93 WHIP · 4.79 IP/G · 11.03 K/9 · 1.64 BB/9 · 38.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>3.53</b> ERA (<span class="rk-g">4th-Season</span>) | <b>3.13</b> ERA (<span class="rk-g">10th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-g">9-6</span> · <b>67</b> R (<span class="rk-y">17th</span>) · <b>124</b> H (<span class="rk-y">16th</span>) · <b>59</b> BB (<span class="rk-g">5th</span>) · <b>123</b> SO (<span class="rk-y">18th</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Christian Scott</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-13</td><td>Tigers</td><td>4.2</td><td>7</td><td class="">2</td><td>2</td><td>5</td></tr><tr><td>05-18</td><td>Nationals</td><td>4.0</td><td>4</td><td class="">3</td><td>3</td><td>5</td></tr><tr><td>05-24</td><td>Marlins</td><td>5.2</td><td>4</td><td class="er0">0</td><td>2</td><td>5</td></tr><tr><td>05-30</td><td>Marlins</td><td>5.0</td><td>5</td><td class="">1</td><td>2</td><td>8</td></tr><tr><td>06-05</td><td>Padres</td><td>5.2</td><td>3</td><td class="er0">0</td><td>2</td><td>3</td></tr><tr><td>06-11</td><td>Cardinals</td><td>4.2</td><td>7</td><td class="">4</td><td>1</td><td>6</td></tr><tr><td>06-27</td><td>Phillies</td><td>4.1</td><td>3</td><td class="">2</td><td>2</td><td>6</td></tr><tr><td>07-03</td><td>Braves</td><td>4.0</td><td>2</td><td class="">3</td><td>4</td><td>7</td></tr><tr><td>07-08</td><td>Royals</td><td>5.0</td><td>3</td><td class="er0">0</td><td>1</td><td>5</td></tr><tr><td>07-16</td><td>Phillies</td><td>5.2</td><td>3</td><td class="er0">0</td><td>0</td><td>7</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Logan Henderson</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>04-04</td><td>Royals</td><td>2.0</td><td>3</td><td class="">2</td><td>1</td><td>3</td></tr><tr><td>05-03</td><td>Nationals</td><td>6.0</td><td>3</td><td class="">2</td><td>0</td><td>8</td></tr><tr><td>05-10</td><td>Yankees</td><td>5.0</td><td>4</td><td class="">2</td><td>1</td><td>5</td></tr><tr><td>05-16</td><td>Twins</td><td>5.0</td><td>6</td><td class="">1</td><td>1</td><td>7</td></tr><tr><td>05-22</td><td>Dodgers</td><td>5.0</td><td>2</td><td class="er0">0</td><td>3</td><td>7</td></tr><tr><td>07-09</td><td>Cardinals</td><td>5.1</td><td>3</td><td class="">3</td><td>1</td><td>4</td></tr><tr><td>07-17</td><td>Marlins</td><td>5.0</td><td>3</td><td class="">1</td><td>0</td><td>4</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Mets</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Braves</td><td>3-14</td><td class="w-loss">L</td><td class="sp">Chris Sale (2.06)</td></tr><tr><td>07-05</td><td>@</td><td>Braves</td><td>10-9</td><td class="w-win">W</td><td class="sp">Martín Pérez (3.54)</td></tr><tr><td>07-06</td><td>@</td><td>Braves</td><td>7-6</td><td class="w-win">W</td><td class="sp">Reynaldo López (3.95)</td></tr><tr><td>07-07</td><td>vs</td><td>Royals</td><td>12-16</td><td class="w-loss">L</td><td class="sp">Seth Lugo (4.39)</td></tr><tr><td>07-08</td><td>vs</td><td>Royals</td><td>6-2</td><td class="w-win">W</td><td class="sp">Steven Cruz (4.50)</td></tr><tr><td>07-09</td><td>vs</td><td>Royals</td><td>7-3</td><td class="w-win">W</td><td class="sp">Michael Wacha (3.66)</td></tr><tr><td>07-10</td><td>vs</td><td>Red Sox</td><td>2-6</td><td class="w-loss">L</td><td class="sp">Sonny Gray (2.48)</td></tr><tr><td>07-11</td><td>vs</td><td>Red Sox</td><td>0-4</td><td class="w-loss">L</td><td class="sp">Eduardo Rivera (2.89)</td></tr><tr><td>07-12</td><td>vs</td><td>Red Sox</td><td>2-3</td><td class="w-loss">L</td><td class="sp">Payton Tolle (3.31)</td></tr><tr><td>07-16</td><td>@</td><td>Phillies</td><td>4-1</td><td class="w-win">W</td><td class="sp">Aaron Nola (5.68)</td></tr><tr><td>07-18</td><td>@</td><td>Phillies</td><td>1-6</td><td class="w-loss">L</td><td class="sp">Jesús Luzardo (3.43)</td></tr><tr><td>07-19</td><td>@</td><td>Phillies</td><td>6-1</td><td class="w-win">W</td><td class="sp">Alan Rangel (5.40)</td></tr><tr><td>07-20</td><td>@</td><td>Brewers</td><td>3-8</td><td class="w-loss">L</td><td class="sp">Jacob Misiorowski (1.57)</td></tr><tr><td>07-21</td><td>@</td><td>Brewers</td><td>4-0</td><td class="w-win">W</td><td class="sp">Brandon Sproat (5.09)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Brewers</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>D-backs</td><td>3-4</td><td class="w-loss">L</td><td class="sp">Merrill Kelly (5.20)</td></tr><tr><td>07-05</td><td>@</td><td>D-backs</td><td>3-2</td><td class="w-win">W</td><td class="sp">Eduardo Rodriguez (2.62)</td></tr><tr><td>07-06</td><td>@</td><td>Cardinals</td><td>4-3</td><td class="w-win">W</td><td class="sp">Dustin May (4.78)</td></tr><tr><td>07-07</td><td>@</td><td>Cardinals</td><td>4-3</td><td class="w-win">W</td><td class="sp">Hunter Dobbins (4.03)</td></tr><tr><td>07-07</td><td>@</td><td>Cardinals</td><td>10-2</td><td class="w-win">W</td><td class="sp">Hunter Dobbins (4.03)</td></tr><tr><td>07-08</td><td>@</td><td>Cardinals</td><td>1-5</td><td class="w-loss">L</td><td class="sp">Michael McGreevy (2.92)</td></tr><tr><td>07-09</td><td>@</td><td>Cardinals</td><td>8-4</td><td class="w-win">W</td><td class="sp">Andre Pallante (4.02)</td></tr><tr><td>07-11</td><td>@</td><td>Pirates</td><td>6-7</td><td class="w-loss">L</td><td class="sp">Bubba Chandler (4.77)</td></tr><tr><td>07-11</td><td>@</td><td>Pirates</td><td>2-3</td><td class="w-loss">L</td><td class="sp">Bubba Chandler (4.77)</td></tr><tr><td>07-12</td><td>@</td><td>Pirates</td><td>5-14</td><td class="w-loss">L</td><td class="sp">Paul Skenes (3.43)</td></tr><tr><td>07-17</td><td>vs</td><td>Marlins</td><td>2-1</td><td class="w-win">W</td><td class="sp">Sandy Alcantara (3.89)</td></tr><tr><td>07-18</td><td>vs</td><td>Marlins</td><td>8-6</td><td class="w-win">W</td><td class="sp">Max Meyer (2.68)</td></tr><tr><td>07-19</td><td>vs</td><td>Marlins</td><td>3-1</td><td class="w-win">W</td><td class="sp">Eury Pérez (3.53)</td></tr><tr><td>07-20</td><td>vs</td><td>Mets</td><td>8-3</td><td class="w-win">W</td><td class="sp">Freddy Peralta (5.01)</td></tr><tr><td>07-21</td><td>vs</td><td>Mets</td><td>0-4</td><td class="w-loss">L</td><td class="sp">Zac Thornton (1.93)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/mets" target="_blank" rel="noopener">Mets injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/brewers" target="_blank" rel="noopener">Brewers injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/120.svg"> Nationals (51-50) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/115.svg"> Rockies (40-62)</div>
+      <div class="time">3:10p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/120.svg"> <span>Nationals</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/676917/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Cade Cavalli</div>
+          <div class="pline1">6-4, 3.78 ERA</div>
+          <div class="pline2">1.31 WHIP · 5.03 IP/G · 10.33 K/9 · 2.77 BB/9 · 110.2 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>5.09</b> ERA (<span class="rk-r">27th-Season</span>) | <b>5.96</b> ERA (<span class="rk-r">25th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-k">7-8</span> · <b>99</b> R (<span class="rk-g">1st</span>) · <b>149</b> H (<span class="rk-g">2nd</span>) · <b>67</b> BB (<span class="rk-g">1st</span>) · <b>122</b> SO (<span class="rk-r">21st</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Nationals -144 / Rockies +119</span></div><div class="odds-row"><span>RL</span><span>Nationals -1.5 (+104) / Rockies +1.5 (-126)</span></div><div class="odds-row"><span>O/U</span><span>11.5 (O -104 / U -115)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/115.svg"> <span>Rockies</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/687312/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Gabriel Hughes</div>
+          <div class="pline1">0-1, 3.14 ERA</div>
+          <div class="pline2">1.12 WHIP · 6.44 IP/G · 8.84 K/9 · 2.79 BB/9 · 19.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.93</b> ERA (<span class="rk-r">26th-Season</span>) | <b>2.70</b> ERA (<span class="rk-g">5th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-r">6-9</span> · <b>78</b> R (<span class="rk-g">6th</span>) · <b>129</b> H (<span class="rk-y">11th</span>) · <b>50</b> BB (<span class="rk-y">13th</span>) · <b>114</b> SO (<span class="rk-r">28th</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Cade Cavalli</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-26</td><td>Guardians</td><td>6.0</td><td>5</td><td class="">1</td><td>2</td><td>7</td></tr><tr><td>06-01</td><td>Marlins</td><td>5.0</td><td>5</td><td class="">2</td><td>3</td><td>6</td></tr><tr><td>06-07</td><td>D-backs</td><td>5.0</td><td>7</td><td class="">4</td><td>1</td><td>2</td></tr><tr><td>06-13</td><td>Mariners</td><td>5.0</td><td>4</td><td class="">3</td><td>0</td><td>5</td></tr><tr><td>06-20</td><td>Rays</td><td>2.2</td><td>6</td><td class="">2</td><td>3</td><td>1</td></tr><tr><td>06-25</td><td>Phillies</td><td>6.0</td><td>5</td><td class="">2</td><td>1</td><td>7</td></tr><tr><td>06-30</td><td>Red Sox</td><td>7.0</td><td>1</td><td class="er0">0</td><td>0</td><td>13</td></tr><tr><td>07-05</td><td>Pirates</td><td>2.1</td><td>6</td><td class="">3</td><td>2</td><td>3</td></tr><tr><td>07-12</td><td>Yankees</td><td>6.0</td><td>4</td><td class="">2</td><td>1</td><td>5</td></tr><tr><td>07-17</td><td>Athletics</td><td>6.0</td><td>4</td><td class="">2</td><td>0</td><td>9</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Gabriel Hughes</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>07-03</td><td>Giants</td><td>3.0</td><td>2</td><td class="er0">0</td><td>1</td><td>1</td></tr><tr><td>07-08</td><td>Dodgers</td><td>6.0</td><td>4</td><td class="">3</td><td>2</td><td>7</td></tr><tr><td>07-17</td><td>Reds</td><td>5.1</td><td>5</td><td class="">2</td><td>2</td><td>6</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Nationals</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Pirates</td><td>1-7</td><td class="w-loss">L</td><td class="sp">Braxton Ashcraft (3.95)</td></tr><tr><td>07-05</td><td>vs</td><td>Pirates</td><td>5-11</td><td class="w-loss">L</td><td class="sp">Bubba Chandler (4.77)</td></tr><tr><td>07-06</td><td>vs</td><td>Astros</td><td>12-11</td><td class="w-win">W</td><td class="sp">Mike Burrows (5.99)</td></tr><tr><td>07-07</td><td>vs</td><td>Astros</td><td>3-6</td><td class="w-loss">L</td><td class="sp">Tatsuya Imai (5.59)</td></tr><tr><td>07-08</td><td>vs</td><td>Astros</td><td>8-2</td><td class="w-win">W</td><td class="sp">Spencer Arrighetti (4.34)</td></tr><tr><td>07-10</td><td>vs</td><td>Yankees</td><td>3-5</td><td class="w-loss">L</td><td class="sp">Ryan Weathers (4.40)</td></tr><tr><td>07-11</td><td>vs</td><td>Yankees</td><td>2-4</td><td class="w-loss">L</td><td class="sp">Cam Schlittler (2.20)</td></tr><tr><td>07-12</td><td>vs</td><td>Yankees</td><td>3-5</td><td class="w-loss">L</td><td class="sp">Will Warren (4.03)</td></tr><tr><td>07-17</td><td>@</td><td>Athletics</td><td>23-4</td><td class="w-win">W</td><td class="sp">Gage Jump (3.78)</td></tr><tr><td>07-18</td><td>@</td><td>Athletics</td><td>1-15</td><td class="w-loss">L</td><td class="sp">J.T. Ginn (3.46)</td></tr><tr><td>07-19</td><td>@</td><td>Athletics</td><td>5-2</td><td class="w-win">W</td><td class="sp">Jacob Lopez (6.64)</td></tr><tr><td>07-20</td><td>@</td><td>Rockies</td><td>7-3</td><td class="w-win">W</td><td class="sp">Kyle Freeland (7.28)</td></tr><tr><td>07-21</td><td>@</td><td>Rockies</td><td>7-8</td><td class="w-loss">L</td><td class="sp">Michael Lorenzen (6.53)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Rockies</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Giants</td><td>4-6</td><td class="w-loss">L</td><td class="sp">Robbie Ray (3.33)</td></tr><tr><td>07-05</td><td>vs</td><td>Giants</td><td>7-6</td><td class="w-win">W</td><td class="sp">Tyler Mahle (5.31)</td></tr><tr><td>07-06</td><td>@</td><td>Dodgers</td><td>7-8</td><td class="w-loss">L</td><td class="sp">Eric Lauer (4.81)</td></tr><tr><td>07-07</td><td>@</td><td>Dodgers</td><td>4-3</td><td class="w-win">W</td><td class="sp">Justin Wrobleski (2.62)</td></tr><tr><td>07-08</td><td>@</td><td>Dodgers</td><td>3-4</td><td class="w-loss">L</td><td class="sp">Roki Sasaki (4.98)</td></tr><tr><td>07-09</td><td>@</td><td>Giants</td><td>2-8</td><td class="w-loss">L</td><td class="sp">Carson Whisenhunt (3.38)</td></tr><tr><td>07-10</td><td>@</td><td>Giants</td><td>4-3</td><td class="w-win">W</td><td class="sp">Robbie Ray (3.33)</td></tr><tr><td>07-11</td><td>@</td><td>Giants</td><td>2-4</td><td class="w-loss">L</td><td class="sp">Tyler Mahle (5.31)</td></tr><tr><td>07-12</td><td>@</td><td>Giants</td><td>1-3</td><td class="w-loss">L</td><td class="sp">Trevor McDonald (5.12)</td></tr><tr><td>07-17</td><td>vs</td><td>Reds</td><td>2-7</td><td class="w-loss">L</td><td class="sp">Brady Singer (4.56)</td></tr><tr><td>07-18</td><td>vs</td><td>Reds</td><td>10-3</td><td class="w-win">W</td><td class="sp">Rhett Lowder (5.75)</td></tr><tr><td>07-19</td><td>vs</td><td>Reds</td><td>6-9</td><td class="w-loss">L</td><td class="sp">Hunter Greene (6.06)</td></tr><tr><td>07-20</td><td>vs</td><td>Nationals</td><td>3-7</td><td class="w-loss">L</td><td class="sp">Andrew Alvarez (4.22)</td></tr><tr><td>07-21</td><td>vs</td><td>Nationals</td><td>8-7</td><td class="w-win">W</td><td class="sp">Carson Palmquist (8.74)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/nationals" target="_blank" rel="noopener">Nationals injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/rockies" target="_blank" rel="noopener">Rockies injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/133.svg"> Athletics (43-57) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/109.svg"> D-backs (51-49)</div>
+      <div class="time">3:40p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/133.svg"> <span>Athletics</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/695611/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Gage Jump</div>
+          <div class="pline1">3-5, 3.78 ERA</div>
+          <div class="pline2">1.32 WHIP · 5.18 IP/G · 9.63 K/9 · 3.32 BB/9 · 57.0 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>5.60</b> ERA (<span class="rk-r">30th-Season</span>) | <b>7.73</b> ERA (<span class="rk-r">29th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-r">3-12</span> · <b>59</b> R (<span class="rk-r">25th</span>) · <b>126</b> H (<span class="rk-y">14th</span>) · <b>34</b> BB (<span class="rk-r">30th</span>) · <b>134</b> SO (<span class="rk-g">9th</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Athletics +109 / D-backs -131</span></div><div class="odds-row"><span>RL</span><span>Athletics +1.5 (-191) / D-backs -1.5 (+157)</span></div><div class="odds-row"><span>O/U</span><span>9 (O -114 / U -105)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/109.svg"> <span>D-backs</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/518876/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Merrill Kelly</div>
+          <div class="pline1">7-8, 5.20 ERA</div>
+          <div class="pline2">1.49 WHIP · 5.76 IP/G · 5.64 K/9 · 3.56 BB/9 · 103.2 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.01</b> ERA (<span class="rk-y">14th-Season</span>) | <b>2.84</b> ERA (<span class="rk-g">7th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-g">9-6</span> · <b>74</b> R (<span class="rk-g">9th</span>) · <b>120</b> H (<span class="rk-y">20th</span>) · <b>54</b> BB (<span class="rk-g">10th</span>) · <b>120</b> SO (<span class="rk-r">22nd</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Gage Jump</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-26</td><td>Mariners</td><td>5.0</td><td>9</td><td class="">4</td><td>1</td><td>5</td></tr><tr><td>06-02</td><td>Cubs</td><td>7.0</td><td>3</td><td class="">1</td><td>1</td><td>5</td></tr><tr><td>06-07</td><td>Astros</td><td>6.1</td><td>3</td><td class="er0">0</td><td>3</td><td>3</td></tr><tr><td>06-12</td><td>Rockies</td><td>5.0</td><td>5</td><td class="">3</td><td>1</td><td>6</td></tr><tr><td>06-18</td><td>Angels</td><td>7.0</td><td>1</td><td class="er0">0</td><td>3</td><td>7</td></tr><tr><td>06-24</td><td>Giants</td><td>5.0</td><td>3</td><td class="er0">0</td><td>1</td><td>9</td></tr><tr><td>06-29</td><td>Dodgers</td><td>4.2</td><td>11</td><td class="er5">5</td><td>0</td><td>5</td></tr><tr><td>07-05</td><td>Marlins</td><td>3.0</td><td>8</td><td class="er5">5</td><td>3</td><td>1</td></tr><tr><td>07-11</td><td>White Sox</td><td>5.2</td><td>5</td><td class="">1</td><td>2</td><td>7</td></tr><tr><td>07-17</td><td>Nationals</td><td>3.2</td><td>4</td><td class="">3</td><td>2</td><td>8</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Merrill Kelly</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-25</td><td>Giants</td><td>7.0</td><td>4</td><td class="">2</td><td>2</td><td>4</td></tr><tr><td>05-31</td><td>Mariners</td><td>5.1</td><td>8</td><td class="">2</td><td>2</td><td>2</td></tr><tr><td>06-05</td><td>Nationals</td><td>5.0</td><td>6</td><td class="er5">7</td><td>3</td><td>4</td></tr><tr><td>06-11</td><td>Marlins</td><td>6.0</td><td>4</td><td class="">2</td><td>2</td><td>1</td></tr><tr><td>06-16</td><td>Angels</td><td>5.1</td><td>11</td><td class="er5">6</td><td>1</td><td>4</td></tr><tr><td>06-22</td><td>Cardinals</td><td>6.0</td><td>7</td><td class="">3</td><td>3</td><td>2</td></tr><tr><td>06-28</td><td>Rays</td><td>6.0</td><td>8</td><td class="er5">5</td><td>2</td><td>3</td></tr><tr><td>07-04</td><td>Brewers</td><td>5.0</td><td>8</td><td class="">2</td><td>2</td><td>6</td></tr><tr><td>07-09</td><td>Padres</td><td>7.0</td><td>3</td><td class="">1</td><td>3</td><td>6</td></tr><tr><td>07-17</td><td>Cardinals</td><td>5.0</td><td>4</td><td class="">1</td><td>2</td><td>3</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Athletics</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Marlins</td><td>2-7</td><td class="w-loss">L</td><td class="sp">Sandy Alcantara (3.89)</td></tr><tr><td>07-05</td><td>vs</td><td>Marlins</td><td>8-9</td><td class="w-loss">L</td><td class="sp">Eury Pérez (3.53)</td></tr><tr><td>07-07</td><td>@</td><td>Tigers</td><td>2-6</td><td class="w-loss">L</td><td class="sp">Tarik Skubal (2.83)</td></tr><tr><td>07-08</td><td>@</td><td>Tigers</td><td>1-6</td><td class="w-loss">L</td><td class="sp">Troy Melton (1.80)</td></tr><tr><td>07-09</td><td>@</td><td>Tigers</td><td>1-4</td><td class="w-loss">L</td><td class="sp">Framber Valdez (4.57)</td></tr><tr><td>07-10</td><td>@</td><td>White Sox</td><td>1-14</td><td class="w-loss">L</td><td class="sp">Sean Burke (3.20)</td></tr><tr><td>07-11</td><td>@</td><td>White Sox</td><td>0-1</td><td class="w-loss">L</td><td class="sp">Bryan Hudson (2.13)</td></tr><tr><td>07-12</td><td>@</td><td>White Sox</td><td>1-9</td><td class="w-loss">L</td><td class="sp">Noah Schultz (6.04)</td></tr><tr><td>07-17</td><td>vs</td><td>Nationals</td><td>4-23</td><td class="w-loss">L</td><td class="sp">Cade Cavalli (3.78)</td></tr><tr><td>07-18</td><td>vs</td><td>Nationals</td><td>15-1</td><td class="w-win">W</td><td class="sp">Zack Littell (5.34)</td></tr><tr><td>07-19</td><td>vs</td><td>Nationals</td><td>2-5</td><td class="w-loss">L</td><td class="sp">Foster Griffin (2.68)</td></tr><tr><td>07-20</td><td>@</td><td>D-backs</td><td>5-2</td><td class="w-win">W</td><td class="sp">Mitch Bratt (5.06)</td></tr><tr><td>07-21</td><td>@</td><td>D-backs</td><td>5-6</td><td class="w-loss">L</td><td class="sp">Kohl Drake (1.80)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">D-backs</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Brewers</td><td>4-3</td><td class="w-win">W</td><td class="sp">Brandon Woodruff (2.98)</td></tr><tr><td>07-05</td><td>vs</td><td>Brewers</td><td>2-3</td><td class="w-loss">L</td><td class="sp">Brandon Sproat (5.09)</td></tr><tr><td>07-06</td><td>@</td><td>Padres</td><td>8-0</td><td class="w-win">W</td><td class="sp">Walker Buehler (5.23)</td></tr><tr><td>07-07</td><td>@</td><td>Padres</td><td>1-4</td><td class="w-loss">L</td><td class="sp">Germán Márquez (5.24)</td></tr><tr><td>07-08</td><td>@</td><td>Padres</td><td>4-10</td><td class="w-loss">L</td><td class="sp">Michael King (3.34)</td></tr><tr><td>07-09</td><td>@</td><td>Padres</td><td>3-1</td><td class="w-win">W</td><td class="sp">Griffin Canning (6.67)</td></tr><tr><td>07-10</td><td>@</td><td>Dodgers</td><td>9-3</td><td class="w-win">W</td><td class="sp">Kyle Hurt (4.59)</td></tr><tr><td>07-11</td><td>@</td><td>Dodgers</td><td>9-2</td><td class="w-win">W</td><td class="sp">Yoshinobu Yamamoto (2.78)</td></tr><tr><td>07-12</td><td>@</td><td>Dodgers</td><td>5-3</td><td class="w-win">W</td><td class="sp">Emmet Sheehan (5.13)</td></tr><tr><td>07-17</td><td>vs</td><td>Cardinals</td><td>4-5</td><td class="w-loss">L</td><td class="sp">Michael McGreevy (2.92)</td></tr><tr><td>07-18</td><td>vs</td><td>Cardinals</td><td>5-3</td><td class="w-win">W</td><td class="sp">Dustin May (4.78)</td></tr><tr><td>07-19</td><td>vs</td><td>Cardinals</td><td>8-7</td><td class="w-win">W</td><td class="sp">Andre Pallante (4.02)</td></tr><tr><td>07-20</td><td>vs</td><td>Athletics</td><td>2-5</td><td class="w-loss">L</td><td class="sp">Jeffrey Springs (5.96)</td></tr><tr><td>07-21</td><td>vs</td><td>Athletics</td><td>6-5</td><td class="w-win">W</td><td class="sp">Jack Perkins (6.75)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/athletics" target="_blank" rel="noopener">Athletics injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/diamondbacks" target="_blank" rel="noopener">D-backs injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/113.svg"> Reds (45-54) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/136.svg"> Mariners (51-50)</div>
+      <div class="time">3:40p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/113.svg"> <span>Reds</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/663903/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Brady Singer</div>
+          <div class="pline1">4-9, 4.56 ERA</div>
+          <div class="pline2">1.41 WHIP · 5.17 IP/G · 7.66 K/9 · 2.79 BB/9 · 103.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.77</b> ERA (<span class="rk-r">25th-Season</span>) | <b>4.42</b> ERA (<span class="rk-y">18th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-k">7-8</span> · <b>61</b> R (<span class="rk-r">23rd</span>) · <b>121</b> H (<span class="rk-y">19th</span>) · <b>47</b> BB (<span class="rk-y">16th</span>) · <b>129</b> SO (<span class="rk-y">11th</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Reds +130 / Mariners -157</span></div><div class="odds-row"><span>RL</span><span>Reds +1.5 (-167) / Mariners -1.5 (+137)</span></div><div class="odds-row"><span>O/U</span><span>8 (O -112 / U -108)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/136.svg"> <span>Mariners</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/676106/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Emerson Hancock</div>
+          <div class="pline1">6-4, 3.17 ERA</div>
+          <div class="pline2">1.01 WHIP · 5.54 IP/G · 8.29 K/9 · 2.22 BB/9 · 105.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>3.58</b> ERA (<span class="rk-g">5th-Season</span>) | <b>2.80</b> ERA (<span class="rk-g">6th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-k">7-8</span> · <b>56</b> R (<span class="rk-r">26th</span>) · <b>98</b> H (<span class="rk-r">29th</span>) · <b>51</b> BB (<span class="rk-y">12th</span>) · <b>126</b> SO (<span class="rk-y">16th</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Brady Singer</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-17</td><td>Guardians</td><td>4.0</td><td>7</td><td class="er5">5</td><td>1</td><td>6</td></tr><tr><td>05-30</td><td>Braves</td><td>5.0</td><td>4</td><td class="">3</td><td>4</td><td>2</td></tr><tr><td>06-05</td><td>Cardinals</td><td>4.0</td><td>4</td><td class="">1</td><td>3</td><td>6</td></tr><tr><td>06-10</td><td>Padres</td><td>6.0</td><td>6</td><td class="">2</td><td>1</td><td>5</td></tr><tr><td>06-16</td><td>Mets</td><td>5.0</td><td>3</td><td class="">1</td><td>3</td><td>5</td></tr><tr><td>06-22</td><td>Brewers</td><td>7.0</td><td>2</td><td class="er0">0</td><td>2</td><td>7</td></tr><tr><td>06-28</td><td>Pirates</td><td>4.1</td><td>9</td><td class="er5">5</td><td>0</td><td>6</td></tr><tr><td>07-03</td><td>Orioles</td><td>5.0</td><td>3</td><td class="">2</td><td>5</td><td>6</td></tr><tr><td>07-09</td><td>Phillies</td><td>7.1</td><td>4</td><td class="">1</td><td>1</td><td>5</td></tr><tr><td>07-17</td><td>Rockies</td><td>7.0</td><td>4</td><td class="">2</td><td>0</td><td>6</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Emerson Hancock</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-15</td><td>Padres</td><td>6.0</td><td>5</td><td class="">1</td><td>1</td><td>6</td></tr><tr><td>05-20</td><td>White Sox</td><td>5.0</td><td>5</td><td class="">2</td><td>3</td><td>4</td></tr><tr><td>05-26</td><td>Athletics</td><td>6.0</td><td>1</td><td class="er0">0</td><td>2</td><td>3</td></tr><tr><td>06-01</td><td>Mets</td><td>6.0</td><td>2</td><td class="">2</td><td>0</td><td>7</td></tr><tr><td>06-08</td><td>Orioles</td><td>5.0</td><td>3</td><td class="">1</td><td>2</td><td>3</td></tr><tr><td>06-14</td><td>Nationals</td><td>4.0</td><td>9</td><td class="er5">6</td><td>0</td><td>2</td></tr><tr><td>06-20</td><td>Red Sox</td><td>5.1</td><td>4</td><td class="er5">5</td><td>2</td><td>6</td></tr><tr><td>06-28</td><td>Guardians</td><td>5.2</td><td>5</td><td class="">1</td><td>3</td><td>6</td></tr><tr><td>07-05</td><td>Blue Jays</td><td>7.0</td><td>2</td><td class="er0">0</td><td>2</td><td>5</td></tr><tr><td>07-12</td><td>Rays</td><td>1.2</td><td>0</td><td class="er0">0</td><td>1</td><td>2</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Reds</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Orioles</td><td>5-8</td><td class="w-loss">L</td><td class="sp">Brandon Young (3.25)</td></tr><tr><td>07-05</td><td>vs</td><td>Orioles</td><td>3-2</td><td class="w-win">W</td><td class="sp">Kyle Bradish (3.61)</td></tr><tr><td>07-07</td><td>vs</td><td>Phillies</td><td>1-4</td><td class="w-loss">L</td><td class="sp">Zack Wheeler (2.16)</td></tr><tr><td>07-08</td><td>vs</td><td>Phillies</td><td>11-5</td><td class="w-win">W</td><td class="sp">Alan Rangel (5.40)</td></tr><tr><td>07-09</td><td>vs</td><td>Phillies</td><td>0-1</td><td class="w-loss">L</td><td class="sp">Jesús Luzardo (3.43)</td></tr><tr><td>07-10</td><td>vs</td><td>Cubs</td><td>4-0</td><td class="w-win">W</td><td class="sp">Shota Imanaga (3.91)</td></tr><tr><td>07-11</td><td>vs</td><td>Cubs</td><td>3-5</td><td class="w-loss">L</td><td class="sp">Javier Assad (4.04)</td></tr><tr><td>07-12</td><td>vs</td><td>Cubs</td><td>4-8</td><td class="w-loss">L</td><td class="sp">Matthew Boyd (4.15)</td></tr><tr><td>07-17</td><td>@</td><td>Rockies</td><td>7-2</td><td class="w-win">W</td><td class="sp">Gabriel Hughes (3.14)</td></tr><tr><td>07-18</td><td>@</td><td>Rockies</td><td>3-10</td><td class="w-loss">L</td><td class="sp">Tomoyuki Sugano (4.76)</td></tr><tr><td>07-19</td><td>@</td><td>Rockies</td><td>9-6</td><td class="w-win">W</td><td class="sp">Ryan Feltner (5.48)</td></tr><tr><td>07-20</td><td>@</td><td>Mariners</td><td>0-8</td><td class="w-loss">L</td><td class="sp">George Kirby (3.57)</td></tr><tr><td>07-21</td><td>@</td><td>Mariners</td><td>4-2</td><td class="w-win">W</td><td class="sp">Luis Castillo (4.85)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Mariners</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Blue Jays</td><td>11-0</td><td class="w-win">W</td><td class="sp">Shane Bieber (5.70)</td></tr><tr><td>07-05</td><td>vs</td><td>Blue Jays</td><td>4-0</td><td class="w-win">W</td><td class="sp">Trey Yesavage (3.78)</td></tr><tr><td>07-07</td><td>@</td><td>Marlins</td><td>5-6</td><td class="w-loss">L</td><td class="sp">Max Meyer (2.68)</td></tr><tr><td>07-08</td><td>@</td><td>Marlins</td><td>0-2</td><td class="w-loss">L</td><td class="sp">Tyler Phillips (3.52)</td></tr><tr><td>07-09</td><td>@</td><td>Marlins</td><td>4-8</td><td class="w-loss">L</td><td class="sp">Janson Junk (5.09)</td></tr><tr><td>07-10</td><td>@</td><td>Rays</td><td>2-7</td><td class="w-loss">L</td><td class="sp">Nick Martinez (2.59)</td></tr><tr><td>07-11</td><td>@</td><td>Rays</td><td>1-6</td><td class="w-loss">L</td><td class="sp">Griffin Jax (4.08)</td></tr><tr><td>07-12</td><td>@</td><td>Rays</td><td>8-2</td><td class="w-win">W</td><td class="sp">Ian Seymour (4.79)</td></tr><tr><td>07-17</td><td>vs</td><td>Giants</td><td>0-7</td><td class="w-loss">L</td><td class="sp">Landen Roupp (3.98)</td></tr><tr><td>07-18</td><td>vs</td><td>Giants</td><td>4-3</td><td class="w-win">W</td><td class="sp">Logan Webb (3.87)</td></tr><tr><td>07-19</td><td>vs</td><td>Giants</td><td>6-3</td><td class="w-win">W</td><td class="sp">Robbie Ray (3.33)</td></tr><tr><td>07-20</td><td>vs</td><td>Reds</td><td>8-0</td><td class="w-win">W</td><td class="sp">Andrew Abbott (3.89)</td></tr><tr><td>07-21</td><td>vs</td><td>Reds</td><td>2-4</td><td class="w-loss">L</td><td class="sp">Chase Burns (2.42)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/reds" target="_blank" rel="noopener">Reds injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/mariners" target="_blank" rel="noopener">Mariners injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/138.svg"> Cardinals (51-48) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/108.svg"> Angels (40-61)</div>
+      <div class="time">4:07p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/138.svg"> <span>Cardinals</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/690928/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Hunter Dobbins</div>
+          <div class="pline1">1-1, 4.03 ERA</div>
+          <div class="pline2">1.39 WHIP · 7.08 IP/G · 8.89 K/9 · 3.18 BB/9 · 28.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.21</b> ERA (<span class="rk-y">18th-Season</span>) | <b>3.73</b> ERA (<span class="rk-y">14th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-r">5-10</span> · <b>51</b> R (<span class="rk-r">28th</span>) · <b>98</b> H (<span class="rk-r">29th</span>) · <b>41</b> BB (<span class="rk-r">24th</span>) · <b>123</b> SO (<span class="rk-y">18th</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Cardinals +110 / Angels -132</span></div><div class="odds-row"><span>RL</span><span>Cardinals +1.5 (-191) / Angels -1.5 (+157)</span></div><div class="odds-row"><span>O/U</span><span>8.5 (O -119 / U -101)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/108.svg"> <span>Angels</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/672282/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Reid Detmers</div>
+          <div class="pline1">3-6, 4.16 ERA</div>
+          <div class="pline2">1.12 WHIP · 5.71 IP/G · 10.2 K/9 · 2.77 BB/9 · 120.0 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.45</b> ERA (<span class="rk-r">24th-Season</span>) | <b>3.81</b> ERA (<span class="rk-y">15th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-r">5-10</span> · <b>51</b> R (<span class="rk-r">28th</span>) · <b>122</b> H (<span class="rk-y">18th</span>) · <b>39</b> BB (<span class="rk-r">25th</span>) · <b>147</b> SO (<span class="rk-g">1st</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Hunter Dobbins</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>04-30</td><td>Pirates</td><td>4.1</td><td>2</td><td class="">3</td><td>5</td><td>4</td></tr><tr><td>05-31</td><td>Cubs</td><td>3.2</td><td>4</td><td class="">1</td><td>0</td><td>4</td></tr><tr><td>06-05</td><td>Reds</td><td>5.0</td><td>4</td><td class="er0">0</td><td>2</td><td>6</td></tr><tr><td>06-11</td><td>Mets</td><td>4.1</td><td>7</td><td class="">3</td><td>0</td><td>5</td></tr><tr><td>07-07</td><td>Brewers</td><td>5.0</td><td>4</td><td class="">3</td><td>3</td><td>4</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Reid Detmers</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-24</td><td>Rangers</td><td>8.0</td><td>1</td><td class="">1</td><td>0</td><td>14</td></tr><tr><td>05-30</td><td>Rays</td><td>5.0</td><td>5</td><td class="">3</td><td>3</td><td>7</td></tr><tr><td>06-05</td><td>Dodgers</td><td>6.0</td><td>2</td><td class="er0">0</td><td>2</td><td>6</td></tr><tr><td>06-10</td><td>Astros</td><td>7.0</td><td>1</td><td class="">1</td><td>0</td><td>9</td></tr><tr><td>06-16</td><td>D-backs</td><td>7.0</td><td>4</td><td class="er0">0</td><td>0</td><td>3</td></tr><tr><td>06-21</td><td>Athletics</td><td>6.0</td><td>6</td><td class="er5">5</td><td>4</td><td>4</td></tr><tr><td>06-27</td><td>Athletics</td><td>5.2</td><td>4</td><td class="">2</td><td>3</td><td>8</td></tr><tr><td>07-03</td><td>Red Sox</td><td>5.0</td><td>7</td><td class="er5">5</td><td>3</td><td>5</td></tr><tr><td>07-09</td><td>Rangers</td><td>4.0</td><td>7</td><td class="er5">5</td><td>1</td><td>6</td></tr><tr><td>07-17</td><td>Tigers</td><td>6.0</td><td>4</td><td class="er0">0</td><td>0</td><td>7</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Cardinals</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Cubs</td><td>3-0</td><td class="w-win">W</td><td class="sp">Shota Imanaga (3.91)</td></tr><tr><td>07-05</td><td>@</td><td>Cubs</td><td>4-6</td><td class="w-loss">L</td><td class="sp">Javier Assad (4.04)</td></tr><tr><td>07-06</td><td>vs</td><td>Brewers</td><td>3-4</td><td class="w-loss">L</td><td class="sp">Shane Drohan (3.20)</td></tr><tr><td>07-07</td><td>vs</td><td>Brewers</td><td>3-4</td><td class="w-loss">L</td><td class="sp">Robert Gasser (4.91)</td></tr><tr><td>07-07</td><td>vs</td><td>Brewers</td><td>2-10</td><td class="w-loss">L</td><td class="sp">Robert Gasser (4.91)</td></tr><tr><td>07-08</td><td>vs</td><td>Brewers</td><td>5-1</td><td class="w-win">W</td><td class="sp">Kyle Harrison (3.01)</td></tr><tr><td>07-09</td><td>vs</td><td>Brewers</td><td>4-8</td><td class="w-loss">L</td><td class="sp">Logan Henderson (2.97)</td></tr><tr><td>07-10</td><td>vs</td><td>Braves</td><td>2-1</td><td class="w-win">W</td><td class="sp">Chris Sale (2.06)</td></tr><tr><td>07-11</td><td>vs</td><td>Braves</td><td>4-1</td><td class="w-win">W</td><td class="sp">Reynaldo López (3.95)</td></tr><tr><td>07-12</td><td>vs</td><td>Braves</td><td>3-4</td><td class="w-loss">L</td><td class="sp">Danny Young (3.18)</td></tr><tr><td>07-17</td><td>@</td><td>D-backs</td><td>5-4</td><td class="w-win">W</td><td class="sp">Merrill Kelly (5.20)</td></tr><tr><td>07-18</td><td>@</td><td>D-backs</td><td>3-5</td><td class="w-loss">L</td><td class="sp">Brandon Pfaadt (4.58)</td></tr><tr><td>07-19</td><td>@</td><td>D-backs</td><td>7-8</td><td class="w-loss">L</td><td class="sp">Eduardo Rodriguez (2.62)</td></tr><tr><td>07-20</td><td>@</td><td>Angels</td><td>2-3</td><td class="w-loss">L</td><td class="sp">José Soriano (3.43)</td></tr><tr><td>07-21</td><td>@</td><td>Angels</td><td>1-5</td><td class="w-loss">L</td><td class="sp">Walbert Ureña (2.78)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Angels</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Red Sox</td><td>1-8</td><td class="w-loss">L</td><td class="sp">Sonny Gray (2.48)</td></tr><tr><td>07-05</td><td>vs</td><td>Red Sox</td><td>5-7</td><td class="w-loss">L</td><td class="sp">Ranger Suarez (3.15)</td></tr><tr><td>07-07</td><td>@</td><td>Rangers</td><td>3-8</td><td class="w-loss">L</td><td class="sp">Jacob deGrom (3.76)</td></tr><tr><td>07-08</td><td>@</td><td>Rangers</td><td>13-1</td><td class="w-win">W</td><td class="sp">MacKenzie Gore (4.80)</td></tr><tr><td>07-09</td><td>@</td><td>Rangers</td><td>6-7</td><td class="w-loss">L</td><td class="sp">Nathan Eovaldi (4.21)</td></tr><tr><td>07-10</td><td>@</td><td>Twins</td><td>4-3</td><td class="w-win">W</td><td class="sp">Zebby Matthews (5.40)</td></tr><tr><td>07-11</td><td>@</td><td>Twins</td><td>3-5</td><td class="w-loss">L</td><td class="sp">Joe Ryan (3.38)</td></tr><tr><td>07-12</td><td>@</td><td>Twins</td><td>2-4</td><td class="w-loss">L</td><td class="sp">Taj Bradley (3.85)</td></tr><tr><td>07-17</td><td>vs</td><td>Tigers</td><td>1-2</td><td class="w-loss">L</td><td class="sp">Troy Melton (1.80)</td></tr><tr><td>07-18</td><td>vs</td><td>Tigers</td><td>0-7</td><td class="w-loss">L</td><td class="sp">Tarik Skubal (2.83)</td></tr><tr><td>07-19</td><td>vs</td><td>Tigers</td><td>3-2</td><td class="w-win">W</td><td class="sp">Casey Mize (2.79)</td></tr><tr><td>07-20</td><td>vs</td><td>Cardinals</td><td>3-2</td><td class="w-win">W</td><td class="sp">Kyle Leahy (3.59)</td></tr><tr><td>07-21</td><td>vs</td><td>Cardinals</td><td>5-1</td><td class="w-win">W</td><td class="sp">Matthew Liberatore (5.18)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/cardinals" target="_blank" rel="noopener">Cardinals injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/angels" target="_blank" rel="noopener">Angels injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/142.svg"> Twins (49-53) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/114.svg"> Guardians (54-48)</div>
+      <div class="time">6:40p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/142.svg"> <span>Twins</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/641927/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Bailey Ober</div>
+          <div class="pline1">7-3, 4.32 ERA</div>
+          <div class="pline2">1.19 WHIP · 5.5 IP/G · 6.78 K/9 · 2.45 BB/9 · 77.0 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>5.11</b> ERA (<span class="rk-r">28th-Season</span>) | <b>3.19</b> ERA (<span class="rk-y">12th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-k">8-7</span> · <b>64</b> R (<span class="rk-y">20th</span>) · <b>125</b> H (<span class="rk-y">15th</span>) · <b>50</b> BB (<span class="rk-y">13th</span>) · <b>128</b> SO (<span class="rk-y">14th</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Twins +105 / Guardians -126</span></div><div class="odds-row"><span>RL</span><span>Twins +1.5 (-199) / Guardians -1.5 (+163)</span></div><div class="odds-row"><span>O/U</span><span>8 (O -107 / U -112)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/114.svg"> <span>Guardians</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/677944/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Slade Cecconi</div>
+          <div class="pline1">4-6, 4.55 ERA</div>
+          <div class="pline2">1.41 WHIP · 5.21 IP/G · 7.0 K/9 · 2.82 BB/9 · 99.0 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>3.71</b> ERA (<span class="rk-g">7th-Season</span>) | <b>2.67</b> ERA (<span class="rk-g">4th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-g">9-6</span> · <b>65</b> R (<span class="rk-y">19th</span>) · <b>130</b> H (<span class="rk-g">10th</span>) · <b>47</b> BB (<span class="rk-y">16th</span>) · <b>145</b> SO (<span class="rk-g">3rd</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Bailey Ober</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>04-19</td><td>Reds</td><td>6.1</td><td>3</td><td class="er0">0</td><td>4</td><td>10</td></tr><tr><td>04-25</td><td>Rays</td><td>6.0</td><td>3</td><td class="">2</td><td>2</td><td>3</td></tr><tr><td>04-30</td><td>Blue Jays</td><td>6.0</td><td>4</td><td class="">1</td><td>2</td><td>2</td></tr><tr><td>05-06</td><td>Nationals</td><td>5.0</td><td>6</td><td class="er5">5</td><td>2</td><td>3</td></tr><tr><td>05-12</td><td>Marlins</td><td>9.0</td><td>2</td><td class="er0">0</td><td>0</td><td>7</td></tr><tr><td>05-17</td><td>Brewers</td><td>5.0</td><td>6</td><td class="">3</td><td>2</td><td>1</td></tr><tr><td>05-24</td><td>Red Sox</td><td>5.0</td><td>7</td><td class="">4</td><td>0</td><td>3</td></tr><tr><td>05-30</td><td>Pirates</td><td>4.2</td><td>12</td><td class="er5">7</td><td>1</td><td>3</td></tr><tr><td>07-09</td><td>Guardians</td><td>5.0</td><td>3</td><td class="">1</td><td>1</td><td>5</td></tr><tr><td>07-17</td><td>Cubs</td><td>5.1</td><td>5</td><td class="">2</td><td>2</td><td>7</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Slade Cecconi</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-18</td><td>Tigers</td><td>7.1</td><td>5</td><td class="">2</td><td>2</td><td>4</td></tr><tr><td>05-23</td><td>Phillies</td><td>5.0</td><td>6</td><td class="">3</td><td>1</td><td>5</td></tr><tr><td>05-29</td><td>Red Sox</td><td>4.1</td><td>7</td><td class="">3</td><td>0</td><td>3</td></tr><tr><td>06-04</td><td>Yankees</td><td>6.0</td><td>4</td><td class="">1</td><td>1</td><td>4</td></tr><tr><td>06-09</td><td>Yankees</td><td>5.0</td><td>6</td><td class="">2</td><td>2</td><td>7</td></tr><tr><td>06-16</td><td>Brewers</td><td>5.2</td><td>3</td><td class="">1</td><td>2</td><td>4</td></tr><tr><td>06-21</td><td>Astros</td><td>6.0</td><td>6</td><td class="">2</td><td>2</td><td>1</td></tr><tr><td>06-27</td><td>Mariners</td><td>6.0</td><td>3</td><td class="er0">0</td><td>2</td><td>4</td></tr><tr><td>07-02</td><td>White Sox</td><td>5.0</td><td>9</td><td class="er5">5</td><td>1</td><td>3</td></tr><tr><td>07-08</td><td>Twins</td><td>3.2</td><td>6</td><td class="">3</td><td>1</td><td>4</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Twins</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Yankees</td><td>11-4</td><td class="w-win">W</td><td class="sp">Brendan Beck (9.45)</td></tr><tr><td>07-05</td><td>@</td><td>Yankees</td><td>6-1</td><td class="w-win">W</td><td class="sp">Ryan Weathers (4.40)</td></tr><tr><td>07-07</td><td>vs</td><td>Guardians</td><td>3-1</td><td class="w-win">W</td><td class="sp">Joey Cantillo (3.74)</td></tr><tr><td>07-08</td><td>vs</td><td>Guardians</td><td>6-5</td><td class="w-win">W</td><td class="sp">Slade Cecconi (4.55)</td></tr><tr><td>07-09</td><td>vs</td><td>Guardians</td><td>2-5</td><td class="w-loss">L</td><td class="sp">Gavin Williams (4.00)</td></tr><tr><td>07-10</td><td>vs</td><td>Angels</td><td>3-4</td><td class="w-loss">L</td><td class="sp">Grayson Rodriguez (8.23)</td></tr><tr><td>07-11</td><td>vs</td><td>Angels</td><td>5-3</td><td class="w-win">W</td><td class="sp">Ryan Johnson (6.10)</td></tr><tr><td>07-12</td><td>vs</td><td>Angels</td><td>4-2</td><td class="w-win">W</td><td class="sp">José Soriano (3.43)</td></tr><tr><td>07-17</td><td>@</td><td>Cubs</td><td>5-2</td><td class="w-win">W</td><td class="sp">Colin Rea (4.74)</td></tr><tr><td>07-18</td><td>@</td><td>Cubs</td><td>2-6</td><td class="w-loss">L</td><td class="sp">Matthew Boyd (4.15)</td></tr><tr><td>07-19</td><td>@</td><td>Cubs</td><td>1-10</td><td class="w-loss">L</td><td class="sp">Shota Imanaga (3.91)</td></tr><tr><td>07-20</td><td>@</td><td>Guardians</td><td>4-13</td><td class="w-loss">L</td><td class="sp">Tanner Bibee (3.86)</td></tr><tr><td>07-21</td><td>@</td><td>Guardians</td><td>2-5</td><td class="w-loss">L</td><td class="sp">Parker Messick (2.68)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Guardians</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>White Sox</td><td>1-3</td><td class="w-loss">L</td><td class="sp">Sean Burke (3.20)</td></tr><tr><td>07-05</td><td>vs</td><td>White Sox</td><td>6-7</td><td class="w-loss">L</td><td class="sp">Chris Murphy (4.30)</td></tr><tr><td>07-07</td><td>@</td><td>Twins</td><td>1-3</td><td class="w-loss">L</td><td class="sp">Taj Bradley (3.85)</td></tr><tr><td>07-08</td><td>@</td><td>Twins</td><td>5-6</td><td class="w-loss">L</td><td class="sp">Connor Prielipp (5.00)</td></tr><tr><td>07-09</td><td>@</td><td>Twins</td><td>5-2</td><td class="w-win">W</td><td class="sp">Bailey Ober (4.32)</td></tr><tr><td>07-10</td><td>@</td><td>Marlins</td><td>3-2</td><td class="w-win">W</td><td class="sp">Sandy Alcantara (3.89)</td></tr><tr><td>07-11</td><td>@</td><td>Marlins</td><td>4-1</td><td class="w-win">W</td><td class="sp">Eury Pérez (3.53)</td></tr><tr><td>07-12</td><td>@</td><td>Marlins</td><td>5-2</td><td class="w-win">W</td><td class="sp">Tyler Phillips (3.52)</td></tr><tr><td>07-18</td><td>vs</td><td>Pirates</td><td>1-7</td><td class="w-loss">L</td><td class="sp">Mason Montgomery (3.92)</td></tr><tr><td>07-18</td><td>vs</td><td>Pirates</td><td>5-3</td><td class="w-win">W</td><td class="sp">Mason Montgomery (3.92)</td></tr><tr><td>07-19</td><td>vs</td><td>Pirates</td><td>1-7</td><td class="w-loss">L</td><td class="sp">Paul Skenes (3.43)</td></tr><tr><td>07-20</td><td>vs</td><td>Twins</td><td>13-4</td><td class="w-win">W</td><td class="sp">Joe Ryan (3.38)</td></tr><tr><td>07-21</td><td>vs</td><td>Twins</td><td>5-2</td><td class="w-win">W</td><td class="sp">Kendry Rojas (3.32)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/twins" target="_blank" rel="noopener">Twins injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/guardians" target="_blank" rel="noopener">Guardians injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/119.svg"> Dodgers (63-38) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/143.svg"> Phillies (56-45)</div>
+      <div class="time">6:40p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/119.svg"> <span>Dodgers</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/641778/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Eric Lauer</div>
+          <div class="pline1">4-5, 4.81 ERA</div>
+          <div class="pline2">1.28 WHIP · 6.39 IP/G · 5.52 K/9 · 3.17 BB/9 · 153.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>3.76</b> ERA (<span class="rk-g">8th-Season</span>) | <b>4.04</b> ERA (<span class="rk-y">16th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-k">8-7</span> · <b>64</b> R (<span class="rk-y">20th</span>) · <b>113</b> H (<span class="rk-r">26th</span>) · <b>49</b> BB (<span class="rk-y">15th</span>) · <b>120</b> SO (<span class="rk-r">22nd</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Dodgers -120 / Phillies +100</span></div><div class="odds-row"><span>RL</span><span>Dodgers -1.5 (+129) / Phillies +1.5 (-156)</span></div><div class="odds-row"><span>O/U</span><span>9.5 (O -107 / U -113)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/143.svg"> <span>Phillies</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/605400/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Aaron Nola</div>
+          <div class="pline1">3-7, 5.68 ERA</div>
+          <div class="pline2">1.45 WHIP · 5.15 IP/G · 9.44 K/9 · 3.06 BB/9 · 103.0 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.38</b> ERA (<span class="rk-r">21st-Season</span>) | <b>6.36</b> ERA (<span class="rk-r">27th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-k">7-8</span> · <b>50</b> R (<span class="rk-r">30th</span>) · <b>112</b> H (<span class="rk-r">27th</span>) · <b>45</b> BB (<span class="rk-r">21st</span>) · <b>142</b> SO (<span class="rk-g">5th</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Eric Lauer</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>04-29</td><td>Red Sox</td><td>4.1</td><td>5</td><td class="">1</td><td>1</td><td>1</td></tr><tr><td>05-04</td><td>Rays</td><td>4.1</td><td>5</td><td class="">3</td><td>1</td><td>2</td></tr><tr><td>05-10</td><td>Angels</td><td>5.0</td><td>5</td><td class="er5">6</td><td>2</td><td>4</td></tr><tr><td>05-26</td><td>Rockies</td><td>6.0</td><td>4</td><td class="">1</td><td>1</td><td>4</td></tr><tr><td>06-02</td><td>D-backs</td><td>4.2</td><td>5</td><td class="">2</td><td>1</td><td>1</td></tr><tr><td>06-09</td><td>Pirates</td><td>5.2</td><td>3</td><td class="">2</td><td>0</td><td>5</td></tr><tr><td>06-15</td><td>Rays</td><td>6.0</td><td>6</td><td class="">3</td><td>3</td><td>4</td></tr><tr><td>06-22</td><td>Twins</td><td>6.0</td><td>0</td><td class="er0">0</td><td>3</td><td>2</td></tr><tr><td>06-29</td><td>Athletics</td><td>6.0</td><td>9</td><td class="">3</td><td>1</td><td>2</td></tr><tr><td>07-06</td><td>Rockies</td><td>6.0</td><td>6</td><td class="">3</td><td>2</td><td>3</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Aaron Nola</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-26</td><td>Padres</td><td>6.0</td><td>3</td><td class="">2</td><td>0</td><td>5</td></tr><tr><td>06-02</td><td>Padres</td><td>5.0</td><td>4</td><td class="">2</td><td>0</td><td>8</td></tr><tr><td>06-07</td><td>White Sox</td><td>4.1</td><td>6</td><td class="er5">5</td><td>4</td><td>4</td></tr><tr><td>06-13</td><td>Brewers</td><td>4.2</td><td>6</td><td class="">3</td><td>2</td><td>3</td></tr><tr><td>06-18</td><td>Mets</td><td>5.0</td><td>7</td><td class="">2</td><td>1</td><td>6</td></tr><tr><td>06-24</td><td>Nationals</td><td>5.0</td><td>3</td><td class="">2</td><td>2</td><td>5</td></tr><tr><td>06-29</td><td>Pirates</td><td>4.1</td><td>8</td><td class="er5">7</td><td>2</td><td>5</td></tr><tr><td>07-05</td><td>Royals</td><td>7.0</td><td>7</td><td class="">3</td><td>0</td><td>7</td></tr><tr><td>07-10</td><td>Tigers</td><td>5.0</td><td>3</td><td class="">2</td><td>2</td><td>8</td></tr><tr><td>07-16</td><td>Mets</td><td>6.0</td><td>6</td><td class="">3</td><td>4</td><td>6</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Dodgers</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Padres</td><td>3-0</td><td class="w-win">W</td><td class="sp">Wandy Peralta (2.32)</td></tr><tr><td>07-05</td><td>vs</td><td>Padres</td><td>2-5</td><td class="w-loss">L</td><td class="sp">JP Sears (4.38)</td></tr><tr><td>07-06</td><td>vs</td><td>Rockies</td><td>8-7</td><td class="w-win">W</td><td class="sp">Kyle Freeland (7.28)</td></tr><tr><td>07-07</td><td>vs</td><td>Rockies</td><td>3-4</td><td class="w-loss">L</td><td class="sp">Michael Lorenzen (6.53)</td></tr><tr><td>07-08</td><td>vs</td><td>Rockies</td><td>4-3</td><td class="w-win">W</td><td class="sp">Gabriel Hughes (3.14)</td></tr><tr><td>07-10</td><td>vs</td><td>D-backs</td><td>3-9</td><td class="w-loss">L</td><td class="sp">Eduardo Rodriguez (2.62)</td></tr><tr><td>07-11</td><td>vs</td><td>D-backs</td><td>2-9</td><td class="w-loss">L</td><td class="sp">Brandon Pfaadt (4.58)</td></tr><tr><td>07-12</td><td>vs</td><td>D-backs</td><td>3-5</td><td class="w-loss">L</td><td class="sp">Mitch Bratt (5.06)</td></tr><tr><td>07-17</td><td>@</td><td>Yankees</td><td>2-1</td><td class="w-win">W</td><td class="sp">Gerrit Cole (3.90)</td></tr><tr><td>07-19</td><td>@</td><td>Yankees</td><td>8-2</td><td class="w-win">W</td><td class="sp">Ryan Yarbrough (3.86)</td></tr><tr><td>07-19</td><td>@</td><td>Yankees</td><td>1-2</td><td class="w-loss">L</td><td class="sp">Ryan Yarbrough (3.86)</td></tr><tr><td>07-20</td><td>@</td><td>Phillies</td><td>7-10</td><td class="w-loss">L</td><td class="sp">Cristopher Sánchez (2.71)</td></tr><tr><td>07-21</td><td>@</td><td>Phillies</td><td>2-1</td><td class="w-win">W</td><td class="sp">Zack Wheeler (2.16)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Phillies</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Royals</td><td>6-1</td><td class="w-win">W</td><td class="sp">Michael Wacha (3.66)</td></tr><tr><td>07-05</td><td>@</td><td>Royals</td><td>2-5</td><td class="w-loss">L</td><td class="sp">Luinder Avila (4.86)</td></tr><tr><td>07-06</td><td>@</td><td>Royals</td><td>1-15</td><td class="w-loss">L</td><td class="sp">Noah Cameron (5.27)</td></tr><tr><td>07-07</td><td>@</td><td>Reds</td><td>4-1</td><td class="w-win">W</td><td class="sp">Andrew Abbott (3.89)</td></tr><tr><td>07-08</td><td>@</td><td>Reds</td><td>5-11</td><td class="w-loss">L</td><td class="sp">Chase Burns (2.42)</td></tr><tr><td>07-09</td><td>@</td><td>Reds</td><td>1-0</td><td class="w-win">W</td><td class="sp">Brady Singer (4.56)</td></tr><tr><td>07-10</td><td>@</td><td>Tigers</td><td>2-10</td><td class="w-loss">L</td><td class="sp">Jack Flaherty (4.59)</td></tr><tr><td>07-11</td><td>@</td><td>Tigers</td><td>4-2</td><td class="w-win">W</td><td class="sp">Casey Mize (2.79)</td></tr><tr><td>07-12</td><td>@</td><td>Tigers</td><td>5-0</td><td class="w-win">W</td><td class="sp">Tarik Skubal (2.83)</td></tr><tr><td>07-16</td><td>vs</td><td>Mets</td><td>1-4</td><td class="w-loss">L</td><td class="sp">Christian Scott (2.87)</td></tr><tr><td>07-18</td><td>vs</td><td>Mets</td><td>6-1</td><td class="w-win">W</td><td class="sp">Sean Manaea (4.74)</td></tr><tr><td>07-19</td><td>vs</td><td>Mets</td><td>1-6</td><td class="w-loss">L</td><td class="sp">Nolan McLean (3.34)</td></tr><tr><td>07-20</td><td>vs</td><td>Dodgers</td><td>10-7</td><td class="w-win">W</td><td class="sp">Emmet Sheehan (5.13)</td></tr><tr><td>07-21</td><td>vs</td><td>Dodgers</td><td>1-2</td><td class="w-loss">L</td><td class="sp">Justin Wrobleski (2.62)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/dodgers" target="_blank" rel="noopener">Dodgers injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/phillies" target="_blank" rel="noopener">Phillies injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/139.svg"> Rays (58-42) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/141.svg"> Blue Jays (46-55)</div>
+      <div class="time">7:07p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/139.svg"> <span>Rays</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/643377/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Griffin Jax</div>
+          <div class="pline1">5-7, 4.08 ERA</div>
+          <div class="pline2">1.27 WHIP · 5.0 IP/G · 9.24 K/9 · 3.12 BB/9 · 75.0 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.15</b> ERA (<span class="rk-y">17th-Season</span>) | <b>2.98</b> ERA (<span class="rk-g">9th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-r">6-9</span> · <b>66</b> R (<span class="rk-y">18th</span>) · <b>135</b> H (<span class="rk-g">7th</span>) · <b>39</b> BB (<span class="rk-r">25th</span>) · <b>112</b> SO (<span class="rk-r">29th</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Rays -107 / Blue Jays -112</span></div><div class="odds-row"><span>RL</span><span>Rays -1.5 (+157) / Blue Jays +1.5 (-191)</span></div><div class="odds-row"><span>O/U</span><span>8 (O -112 / U -108)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/141.svg"> <span>Blue Jays</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/680755/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Braydon Fisher</div>
+          <div class="pline1">3-3, 3.65 ERA</div>
+          <div class="pline2">1.18 WHIP · 8.22 IP/G<span class="mixedflag" title="Season IP includes relief innings, not just starts -- IP/G is inflated above what to expect from this start.">*</span> · 9.12 K/9 · 4.01 BB/9 · 49.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>3.92</b> ERA (<span class="rk-y">11th-Season</span>) | <b>5.21</b> ERA (<span class="rk-r">22nd-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-r">6-9</span> · <b>55</b> R (<span class="rk-r">27th</span>) · <b>106</b> H (<span class="rk-r">28th</span>) · <b>39</b> BB (<span class="rk-r">25th</span>) · <b>89</b> SO (<span class="rk-r">30th</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Griffin Jax</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-26</td><td>Orioles</td><td>2.0</td><td>4</td><td class="">1</td><td>0</td><td>3</td></tr><tr><td>06-01</td><td>Tigers</td><td>4.0</td><td>7</td><td class="er5">6</td><td>1</td><td>5</td></tr><tr><td>06-07</td><td>Marlins</td><td>5.0</td><td>3</td><td class="er0">0</td><td>2</td><td>4</td></tr><tr><td>06-13</td><td>Angels</td><td>5.0</td><td>5</td><td class="er0">0</td><td>0</td><td>5</td></tr><tr><td>06-19</td><td>Nationals</td><td>5.0</td><td>4</td><td class="">2</td><td>0</td><td>5</td></tr><tr><td>06-24</td><td>Royals</td><td>5.0</td><td>5</td><td class="er0">0</td><td>2</td><td>7</td></tr><tr><td>06-30</td><td>Royals</td><td>6.0</td><td>5</td><td class="">3</td><td>0</td><td>5</td></tr><tr><td>07-06</td><td>Yankees</td><td>5.0</td><td>1</td><td class="">3</td><td>2</td><td>10</td></tr><tr><td>07-11</td><td>Mariners</td><td>5.0</td><td>4</td><td class="">1</td><td>3</td><td>3</td></tr><tr><td>07-17</td><td>Red Sox</td><td>5.0</td><td>8</td><td class="er5">7</td><td>1</td><td>6</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Braydon Fisher</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>06-19</td><td>Cubs</td><td>1.0</td><td>1</td><td class="er0">0</td><td>1</td><td>0</td></tr><tr><td>06-22</td><td>Astros</td><td>1.1</td><td>0</td><td class="er0">0</td><td>0</td><td>0</td></tr><tr><td>06-23</td><td>Astros</td><td>2.0</td><td>1</td><td class="">2</td><td>1</td><td>2</td></tr><tr><td>06-27</td><td>Rangers</td><td>1.0</td><td>1</td><td class="">1</td><td>0</td><td>0</td></tr><tr><td>07-01</td><td>Mets</td><td>1.0</td><td>0</td><td class="er0">0</td><td>1</td><td>1</td></tr><tr><td>07-04</td><td>Mariners</td><td>1.0</td><td>0</td><td class="er0">0</td><td>0</td><td>3</td></tr><tr><td>07-11</td><td>Padres</td><td>1.0</td><td>2</td><td class="">1</td><td>1</td><td>2</td></tr><tr><td>07-17</td><td>White Sox</td><td>0.2</td><td>1</td><td class="">1</td><td>0</td><td>0</td></tr><tr><td>07-19</td><td>White Sox</td><td>0.2</td><td>1</td><td class="er0">0</td><td>0</td><td>1</td></tr><tr><td>07-20</td><td>Rays</td><td>1.0</td><td>2</td><td class="">1</td><td>0</td><td>1</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Rays</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Astros</td><td>8-10</td><td class="w-loss">L</td><td class="sp">Hunter Brown (4.05)</td></tr><tr><td>07-05</td><td>@</td><td>Astros</td><td>0-2</td><td class="w-loss">L</td><td class="sp">Peter Lambert (3.03)</td></tr><tr><td>07-06</td><td>vs</td><td>Yankees</td><td>1-5</td><td class="w-loss">L</td><td class="sp">Cam Schlittler (2.20)</td></tr><tr><td>07-07</td><td>vs</td><td>Yankees</td><td>6-4</td><td class="w-win">W</td><td class="sp">Will Warren (4.03)</td></tr><tr><td>07-08</td><td>vs</td><td>Yankees</td><td>3-0</td><td class="w-win">W</td><td class="sp">Gerrit Cole (3.90)</td></tr><tr><td>07-09</td><td>vs</td><td>Yankees</td><td>4-12</td><td class="w-loss">L</td><td class="sp">Paul Blackburn (2.08)</td></tr><tr><td>07-10</td><td>vs</td><td>Mariners</td><td>7-2</td><td class="w-win">W</td><td class="sp">Luis Castillo (4.85)</td></tr><tr><td>07-11</td><td>vs</td><td>Mariners</td><td>6-1</td><td class="w-win">W</td><td class="sp">Logan Gilbert (3.38)</td></tr><tr><td>07-12</td><td>vs</td><td>Mariners</td><td>2-8</td><td class="w-loss">L</td><td class="sp">Emerson Hancock (3.17)</td></tr><tr><td>07-17</td><td>@</td><td>Red Sox</td><td>0-10</td><td class="w-loss">L</td><td class="sp">Eduardo Rivera (2.89)</td></tr><tr><td>07-17</td><td>@</td><td>Red Sox</td><td>3-5</td><td class="w-loss">L</td><td class="sp">Eduardo Rivera (2.89)</td></tr><tr><td>07-18</td><td>@</td><td>Red Sox</td><td>6-7</td><td class="w-loss">L</td><td class="sp">Patrick Sandoval (4.82)</td></tr><tr><td>07-19</td><td>@</td><td>Red Sox</td><td>1-6</td><td class="w-loss">L</td><td class="sp">Sonny Gray (2.48)</td></tr><tr><td>07-20</td><td>@</td><td>Blue Jays</td><td>7-1</td><td class="w-win">W</td><td class="sp">Dylan Cease (2.67)</td></tr><tr><td>07-21</td><td>@</td><td>Blue Jays</td><td>12-2</td><td class="w-win">W</td><td class="sp">Kevin Gausman (4.51)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Blue Jays</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Mariners</td><td>0-11</td><td class="w-loss">L</td><td class="sp">Logan Gilbert (3.38)</td></tr><tr><td>07-05</td><td>@</td><td>Mariners</td><td>0-4</td><td class="w-loss">L</td><td class="sp">Emerson Hancock (3.17)</td></tr><tr><td>07-06</td><td>@</td><td>Giants</td><td>1-10</td><td class="w-loss">L</td><td class="sp">Landen Roupp (3.98)</td></tr><tr><td>07-07</td><td>@</td><td>Giants</td><td>9-3</td><td class="w-win">W</td><td class="sp">Trevor McDonald (5.12)</td></tr><tr><td>07-08</td><td>@</td><td>Giants</td><td>10-0</td><td class="w-win">W</td><td class="sp">Logan Webb (3.87)</td></tr><tr><td>07-10</td><td>@</td><td>Padres</td><td>5-3</td><td class="w-win">W</td><td class="sp">JP Sears (4.38)</td></tr><tr><td>07-11</td><td>@</td><td>Padres</td><td>7-8</td><td class="w-loss">L</td><td class="sp">Walker Buehler (5.23)</td></tr><tr><td>07-12</td><td>@</td><td>Padres</td><td>4-5</td><td class="w-loss">L</td><td class="sp">Germán Márquez (5.24)</td></tr><tr><td>07-17</td><td>vs</td><td>White Sox</td><td>4-12</td><td class="w-loss">L</td><td class="sp">Anthony Kay (4.24)</td></tr><tr><td>07-18</td><td>vs</td><td>White Sox</td><td>1-0</td><td class="w-win">W</td><td class="sp">Davis Martin (3.31)</td></tr><tr><td>07-19</td><td>vs</td><td>White Sox</td><td>0-3</td><td class="w-loss">L</td><td class="sp">Sean Burke (3.20)</td></tr><tr><td>07-20</td><td>vs</td><td>Rays</td><td>1-7</td><td class="w-loss">L</td><td class="sp">Nick Martinez (2.59)</td></tr><tr><td>07-21</td><td>vs</td><td>Rays</td><td>2-12</td><td class="w-loss">L</td><td class="sp">Drew Rasmussen (3.28)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/rays" target="_blank" rel="noopener">Rays injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/blue-jays" target="_blank" rel="noopener">Blue Jays injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/135.svg"> Padres (50-51) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/144.svg"> Braves (58-42)</div>
+      <div class="time">7:15p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/135.svg"> <span>Padres</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/650633/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Michael King</div>
+          <div class="pline1">6-7, 3.34 ERA</div>
+          <div class="pline2">1.16 WHIP · 5.67 IP/G · 7.62 K/9 · 3.57 BB/9 · 113.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>3.66</b> ERA (<span class="rk-g">6th-Season</span>) | <b>5.52</b> ERA (<span class="rk-r">24th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-k">7-8</span> · <b>75</b> R (<span class="rk-g">7th</span>) · <b>128</b> H (<span class="rk-y">12th</span>) · <b>57</b> BB (<span class="rk-g">6th</span>) · <b>118</b> SO (<span class="rk-r">26th</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Padres -103 / Braves -117</span></div><div class="odds-row"><span>RL</span><span>Padres -1.5 (+154) / Braves +1.5 (-188)</span></div><div class="odds-row"><span>O/U</span><span>8.5 (O -120 / U +100)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/144.svg"> <span>Braves</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/527048/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Martín Pérez</div>
+          <div class="pline1">6-6, 3.54 ERA</div>
+          <div class="pline2">1.19 WHIP · 5.81 IP/G · 6.86 K/9 · 3.54 BB/9 · 81.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>3.14</b> ERA (<span class="rk-g">3rd-Season</span>) | <b>4.66</b> ERA (<span class="rk-y">19th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-k">8-7</span> · <b>92</b> R (<span class="rk-g">4th</span>) · <b>135</b> H (<span class="rk-g">7th</span>) · <b>52</b> BB (<span class="rk-y">11th</span>) · <b>133</b> SO (<span class="rk-g">10th</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Michael King</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-24</td><td>Athletics</td><td>3.2</td><td>5</td><td class="">4</td><td>4</td><td>4</td></tr><tr><td>05-30</td><td>Nationals</td><td>6.0</td><td>5</td><td class="er5">5</td><td>1</td><td>2</td></tr><tr><td>06-05</td><td>Mets</td><td>6.0</td><td>6</td><td class="">4</td><td>0</td><td>4</td></tr><tr><td>06-10</td><td>Reds</td><td>6.2</td><td>7</td><td class="">3</td><td>3</td><td>3</td></tr><tr><td>06-16</td><td>Cardinals</td><td>4.1</td><td>5</td><td class="">3</td><td>3</td><td>1</td></tr><tr><td>06-22</td><td>Braves</td><td>7.0</td><td>6</td><td class="er0">0</td><td>0</td><td>5</td></tr><tr><td>06-28</td><td>Dodgers</td><td>4.1</td><td>3</td><td class="">4</td><td>4</td><td>5</td></tr><tr><td>07-03</td><td>Dodgers</td><td>6.0</td><td>3</td><td class="">2</td><td>2</td><td>5</td></tr><tr><td>07-08</td><td>D-backs</td><td>6.0</td><td>4</td><td class="">1</td><td>2</td><td>4</td></tr><tr><td>07-17</td><td>Royals</td><td>5.0</td><td>4</td><td class="">1</td><td>2</td><td>4</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Martín Pérez</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-16</td><td>Red Sox</td><td>1.0</td><td>0</td><td class="er0">0</td><td>0</td><td>2</td></tr><tr><td>05-19</td><td>Marlins</td><td>5.0</td><td>5</td><td class="">4</td><td>2</td><td>10</td></tr><tr><td>05-24</td><td>Nationals</td><td>5.2</td><td>5</td><td class="">1</td><td>2</td><td>2</td></tr><tr><td>05-30</td><td>Reds</td><td>5.0</td><td>4</td><td class="">2</td><td>3</td><td>2</td></tr><tr><td>06-05</td><td>Pirates</td><td>5.0</td><td>3</td><td class="">3</td><td>2</td><td>5</td></tr><tr><td>06-13</td><td>Mets</td><td>5.1</td><td>4</td><td class="">1</td><td>1</td><td>4</td></tr><tr><td>06-19</td><td>Brewers</td><td>6.0</td><td>6</td><td class="">1</td><td>2</td><td>5</td></tr><tr><td>06-24</td><td>Padres</td><td>4.0</td><td>4</td><td class="">3</td><td>4</td><td>4</td></tr><tr><td>06-30</td><td>Cardinals</td><td>5.0</td><td>5</td><td class="">4</td><td>3</td><td>1</td></tr><tr><td>07-05</td><td>Mets</td><td>4.1</td><td>6</td><td class="">4</td><td>2</td><td>1</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Padres</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Dodgers</td><td>0-3</td><td class="w-loss">L</td><td class="sp">Yoshinobu Yamamoto (2.78)</td></tr><tr><td>07-05</td><td>@</td><td>Dodgers</td><td>5-2</td><td class="w-win">W</td><td class="sp">Emmet Sheehan (5.13)</td></tr><tr><td>07-06</td><td>vs</td><td>D-backs</td><td>0-8</td><td class="w-loss">L</td><td class="sp">Brandon Pfaadt (4.58)</td></tr><tr><td>07-07</td><td>vs</td><td>D-backs</td><td>4-1</td><td class="w-win">W</td><td class="sp">Zac Gallen (6.34)</td></tr><tr><td>07-08</td><td>vs</td><td>D-backs</td><td>10-4</td><td class="w-win">W</td><td class="sp">Jose Cabrera (5.60)</td></tr><tr><td>07-09</td><td>vs</td><td>D-backs</td><td>1-3</td><td class="w-loss">L</td><td class="sp">Merrill Kelly (5.20)</td></tr><tr><td>07-10</td><td>vs</td><td>Blue Jays</td><td>3-5</td><td class="w-loss">L</td><td class="sp">Shane Bieber (5.70)</td></tr><tr><td>07-11</td><td>vs</td><td>Blue Jays</td><td>8-7</td><td class="w-win">W</td><td class="sp">Trey Yesavage (3.78)</td></tr><tr><td>07-12</td><td>vs</td><td>Blue Jays</td><td>5-4</td><td class="w-win">W</td><td class="sp">Kevin Gausman (4.51)</td></tr><tr><td>07-17</td><td>@</td><td>Royals</td><td>6-7</td><td class="w-loss">L</td><td class="sp">Seth Lugo (4.39)</td></tr><tr><td>07-18</td><td>@</td><td>Royals</td><td>1-6</td><td class="w-loss">L</td><td class="sp">Randy Dobnak (1.93)</td></tr><tr><td>07-19</td><td>@</td><td>Royals</td><td>19-2</td><td class="w-win">W</td><td class="sp">Noah Cameron (5.27)</td></tr><tr><td>07-20</td><td>@</td><td>Braves</td><td>2-3</td><td class="w-loss">L</td><td class="sp">Bryce Elder (4.06)</td></tr><tr><td>07-21</td><td>@</td><td>Braves</td><td>8-3</td><td class="w-win">W</td><td class="sp">Reynaldo López (3.95)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Braves</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Mets</td><td>14-3</td><td class="w-win">W</td><td class="sp">Sean Manaea (4.74)</td></tr><tr><td>07-05</td><td>vs</td><td>Mets</td><td>9-10</td><td class="w-loss">L</td><td class="sp">Nolan McLean (3.34)</td></tr><tr><td>07-06</td><td>vs</td><td>Mets</td><td>6-7</td><td class="w-loss">L</td><td class="sp">Freddy Peralta (5.01)</td></tr><tr><td>07-07</td><td>@</td><td>Pirates</td><td>4-12</td><td class="w-loss">L</td><td class="sp">Paul Skenes (3.43)</td></tr><tr><td>07-08</td><td>@</td><td>Pirates</td><td>3-0</td><td class="w-win">W</td><td class="sp">Jared Jones (4.05)</td></tr><tr><td>07-09</td><td>@</td><td>Pirates</td><td>10-5</td><td class="w-win">W</td><td class="sp">Mitch Keller (5.14)</td></tr><tr><td>07-10</td><td>@</td><td>Cardinals</td><td>1-2</td><td class="w-loss">L</td><td class="sp">Kyle Leahy (3.59)</td></tr><tr><td>07-11</td><td>@</td><td>Cardinals</td><td>1-4</td><td class="w-loss">L</td><td class="sp">Matthew Liberatore (5.18)</td></tr><tr><td>07-12</td><td>@</td><td>Cardinals</td><td>4-3</td><td class="w-win">W</td><td class="sp">Dustin May (4.78)</td></tr><tr><td>07-17</td><td>vs</td><td>Rangers</td><td>15-1</td><td class="w-win">W</td><td class="sp">Cal Quantrill (3.93)</td></tr><tr><td>07-18</td><td>vs</td><td>Rangers</td><td>6-7</td><td class="w-loss">L</td><td class="sp">MacKenzie Gore (4.80)</td></tr><tr><td>07-19</td><td>vs</td><td>Rangers</td><td>8-5</td><td class="w-win">W</td><td class="sp">Nathan Eovaldi (4.21)</td></tr><tr><td>07-20</td><td>vs</td><td>Padres</td><td>3-2</td><td class="w-win">W</td><td class="sp">JP Sears (4.38)</td></tr><tr><td>07-21</td><td>vs</td><td>Padres</td><td>3-8</td><td class="w-loss">L</td><td class="sp">Walker Buehler (5.23)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/padres" target="_blank" rel="noopener">Padres injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/braves" target="_blank" rel="noopener">Braves injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/145.svg"> White Sox (53-46) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/140.svg"> Rangers (50-50)</div>
+      <div class="time">8:05p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/145.svg"> <span>White Sox</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/641743/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Anthony Kay</div>
+          <div class="pline1">6-4, 4.24 ERA</div>
+          <div class="pline2">1.37 WHIP · 5.19 IP/G · 7.33 K/9 · 3.66 BB/9 · 93.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>3.92</b> ERA (<span class="rk-y">11th-Season</span>) | <b>2.93</b> ERA (<span class="rk-g">8th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-k">8-7</span> · <b>69</b> R (<span class="rk-y">14th</span>) · <b>116</b> H (<span class="rk-r">23rd</span>) · <b>44</b> BB (<span class="rk-r">22nd</span>) · <b>128</b> SO (<span class="rk-y">14th</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>White Sox -110 / Rangers -110</span></div><div class="odds-row"><span>RL</span><span>White Sox -1.5 (+151) / Rangers +1.5 (-183)</span></div><div class="odds-row"><span>O/U</span><span>8.5 (O -118 / U -102)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/140.svg"> <span>Rangers</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/615698/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Cal Quantrill</div>
+          <div class="pline1">3-2, 3.93 ERA</div>
+          <div class="pline2">1.29 WHIP · 10.07 IP/G<span class="mixedflag" title="Season IP includes relief innings, not just starts -- IP/G is inflated above what to expect from this start.">*</span> · 5.54 K/9 · 2.5 BB/9 · 50.1 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.26</b> ERA (<span class="rk-y">20th-Season</span>) | <b>6.83</b> ERA (<span class="rk-r">28th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-k">7-8</span> · <b>75</b> R (<span class="rk-g">7th</span>) · <b>138</b> H (<span class="rk-g">4th</span>) · <b>44</b> BB (<span class="rk-r">22nd</span>) · <b>120</b> SO (<span class="rk-r">22nd</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Anthony Kay</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-25</td><td>Twins</td><td>6.0</td><td>5</td><td class="">1</td><td>1</td><td>5</td></tr><tr><td>05-30</td><td>Tigers</td><td>5.0</td><td>6</td><td class="">1</td><td>1</td><td>3</td></tr><tr><td>06-05</td><td>Phillies</td><td>4.0</td><td>7</td><td class="er5">6</td><td>2</td><td>4</td></tr><tr><td>06-12</td><td>Dodgers</td><td>5.0</td><td>4</td><td class="">2</td><td>1</td><td>7</td></tr><tr><td>06-17</td><td>Yankees</td><td>4.0</td><td>6</td><td class="">4</td><td>1</td><td>2</td></tr><tr><td>06-22</td><td>Guardians</td><td>6.0</td><td>3</td><td class="er0">0</td><td>2</td><td>8</td></tr><tr><td>06-28</td><td>Royals</td><td>3.2</td><td>7</td><td class="">3</td><td>1</td><td>2</td></tr><tr><td>07-03</td><td>Guardians</td><td>4.0</td><td>1</td><td class="">1</td><td>2</td><td>2</td></tr><tr><td>07-09</td><td>Red Sox</td><td>5.1</td><td>4</td><td class="">2</td><td>2</td><td>4</td></tr><tr><td>07-17</td><td>Blue Jays</td><td>4.0</td><td>2</td><td class="">2</td><td>3</td><td>5</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Cal Quantrill</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>06-03</td><td>Cardinals</td><td>0.2</td><td>0</td><td class="er0">0</td><td>0</td><td>1</td></tr><tr><td>06-06</td><td>Guardians</td><td>2.1</td><td>1</td><td class="er0">0</td><td>1</td><td>2</td></tr><tr><td>06-12</td><td>Red Sox</td><td>2.0</td><td>1</td><td class="">1</td><td>0</td><td>1</td></tr><tr><td>06-16</td><td>Twins</td><td>0.2</td><td>3</td><td class="">3</td><td>1</td><td>0</td></tr><tr><td>06-18</td><td>Twins</td><td>2.0</td><td>4</td><td class="">2</td><td>0</td><td>1</td></tr><tr><td>06-23</td><td>Marlins</td><td>2.0</td><td>3</td><td class="">1</td><td>0</td><td>1</td></tr><tr><td>06-27</td><td>Blue Jays</td><td>4.0</td><td>2</td><td class="er0">0</td><td>1</td><td>5</td></tr><tr><td>07-04</td><td>Tigers</td><td>5.0</td><td>3</td><td class="">2</td><td>1</td><td>2</td></tr><tr><td>07-10</td><td>Astros</td><td>6.0</td><td>5</td><td class="">1</td><td>1</td><td>1</td></tr><tr><td>07-17</td><td>Braves</td><td>4.0</td><td>11</td><td class="er5">6</td><td>1</td><td>3</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">White Sox</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Guardians</td><td>3-1</td><td class="w-win">W</td><td class="sp">Parker Messick (2.68)</td></tr><tr><td>07-05</td><td>@</td><td>Guardians</td><td>7-6</td><td class="w-win">W</td><td class="sp">Tanner Bibee (3.86)</td></tr><tr><td>07-07</td><td>vs</td><td>Red Sox</td><td>1-8</td><td class="w-loss">L</td><td class="sp">Payton Tolle (3.31)</td></tr><tr><td>07-08</td><td>vs</td><td>Red Sox</td><td>0-5</td><td class="w-loss">L</td><td class="sp">Jake Bennett (2.35)</td></tr><tr><td>07-09</td><td>vs</td><td>Red Sox</td><td>1-2</td><td class="w-loss">L</td><td class="sp">Patrick Sandoval (4.82)</td></tr><tr><td>07-10</td><td>vs</td><td>Athletics</td><td>14-1</td><td class="w-win">W</td><td class="sp">Jacob Lopez (6.64)</td></tr><tr><td>07-11</td><td>vs</td><td>Athletics</td><td>1-0</td><td class="w-win">W</td><td class="sp">Gage Jump (3.78)</td></tr><tr><td>07-12</td><td>vs</td><td>Athletics</td><td>9-1</td><td class="w-win">W</td><td class="sp">J.T. Ginn (3.46)</td></tr><tr><td>07-17</td><td>@</td><td>Blue Jays</td><td>12-4</td><td class="w-win">W</td><td class="sp">Spencer Miles (3.52)</td></tr><tr><td>07-18</td><td>@</td><td>Blue Jays</td><td>0-1</td><td class="w-loss">L</td><td class="sp">Shane Bieber (5.70)</td></tr><tr><td>07-19</td><td>@</td><td>Blue Jays</td><td>3-0</td><td class="w-win">W</td><td class="sp">Trey Yesavage (3.78)</td></tr><tr><td>07-20</td><td>@</td><td>Rangers</td><td>10-3</td><td class="w-win">W</td><td class="sp">Jacob deGrom (3.76)</td></tr><tr><td>07-21</td><td>@</td><td>Rangers</td><td>0-10</td><td class="w-loss">L</td><td class="sp">Kumar Rocker (4.13)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Rangers</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Tigers</td><td>0-3</td><td class="w-loss">L</td><td class="sp">Jack Flaherty (4.59)</td></tr><tr><td>07-05</td><td>vs</td><td>Tigers</td><td>3-6</td><td class="w-loss">L</td><td class="sp">Casey Mize (2.79)</td></tr><tr><td>07-07</td><td>vs</td><td>Angels</td><td>8-3</td><td class="w-win">W</td><td class="sp">José Soriano (3.43)</td></tr><tr><td>07-08</td><td>vs</td><td>Angels</td><td>1-13</td><td class="w-loss">L</td><td class="sp">Walbert Ureña (2.78)</td></tr><tr><td>07-09</td><td>vs</td><td>Angels</td><td>7-6</td><td class="w-win">W</td><td class="sp">Reid Detmers (4.16)</td></tr><tr><td>07-10</td><td>vs</td><td>Astros</td><td>7-3</td><td class="w-win">W</td><td class="sp">Hunter Brown (4.05)</td></tr><tr><td>07-11</td><td>vs</td><td>Astros</td><td>3-9</td><td class="w-loss">L</td><td class="sp">Peter Lambert (3.03)</td></tr><tr><td>07-12</td><td>vs</td><td>Astros</td><td>6-5</td><td class="w-win">W</td><td class="sp">Cristian Javier (9.37)</td></tr><tr><td>07-17</td><td>@</td><td>Braves</td><td>1-15</td><td class="w-loss">L</td><td class="sp">Chris Sale (2.06)</td></tr><tr><td>07-18</td><td>@</td><td>Braves</td><td>7-6</td><td class="w-win">W</td><td class="sp">Owen Murphy (4.05)</td></tr><tr><td>07-19</td><td>@</td><td>Braves</td><td>5-8</td><td class="w-loss">L</td><td class="sp">Grant Holmes (3.70)</td></tr><tr><td>07-20</td><td>vs</td><td>White Sox</td><td>3-10</td><td class="w-loss">L</td><td class="sp">Erick Fedde (4.16)</td></tr><tr><td>07-21</td><td>vs</td><td>White Sox</td><td>10-0</td><td class="w-win">W</td><td class="sp">Noah Schultz (6.04)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/white-sox" target="_blank" rel="noopener">White Sox injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/rangers" target="_blank" rel="noopener">Rangers injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/116.svg"> Tigers (47-53) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/112.svg"> Cubs (56-44)</div>
+      <div class="time">8:10p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/116.svg"> <span>Tigers</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/672456/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Keider Montero</div>
+          <div class="pline1">6-5, 3.22 ERA</div>
+          <div class="pline2">0.98 WHIP · 6.71 IP/G · 6.26 K/9 · 1.97 BB/9 · 100.2 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>3.86</b> ERA (<span class="rk-g">10th-Season</span>) | <b>3.18</b> ERA (<span class="rk-y">11th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-g">10-5</span> · <b>68</b> R (<span class="rk-y">16th</span>) · <b>114</b> H (<span class="rk-r">24th</span>) · <b>46</b> BB (<span class="rk-y">20th</span>) · <b>141</b> SO (<span class="rk-g">7th</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Tigers +104 / Cubs -125</span></div><div class="odds-row"><span>RL</span><span>Tigers +1.5 (-208) / Cubs -1.5 (+170)</span></div><div class="odds-row"><span>O/U</span><span>8 (O -109 / U -110)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/112.svg"> <span>Cubs</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/607067/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Colin Rea</div>
+          <div class="pline1">7-6, 4.74 ERA</div>
+          <div class="pline2">1.42 WHIP · 6.29 IP/G · 6.79 K/9 · 3.31 BB/9 · 100.2 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.09</b> ERA (<span class="rk-y">15th-Season</span>) | <b>5.40</b> ERA (<span class="rk-r">23rd-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-g">9-6</span> · <b>94</b> R (<span class="rk-g">3rd</span>) · <b>136</b> H (<span class="rk-g">6th</span>) · <b>64</b> BB (<span class="rk-g">3rd</span>) · <b>129</b> SO (<span class="rk-y">11th</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Keider Montero</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>06-06</td><td>Mariners</td><td>5.0</td><td>6</td><td class="">4</td><td>1</td><td>1</td></tr><tr><td>06-11</td><td>Twins</td><td>6.1</td><td>4</td><td class="er0">0</td><td>1</td><td>4</td></tr><tr><td>06-16</td><td>Astros</td><td>1.1</td><td>2</td><td class="">1</td><td>0</td><td>2</td></tr><tr><td>06-21</td><td>White Sox</td><td>7.0</td><td>6</td><td class="">3</td><td>0</td><td>3</td></tr><tr><td>06-26</td><td>Astros</td><td>7.0</td><td>6</td><td class="er0">0</td><td>1</td><td>3</td></tr><tr><td>07-01</td><td>Yankees</td><td>2.0</td><td>0</td><td class="er0">0</td><td>1</td><td>3</td></tr><tr><td>07-04</td><td>Rangers</td><td>3.0</td><td>0</td><td class="er0">0</td><td>1</td><td>0</td></tr><tr><td>07-08</td><td>Athletics</td><td>1.2</td><td>2</td><td class="er0">0</td><td>1</td><td>1</td></tr><tr><td>07-12</td><td>Phillies</td><td>3.0</td><td>4</td><td class="">3</td><td>1</td><td>5</td></tr><tr><td>07-17</td><td>Angels</td><td>3.1</td><td>1</td><td class="er0">0</td><td>0</td><td>5</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Colin Rea</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-23</td><td>Astros</td><td>7.0</td><td>4</td><td class="">3</td><td>3</td><td>4</td></tr><tr><td>05-28</td><td>Pirates</td><td>5.1</td><td>4</td><td class="">2</td><td>3</td><td>5</td></tr><tr><td>06-03</td><td>Athletics</td><td>5.1</td><td>4</td><td class="">2</td><td>2</td><td>3</td></tr><tr><td>06-09</td><td>Rockies</td><td>4.2</td><td>9</td><td class="er5">7</td><td>3</td><td>2</td></tr><tr><td>06-14</td><td>Giants</td><td>4.2</td><td>6</td><td class="">4</td><td>3</td><td>2</td></tr><tr><td>06-20</td><td>Blue Jays</td><td>5.1</td><td>3</td><td class="er0">0</td><td>0</td><td>3</td></tr><tr><td>06-26</td><td>Brewers</td><td>5.0</td><td>5</td><td class="">1</td><td>3</td><td>4</td></tr><tr><td>07-01</td><td>Padres</td><td>5.0</td><td>6</td><td class="">2</td><td>3</td><td>5</td></tr><tr><td>07-08</td><td>Orioles</td><td>5.1</td><td>7</td><td class="">3</td><td>2</td><td>2</td></tr><tr><td>07-17</td><td>Twins</td><td>6.0</td><td>5</td><td class="">3</td><td>1</td><td>6</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Tigers</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Rangers</td><td>3-0</td><td class="w-win">W</td><td class="sp">Cal Quantrill (3.93)</td></tr><tr><td>07-05</td><td>@</td><td>Rangers</td><td>6-3</td><td class="w-win">W</td><td class="sp">Kumar Rocker (4.13)</td></tr><tr><td>07-07</td><td>vs</td><td>Athletics</td><td>6-2</td><td class="w-win">W</td><td class="sp">J.T. Ginn (3.46)</td></tr><tr><td>07-08</td><td>vs</td><td>Athletics</td><td>6-1</td><td class="w-win">W</td><td class="sp">Jeffrey Springs (5.96)</td></tr><tr><td>07-09</td><td>vs</td><td>Athletics</td><td>4-1</td><td class="w-win">W</td><td class="sp">José Suarez (4.42)</td></tr><tr><td>07-10</td><td>vs</td><td>Phillies</td><td>10-2</td><td class="w-win">W</td><td class="sp">Aaron Nola (5.68)</td></tr><tr><td>07-11</td><td>vs</td><td>Phillies</td><td>2-4</td><td class="w-loss">L</td><td class="sp">Cristopher Sánchez (2.71)</td></tr><tr><td>07-12</td><td>vs</td><td>Phillies</td><td>0-5</td><td class="w-loss">L</td><td class="sp">Zack Wheeler (2.16)</td></tr><tr><td>07-17</td><td>@</td><td>Angels</td><td>2-1</td><td class="w-win">W</td><td class="sp">Reid Detmers (4.16)</td></tr><tr><td>07-18</td><td>@</td><td>Angels</td><td>7-0</td><td class="w-win">W</td><td class="sp">Grayson Rodriguez (8.23)</td></tr><tr><td>07-19</td><td>@</td><td>Angels</td><td>2-3</td><td class="w-loss">L</td><td class="sp">Ryan Johnson (6.10)</td></tr><tr><td>07-20</td><td>@</td><td>Cubs</td><td>8-6</td><td class="w-win">W</td><td class="sp">Jameson Taillon (5.38)</td></tr><tr><td>07-21</td><td>@</td><td>Cubs</td><td>2-11</td><td class="w-loss">L</td><td class="sp">David Peterson (5.97)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Cubs</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Cardinals</td><td>0-3</td><td class="w-loss">L</td><td class="sp">Kyle Leahy (3.59)</td></tr><tr><td>07-05</td><td>vs</td><td>Cardinals</td><td>6-4</td><td class="w-win">W</td><td class="sp">Matthew Liberatore (5.18)</td></tr><tr><td>07-07</td><td>@</td><td>Orioles</td><td>5-2</td><td class="w-win">W</td><td class="sp">Shane Baz (4.13)</td></tr><tr><td>07-08</td><td>@</td><td>Orioles</td><td>9-7</td><td class="w-win">W</td><td class="sp">Dean Kremer (4.15)</td></tr><tr><td>07-09</td><td>@</td><td>Orioles</td><td>2-3</td><td class="w-loss">L</td><td class="sp">Trevor Rogers (4.28)</td></tr><tr><td>07-10</td><td>@</td><td>Reds</td><td>0-4</td><td class="w-loss">L</td><td class="sp">Hunter Greene (6.06)</td></tr><tr><td>07-11</td><td>@</td><td>Reds</td><td>5-3</td><td class="w-win">W</td><td class="sp">Nick Lodolo (4.60)</td></tr><tr><td>07-12</td><td>@</td><td>Reds</td><td>8-4</td><td class="w-win">W</td><td class="sp">Andrew Abbott (3.89)</td></tr><tr><td>07-17</td><td>vs</td><td>Twins</td><td>2-5</td><td class="w-loss">L</td><td class="sp">Bailey Ober (4.32)</td></tr><tr><td>07-18</td><td>vs</td><td>Twins</td><td>6-2</td><td class="w-win">W</td><td class="sp">Taj Bradley (3.85)</td></tr><tr><td>07-19</td><td>vs</td><td>Twins</td><td>10-1</td><td class="w-win">W</td><td class="sp">Zebby Matthews (5.40)</td></tr><tr><td>07-20</td><td>vs</td><td>Tigers</td><td>6-8</td><td class="w-loss">L</td><td class="sp">Jack Flaherty (4.59)</td></tr><tr><td>07-21</td><td>vs</td><td>Tigers</td><td>11-2</td><td class="w-win">W</td><td class="sp">Framber Valdez (4.57)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/tigers" target="_blank" rel="noopener">Tigers injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/cubs" target="_blank" rel="noopener">Cubs injuries</a></div>
+    </div><div class="game">
+      <div class="cardhdr">
+      <div class="matchup"><img class="tlogo" src="https://www.mlbstatic.com/team-logos/146.svg"> Marlins (52-49) @ <img class="tlogo" src="https://www.mlbstatic.com/team-logos/117.svg"> Astros (48-54)</div>
+      <div class="time">8:10p</div>
+    </div>
+      <div class="cardbody"><div class="pblock left">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/146.svg"> <span>Marlins</span> <span class="side">Away</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/645261/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Sandy Alcantara</div>
+          <div class="pline1">10-5, 3.89 ERA</div>
+          <div class="pline2">1.22 WHIP · 6.51 IP/G · 7.05 K/9 · 2.44 BB/9 · 136.2 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>3.80</b> ERA (<span class="rk-g">9th-Season</span>) | <b>5.97</b> ERA (<span class="rk-r">26th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-r">6-9</span> · <b>69</b> R (<span class="rk-y">14th</span>) · <b>133</b> H (<span class="rk-g">9th</span>) · <b>56</b> BB (<span class="rk-g">7th</span>) · <b>125</b> SO (<span class="rk-y">17th</span>)</div>
+    </div><div class="oddscol"><div class="oddslbl">DraftKings</div><div class="odds-row"><span>ML</span><span>Marlins -101 / Astros -120</span></div><div class="odds-row"><span>RL</span><span>Marlins -1.5 (+163) / Astros +1.5 (-199)</span></div><div class="odds-row"><span>O/U</span><span>8 (O -115 / U -105)</span></div></div><div class="pblock right">
+      <div class="pteam"><img class="plogo" src="https://www.mlbstatic.com/team-logos/117.svg"> <span>Astros</span> <span class="side">Home</span></div>
+      <div class="pheadrow">
+        <img class="photo" src="https://img.mlbstatic.com/mlb-photos/image/upload/w_213,d_people:generic:headshot:67:current.png,q_auto:best,f_auto/v1/people/663567/headshot/67/current" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+        <div class="pinfo">
+          <div class="pname">Peter Lambert</div>
+          <div class="pline1">8-5, 3.03 ERA</div>
+          <div class="pline2">1.11 WHIP · 5.75 IP/G · 8.9 K/9 · 3.52 BB/9 · 92.0 IP</div>
+        </div>
+      </div>
+      <div class="teamstatlbl">Team Statistics</div>
+      <div class="bpline">BULLPEN <b>4.23</b> ERA (<span class="rk-y">19th-Season</span>) | <b>3.59</b> ERA (<span class="rk-y">13th-21Day</span>)</div>
+      <div class="l15line"><span class="l15lbl">L15 W/L</span> <span class="rec-r">6-9</span> · <b>71</b> R (<span class="rk-y">11th</span>) · <b>118</b> H (<span class="rk-r">21st</span>) · <b>47</b> BB (<span class="rk-y">16th</span>) · <b>115</b> SO (<span class="rk-r">27th</span>)</div>
+    </div></div>
+      <details class="logs">
+          <summary>Pitcher last 10 game logs</summary>
+          <div class="logwrap"><div class="logcol">
+      <div class="logh">Sandy Alcantara</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-26</td><td>Blue Jays</td><td>5.2</td><td>10</td><td class="er5">8</td><td>1</td><td>4</td></tr><tr><td>06-01</td><td>Nationals</td><td>7.0</td><td>7</td><td class="">3</td><td>0</td><td>5</td></tr><tr><td>06-07</td><td>Rays</td><td>7.0</td><td>5</td><td class="">1</td><td>1</td><td>7</td></tr><tr><td>06-12</td><td>Pirates</td><td>8.0</td><td>5</td><td class="">3</td><td>1</td><td>7</td></tr><tr><td>06-17</td><td>Phillies</td><td>6.0</td><td>8</td><td class="">2</td><td>1</td><td>6</td></tr><tr><td>06-23</td><td>Rangers</td><td>6.2</td><td>5</td><td class="">1</td><td>3</td><td>4</td></tr><tr><td>06-29</td><td>Rockies</td><td>5.2</td><td>7</td><td class="er5">5</td><td>5</td><td>3</td></tr><tr><td>07-04</td><td>Athletics</td><td>8.0</td><td>6</td><td class="">1</td><td>1</td><td>8</td></tr><tr><td>07-10</td><td>Guardians</td><td>7.0</td><td>5</td><td class="">3</td><td>0</td><td>8</td></tr><tr><td>07-17</td><td>Brewers</td><td>6.0</td><td>3</td><td class="">1</td><td>4</td><td>7</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Peter Lambert</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th>Opp</th><th>IP</th><th>H</th><th>ER</th><th>BB</th><th>K</th></tr></thead>
+      <tbody><tr><td>05-24</td><td>Cubs</td><td>5.0</td><td>5</td><td class="">3</td><td>4</td><td>5</td></tr><tr><td>05-30</td><td>Brewers</td><td>5.0</td><td>5</td><td class="">2</td><td>3</td><td>3</td></tr><tr><td>06-05</td><td>Athletics</td><td>5.1</td><td>5</td><td class="">1</td><td>4</td><td>4</td></tr><tr><td>06-10</td><td>Angels</td><td>6.1</td><td>5</td><td class="">2</td><td>0</td><td>6</td></tr><tr><td>06-17</td><td>Tigers</td><td>7.0</td><td>2</td><td class="">1</td><td>0</td><td>5</td></tr><tr><td>06-23</td><td>Blue Jays</td><td>4.2</td><td>6</td><td class="">2</td><td>3</td><td>6</td></tr><tr><td>06-29</td><td>Twins</td><td>5.2</td><td>5</td><td class="">4</td><td>3</td><td>4</td></tr><tr><td>07-05</td><td>Rays</td><td>5.2</td><td>3</td><td class="er0">0</td><td>1</td><td>6</td></tr><tr><td>07-11</td><td>Rangers</td><td>6.0</td><td>3</td><td class="">1</td><td>1</td><td>7</td></tr><tr><td>07-17</td><td>Orioles</td><td>6.0</td><td>3</td><td class="">1</td><td>3</td><td>10</td></tr></tbody></table>
+    </div></div>
+        </details>
+      <details class="teamscores">
+      <summary>Team last 15 scores</summary>
+      <div class="logwrap"><div class="logcol">
+      <div class="logh">Marlins</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>@</td><td>Athletics</td><td>7-2</td><td class="w-win">W</td><td class="sp">Aaron Civale (5.49)</td></tr><tr><td>07-05</td><td>@</td><td>Athletics</td><td>9-8</td><td class="w-win">W</td><td class="sp">Gage Jump (3.78)</td></tr><tr><td>07-07</td><td>vs</td><td>Mariners</td><td>6-5</td><td class="w-win">W</td><td class="sp">Bryan Woo (4.16)</td></tr><tr><td>07-08</td><td>vs</td><td>Mariners</td><td>2-0</td><td class="w-win">W</td><td class="sp">George Kirby (3.57)</td></tr><tr><td>07-09</td><td>vs</td><td>Mariners</td><td>8-4</td><td class="w-win">W</td><td class="sp">Bryce Miller (2.27)</td></tr><tr><td>07-10</td><td>vs</td><td>Guardians</td><td>2-3</td><td class="w-loss">L</td><td class="sp">Parker Messick (2.68)</td></tr><tr><td>07-11</td><td>vs</td><td>Guardians</td><td>1-4</td><td class="w-loss">L</td><td class="sp">Tanner Bibee (3.86)</td></tr><tr><td>07-12</td><td>vs</td><td>Guardians</td><td>2-5</td><td class="w-loss">L</td><td class="sp">Joey Cantillo (3.74)</td></tr><tr><td>07-17</td><td>@</td><td>Brewers</td><td>1-2</td><td class="w-loss">L</td><td class="sp">Logan Henderson (2.97)</td></tr><tr><td>07-18</td><td>@</td><td>Brewers</td><td>6-8</td><td class="w-loss">L</td><td class="sp">Shane Drohan (3.20)</td></tr><tr><td>07-19</td><td>@</td><td>Brewers</td><td>1-3</td><td class="w-loss">L</td><td class="sp">Robert Gasser (4.91)</td></tr><tr><td>07-20</td><td>@</td><td>Astros</td><td>5-8</td><td class="w-loss">L</td><td class="sp">Ronel Blanco (7.71)</td></tr><tr><td>07-21</td><td>@</td><td>Astros</td><td>3-5</td><td class="w-loss">L</td><td class="sp">Tatsuya Imai (5.59)</td></tr></tbody></table>
+    </div><div class="logcol">
+      <div class="logh">Astros</div>
+      <table class="logtbl"><thead><tr><th>Date</th><th></th><th>Opp</th><th>Score</th><th>W/L</th><th>Opp SP (ERA)</th></tr></thead>
+      <tbody><tr><td>07-04</td><td>vs</td><td>Rays</td><td>10-8</td><td class="w-win">W</td><td class="sp">Drew Rasmussen (3.28)</td></tr><tr><td>07-05</td><td>vs</td><td>Rays</td><td>2-0</td><td class="w-win">W</td><td class="sp">Mason Englert (4.54)</td></tr><tr><td>07-06</td><td>@</td><td>Nationals</td><td>11-12</td><td class="w-loss">L</td><td class="sp">Miles Mikolas (5.60)</td></tr><tr><td>07-07</td><td>@</td><td>Nationals</td><td>6-3</td><td class="w-win">W</td><td class="sp">Andrew Alvarez (4.22)</td></tr><tr><td>07-08</td><td>@</td><td>Nationals</td><td>2-8</td><td class="w-loss">L</td><td class="sp">Foster Griffin (2.68)</td></tr><tr><td>07-10</td><td>@</td><td>Rangers</td><td>3-7</td><td class="w-loss">L</td><td class="sp">Cal Quantrill (3.93)</td></tr><tr><td>07-11</td><td>@</td><td>Rangers</td><td>9-3</td><td class="w-win">W</td><td class="sp">Kumar Rocker (4.13)</td></tr><tr><td>07-12</td><td>@</td><td>Rangers</td><td>5-6</td><td class="w-loss">L</td><td class="sp">MacKenzie Gore (4.80)</td></tr><tr><td>07-17</td><td>vs</td><td>Orioles</td><td>2-3</td><td class="w-loss">L</td><td class="sp">Dean Kremer (4.15)</td></tr><tr><td>07-18</td><td>vs</td><td>Orioles</td><td>2-4</td><td class="w-loss">L</td><td class="sp">Trevor Rogers (4.28)</td></tr><tr><td>07-19</td><td>vs</td><td>Orioles</td><td>2-5</td><td class="w-loss">L</td><td class="sp">Brandon Young (3.25)</td></tr><tr><td>07-20</td><td>vs</td><td>Marlins</td><td>8-5</td><td class="w-win">W</td><td class="sp">Janson Junk (5.09)</td></tr><tr><td>07-21</td><td>vs</td><td>Marlins</td><td>5-3</td><td class="w-win">W</td><td class="sp">Tyler Phillips (3.52)</td></tr></tbody></table>
+    </div></div>
+    </details>
+      <div class="injrow"><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/marlins" target="_blank" rel="noopener">Marlins injuries</a><a class="injbtn" href="https://www.fangraphs.com/roster-resource/injury-report/astros" target="_blank" rel="noopener">Astros injuries</a></div>
+    </div>
+</div>
+<footer>
+Sources: MLB Stats API (probables, records, last-10 pitcher game logs, team last-15-games-played hitting/pitching splits via lastXGames, season bullpen ERA) · The Odds API (DraftKings lines, American format, cache-verified to today's date) · FanGraphs (21-day relief-only bullpen ERA, injury reports).
+Rank color bands across all 30 clubs: 1st&ndash;10th green, 11th&ndash;20th gray, 21st&ndash;30th red. R, H, BB, and SO are ranked by volume, most-first (1st = league high). Bullpen ERA (season and 21-day) is ranked lowest-first (1st = best ERA).
+L15 is a true last-15-games-played window for every club (not a calendar date range &mdash; confirmed gamesPlayed:15 on all 30 teams), so it is unaffected by off-days or the All-Star break. Wins come directly from the feed; losses are computed as 15 minus wins so every record totals exactly 15. W/L itself is not ranked &mdash; a .600+ win rate is colored green, .400-or-below is red, in between is black.
+21-day FanGraphs bullpen ERA window: 2026-07-01 through 2026-07-22, relief-only splits. Confirmed via a one-row-per-team test (30 unique teams, no duplicate or missing clubs, team IP running 43&ndash;75 over the window &mdash; consistent with a real bullpen sample, not season/career volume).
+One probable (Red Sox, Game 2 of today's doubleheader) was genuinely unannounced at build time and is marked accordingly &mdash; this is normal for a DH nightcap hours before first pitch, not a data gap.
+Probable pitchers reflect what was announced at build time and may firm up later in the day.
+</footer>
+</body>
+</html>
