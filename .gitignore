@@ -1,0 +1,7 @@
+*runbook*
+*.env
+*key*
+*.py
+*.sh
+__pycache__/
+.DS_Store
