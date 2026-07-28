@@ -3,5 +3,6 @@
 *key*
 *.py
 *.sh
+*.bat
 __pycache__/
 .DS_Store
