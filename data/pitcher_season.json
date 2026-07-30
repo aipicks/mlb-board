@@ -1,0 +1,192 @@
+{
+ "543243": {
+  "gamesStarted": 19,
+  "strikeOuts": 93,
+  "baseOnBalls": 28,
+  "era": "2.78",
+  "inningsPitched": "106.2",
+  "wins": 12,
+  "losses": 2,
+  "whip": "1.16"
+ },
+ "641927": {
+  "gamesStarted": 15,
+  "strikeOuts": 60,
+  "baseOnBalls": 22,
+  "era": "4.56",
+  "inningsPitched": "81.0",
+  "wins": 7,
+  "losses": 3,
+  "whip": "1.25"
+ },
+ "656550": {
+  "gamesStarted": 19,
+  "strikeOuts": 83,
+  "baseOnBalls": 43,
+  "era": "3.79",
+  "inningsPitched": "97.1",
+  "wins": 6,
+  "losses": 4,
+  "whip": "1.36"
+ },
+ "663556": {
+  "gamesStarted": 19,
+  "strikeOuts": 88,
+  "baseOnBalls": 33,
+  "era": "3.09",
+  "inningsPitched": "96.0",
+  "wins": 9,
+  "losses": 6,
+  "whip": "1.14"
+ },
+ "663623": {
+  "gamesStarted": 11,
+  "strikeOuts": 58,
+  "baseOnBalls": 22,
+  "era": "5.23",
+  "inningsPitched": "51.2",
+  "wins": 2,
+  "losses": 4,
+  "whip": "1.35"
+ },
+ "665871": {
+  "gamesStarted": 8,
+  "strikeOuts": 42,
+  "baseOnBalls": 16,
+  "era": "3.86",
+  "inningsPitched": "65.1",
+  "wins": 6,
+  "losses": 1,
+  "whip": "1.12"
+ },
+ "668390": {
+  "gamesStarted": 0,
+  "strikeOuts": 36,
+  "baseOnBalls": 10,
+  "era": "6.11",
+  "inningsPitched": "35.1",
+  "wins": 5,
+  "losses": 3,
+  "whip": "1.36"
+ },
+ "669467": {
+  "gamesStarted": 20,
+  "strikeOuts": 83,
+  "baseOnBalls": 32,
+  "era": "3.77",
+  "inningsPitched": "112.1",
+  "wins": 11,
+  "losses": 6,
+  "whip": "1.21"
+ },
+ "670990": {
+  "gamesStarted": 0,
+  "strikeOuts": 62,
+  "baseOnBalls": 33,
+  "era": "3.21",
+  "inningsPitched": "56.0",
+  "wins": 6,
+  "losses": 3,
+  "whip": "1.38"
+ },
+ "676664": {
+  "gamesStarted": 5,
+  "strikeOuts": 23,
+  "baseOnBalls": 9,
+  "era": "3.86",
+  "inningsPitched": "28.0",
+  "wins": 3,
+  "losses": 3,
+  "whip": "1.18"
+ },
+ "677960": {
+  "gamesStarted": 20,
+  "strikeOuts": 122,
+  "baseOnBalls": 30,
+  "era": "4.25",
+  "inningsPitched": "108.0",
+  "wins": 4,
+  "losses": 7,
+  "whip": "1.27"
+ },
+ "680732": {
+  "gamesStarted": 17,
+  "strikeOuts": 130,
+  "baseOnBalls": 35,
+  "era": "3.19",
+  "inningsPitched": "118.1",
+  "wins": 7,
+  "losses": 5,
+  "whip": "1.12"
+ },
+ "686930": {
+  "gamesStarted": 0,
+  "strikeOuts": 23,
+  "baseOnBalls": 13,
+  "era": "4.74",
+  "inningsPitched": "24.2",
+  "wins": 1,
+  "losses": 1,
+  "whip": "1.38"
+ },
+ "690997": {
+  "gamesStarted": 21,
+  "strikeOuts": 142,
+  "baseOnBalls": 43,
+  "era": "3.32",
+  "inningsPitched": "119.1",
+  "wins": 7,
+  "losses": 7,
+  "whip": "1.11"
+ },
+ "691587": {
+  "gamesStarted": 18,
+  "strikeOuts": 106,
+  "baseOnBalls": 38,
+  "era": "3.56",
+  "inningsPitched": "98.2",
+  "wins": 5,
+  "losses": 8,
+  "whip": "1.11"
+ },
+ "693433": {
+  "gamesStarted": 20,
+  "strikeOuts": 114,
+  "baseOnBalls": 24,
+  "era": "4.37",
+  "inningsPitched": "115.1",
+  "wins": 7,
+  "losses": 7,
+  "whip": "1.14"
+ },
+ "695076": {
+  "gamesStarted": 15,
+  "strikeOuts": 65,
+  "baseOnBalls": 37,
+  "era": "5.61",
+  "inningsPitched": "77.0",
+  "wins": 3,
+  "losses": 7,
+  "whip": "1.57"
+ },
+ "702070": {
+  "gamesStarted": 19,
+  "strikeOuts": 100,
+  "baseOnBalls": 37,
+  "era": "4.93",
+  "inningsPitched": "107.2",
+  "wins": 5,
+  "losses": 8,
+  "whip": "1.41"
+ },
+ "808963": {
+  "gamesStarted": 18,
+  "strikeOuts": 94,
+  "baseOnBalls": 36,
+  "era": "4.71",
+  "inningsPitched": "93.2",
+  "wins": 4,
+  "losses": 5,
+  "whip": "1.29"
+ }
+}

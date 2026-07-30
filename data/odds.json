@@ -1,0 +1,122 @@
+[
+ {
+  "home": "Tampa Bay Rays",
+  "away": "Texas Rangers",
+  "commence": "2026-07-30T18:00:00Z",
+  "ml_away": 149,
+  "ml_home": -165,
+  "rl_away": "+1.5",
+  "rl_home": "-1.5",
+  "total_pt": 7.5,
+  "total_over": -115,
+  "total_under": -105
+ },
+ {
+  "home": "Minnesota Twins",
+  "away": "Kansas City Royals",
+  "commence": "2026-07-30T18:00:00Z",
+  "ml_away": 122,
+  "ml_home": -135,
+  "rl_away": "+1.5",
+  "rl_home": "-1.5",
+  "total_pt": 9,
+  "total_over": -115,
+  "total_under": -105
+ },
+ {
+  "home": "Chicago White Sox",
+  "away": "New York Yankees",
+  "commence": "2026-07-30T18:00:00Z",
+  "ml_away": 101,
+  "ml_home": -111,
+  "rl_away": "+1.5",
+  "rl_home": "-1.5",
+  "total_pt": 7.5,
+  "total_over": 100,
+  "total_under": -120
+ },
+ {
+  "home": "St. Louis Cardinals",
+  "away": "Chicago Cubs",
+  "commence": "2026-07-30T18:00:00Z",
+  "ml_away": -102,
+  "ml_home": -108,
+  "rl_away": "+1.5",
+  "rl_home": "-1.5",
+  "total_pt": 8,
+  "total_over": -115,
+  "total_under": -105
+ },
+ {
+  "home": "New York Mets",
+  "away": "Miami Marlins",
+  "commence": "2026-07-30T18:00:00Z",
+  "ml_away": 113,
+  "ml_home": -125,
+  "rl_away": "+1.5",
+  "rl_home": "-1.5",
+  "total_pt": 7,
+  "total_over": -115,
+  "total_under": -105
+ },
+ {
+  "home": "Cincinnati Reds",
+  "away": "Pittsburgh Pirates",
+  "commence": "2026-07-30T18:00:00Z",
+  "ml_away": -111,
+  "ml_home": 101,
+  "rl_away": "-1.5",
+  "rl_home": "+1.5",
+  "total_pt": 9.5,
+  "total_over": -110,
+  "total_under": -110
+ },
+ {
+  "home": "Atlanta Braves",
+  "away": "Washington Nationals",
+  "commence": "2026-07-30T18:00:00Z",
+  "ml_away": 132,
+  "ml_home": -146,
+  "rl_away": "+1.5",
+  "rl_home": "-1.5",
+  "total_pt": 9.5,
+  "total_over": -117,
+  "total_under": -103
+ },
+ {
+  "home": "San Diego Padres",
+  "away": "San Francisco Giants",
+  "commence": "2026-07-30T18:00:00Z",
+  "ml_away": 136,
+  "ml_home": -150,
+  "rl_away": "+1.5",
+  "rl_home": "-1.5",
+  "total_pt": 8.5,
+  "total_over": 100,
+  "total_under": -120
+ },
+ {
+  "home": "Athletics",
+  "away": "Boston Red Sox",
+  "commence": "2026-07-30T18:00:00Z",
+  "ml_away": -175,
+  "ml_home": 158,
+  "rl_away": "-1.5",
+  "rl_home": "+1.5",
+  "total_pt": 10,
+  "total_over": -115,
+  "total_under": -105
+ },
+ {
+  "home": "Los Angeles Dodgers",
+  "away": "Seattle Mariners",
+  "commence": "2026-07-30T18:00:00Z",
+  "ml_away": 137,
+  "ml_home": -151,
+  "rl_away": "+1.5",
+  "rl_home": "-1.5",
+  "total_pt": 8.5,
+  "total_over": -120,
+  "total_under": 100
+ }
+]
