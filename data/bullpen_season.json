@@ -1,122 +1,32 @@
 [
- {
-  "team": "Boston Red Sox",
-  "era": 2.99
- },
- {
-  "team": "New York Yankees",
-  "era": 3.12
- },
- {
-  "team": "Atlanta Braves",
-  "era": 3.43
- },
- {
-  "team": "Seattle Mariners",
-  "era": 3.5
- },
- {
-  "team": "Milwaukee Brewers",
-  "era": 3.68
- },
- {
-  "team": "San Diego Padres",
-  "era": 3.7
- },
- {
-  "team": "Cleveland Guardians",
-  "era": 3.71
- },
- {
-  "team": "New York Mets",
-  "era": 3.84
- },
- {
-  "team": "Detroit Tigers",
-  "era": 3.85
- },
- {
-  "team": "Toronto Blue Jays",
-  "era": 3.87
- },
- {
-  "team": "Chicago White Sox",
-  "era": 3.89
- },
- {
-  "team": "Miami Marlins",
-  "era": 3.92
- },
- {
-  "team": "Los Angeles Dodgers",
-  "era": 3.98
- },
- {
-  "team": "Chicago Cubs",
-  "era": 3.99
- },
- {
-  "team": "Baltimore Orioles",
-  "era": 4.0
- },
- {
-  "team": "Tampa Bay Rays",
-  "era": 4.02
- },
- {
-  "team": "Arizona Diamondbacks",
-  "era": 4.15
- },
- {
-  "team": "Houston Astros",
-  "era": 4.16
- },
- {
-  "team": "Texas Rangers",
-  "era": 4.23
- },
- {
-  "team": "St. Louis Cardinals",
-  "era": 4.33
- },
- {
-  "team": "San Francisco Giants",
-  "era": 4.37
- },
- {
-  "team": "Pittsburgh Pirates",
-  "era": 4.38
- },
- {
-  "team": "Philadelphia Phillies",
-  "era": 4.39
- },
- {
-  "team": "Los Angeles Angels",
-  "era": 4.4
- },
- {
-  "team": "Cincinnati Reds",
-  "era": 4.52
- },
- {
-  "team": "Minnesota Twins",
-  "era": 4.96
- },
- {
-  "team": "Colorado Rockies",
-  "era": 4.99
- },
- {
-  "team": "Washington Nationals",
-  "era": 5.03
- },
- {
-  "team": "Kansas City Royals",
-  "era": 5.22
- },
- {
-  "team": "Athletics",
-  "era": 5.52
- }
+{"team":"Boston Red Sox","era":3.09,"ip":364.1},
+{"team":"New York Yankees","era":3.09,"ip":355.1},
+{"team":"Atlanta Braves","era":3.11,"ip":370.2},
+{"team":"Seattle Mariners","era":3.53,"ip":314.0},
+{"team":"Milwaukee Brewers","era":3.54,"ip":391.2},
+{"team":"San Diego Padres","era":3.67,"ip":424.0},
+{"team":"Cleveland Guardians","era":3.75,"ip":336.0},
+{"team":"Miami Marlins","era":3.78,"ip":371.0},
+{"team":"Los Angeles Dodgers","era":3.79,"ip":332.2},
+{"team":"Detroit Tigers","era":3.81,"ip":366.0},
+{"team":"Toronto Blue Jays","era":3.83,"ip":418.2},
+{"team":"Chicago White Sox","era":3.86,"ip":448.0},
+{"team":"Arizona Diamondbacks","era":3.98,"ip":339.0},
+{"team":"New York Mets","era":4.00,"ip":429.2},
+{"team":"Chicago Cubs","era":4.06,"ip":378.2},
+{"team":"Baltimore Orioles","era":4.15,"ip":362.1},
+{"team":"Tampa Bay Rays","era":4.20,"ip":390.1},
+{"team":"Houston Astros","era":4.22,"ip":407.1},
+{"team":"St. Louis Cardinals","era":4.28,"ip":368.1},
+{"team":"Texas Rangers","era":4.30,"ip":358.0},
+{"team":"Pittsburgh Pirates","era":4.38,"ip":388.0},
+{"team":"Philadelphia Phillies","era":4.40,"ip":358.0},
+{"team":"San Francisco Giants","era":4.40,"ip":341.1},
+{"team":"Los Angeles Angels","era":4.53,"ip":379.1},
+{"team":"Cincinnati Reds","era":4.80,"ip":371.0},
+{"team":"Colorado Rockies","era":4.91,"ip":425.0},
+{"team":"Minnesota Twins","era":5.11,"ip":361.0},
+{"team":"Washington Nationals","era":5.12,"ip":467.2},
+{"team":"Kansas City Royals","era":5.43,"ip":360.0},
+{"team":"Athletics","era":5.46,"ip":400.2}
 ]

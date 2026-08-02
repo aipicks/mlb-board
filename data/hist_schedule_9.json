@@ -1,0 +1,6 @@
+{"dates":[{"date":"2026-07-30","games":[
+{"teams":{"away":{"team":{"name":"Texas Rangers"},"score":2,"probablePitcher":{"fullName":"Cole Winn"}},"home":{"team":{"name":"Tampa Bay Rays"},"score":3,"probablePitcher":{"fullName":"Shane McClanahan"}}}},
+{"teams":{"away":{"team":{"name":"Kansas City Royals"},"score":3,"probablePitcher":{"fullName":"Noah Cameron"}},"home":{"team":{"name":"Minnesota Twins"},"score":4,"probablePitcher":{"fullName":"Bailey Ober"}}}},
+{"teams":{"away":{"team":{"name":"New York Yankees"},"score":1,"probablePitcher":{"fullName":"Ryan Weathers"}},"home":{"team":{"name":"Chicago White Sox"},"score":2,"probablePitcher":{"fullName":"Sean Burke"}}}},
+{"teams":{"away":{"team":{"name":"Chicago Cubs"},"score":4,"probablePitcher":{"fullName":"Javier Assad"}},"home":{"team":{"name":"St. Louis Cardinals"},"score":2,"probablePitcher":{"fullName":"Andre Pallante"}}}}
+]}]}
