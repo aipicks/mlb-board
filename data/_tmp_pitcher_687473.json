@@ -1,0 +1,9 @@
+{"id": 687473, "splits": [
+{"stat": {"strikeOuts": 1, "baseOnBalls": 0, "hits": 0, "inningsPitched": "1.0", "earnedRuns": 0}, "opponent": {"name": "Cincinnati Reds"}, "date": "2026-04-08"},
+{"stat": {"strikeOuts": 3, "baseOnBalls": 0, "hits": 5, "inningsPitched": "2.0", "earnedRuns": 3}, "opponent": {"name": "Washington Nationals"}, "date": "2026-06-02"},
+{"stat": {"strikeOuts": 1, "baseOnBalls": 1, "hits": 3, "inningsPitched": "2.0", "earnedRuns": 3}, "opponent": {"name": "Tampa Bay Rays"}, "date": "2026-06-05"},
+{"stat": {"strikeOuts": 4, "baseOnBalls": 1, "hits": 3, "inningsPitched": "4.0", "earnedRuns": 0}, "opponent": {"name": "Arizona Diamondbacks"}, "date": "2026-06-10"},
+{"stat": {"strikeOuts": 1, "baseOnBalls": 3, "hits": 8, "inningsPitched": "4.2", "earnedRuns": 5}, "opponent": {"name": "Philadelphia Phillies"}, "date": "2026-06-15"},
+{"stat": {"strikeOuts": 6, "baseOnBalls": 2, "hits": 3, "inningsPitched": "4.1", "earnedRuns": 1}, "opponent": {"name": "San Francisco Giants"}, "date": "2026-06-21"},
+{"stat": {"strikeOuts": 4, "baseOnBalls": 1, "hits": 3, "inningsPitched": "3.1", "earnedRuns": 0}, "opponent": {"name": "St. Louis Cardinals"}, "date": "2026-06-27"}
+]}

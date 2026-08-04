@@ -1,0 +1,6 @@
+{"id": 700249, "splits": [
+{"stat": {"strikeOuts": 2, "baseOnBalls": 3, "hits": 4, "inningsPitched": "5.2", "earnedRuns": 2}, "opponent": {"name": "Pittsburgh Pirates"}, "date": "2026-04-05"},
+{"stat": {"strikeOuts": 5, "baseOnBalls": 0, "hits": 5, "inningsPitched": "6.2", "earnedRuns": 1}, "opponent": {"name": "San Francisco Giants"}, "date": "2026-04-12"},
+{"stat": {"strikeOuts": 4, "baseOnBalls": 2, "hits": 7, "inningsPitched": "4.0", "earnedRuns": 5}, "opponent": {"name": "New York Yankees"}, "date": "2026-05-01"},
+{"stat": {"strikeOuts": 1, "baseOnBalls": 2, "hits": 3, "inningsPitched": "3.0", "earnedRuns": 3}, "opponent": {"name": "Miami Marlins"}, "date": "2026-05-07"}
+]}

@@ -1,0 +1,8 @@
+{"id": 683003, "splits": [
+{"stat": {"strikeOuts": 6, "baseOnBalls": 2, "hits": 7, "inningsPitched": "4.1", "earnedRuns": 5}, "opponent": {"name": "Minnesota Twins"}, "date": "2026-05-29"},
+{"stat": {"strikeOuts": 4, "baseOnBalls": 2, "hits": 4, "inningsPitched": "5.0", "earnedRuns": 0}, "opponent": {"name": "Houston Astros"}, "date": "2026-06-04"},
+{"stat": {"strikeOuts": 4, "baseOnBalls": 1, "hits": 3, "inningsPitched": "4.0", "earnedRuns": 2}, "opponent": {"name": "Los Angeles Dodgers"}, "date": "2026-06-10"},
+{"stat": {"strikeOuts": 4, "baseOnBalls": 1, "hits": 8, "inningsPitched": "4.0", "earnedRuns": 5}, "opponent": {"name": "Athletics"}, "date": "2026-06-15"},
+{"stat": {"strikeOuts": 3, "baseOnBalls": 2, "hits": 1, "inningsPitched": "3.0", "earnedRuns": 1}, "opponent": {"name": "Colorado Rockies"}, "date": "2026-06-21"},
+{"stat": {"strikeOuts": 4, "baseOnBalls": 1, "hits": 4, "inningsPitched": "4.2", "earnedRuns": 3}, "opponent": {"name": "Cincinnati Reds"}, "date": "2026-06-27"}
+]}

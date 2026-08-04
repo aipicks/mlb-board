@@ -1,0 +1,17 @@
+{"id": 676106, "splits": [
+{"stat": {"strikeOuts": 9, "baseOnBalls": 1, "hits": 0, "inningsPitched": "6.0", "earnedRuns": 0}, "opponent": {"name": "Cleveland Guardians"}, "date": "2026-03-29"},
+{"stat": {"strikeOuts": 5, "baseOnBalls": 0, "hits": 6, "inningsPitched": "6.2", "earnedRuns": 1}, "opponent": {"name": "Los Angeles Angels"}, "date": "2026-04-04"},
+{"stat": {"strikeOuts": 5, "baseOnBalls": 2, "hits": 4, "inningsPitched": "5.0", "earnedRuns": 3}, "opponent": {"name": "Houston Astros"}, "date": "2026-04-10"},
+{"stat": {"strikeOuts": 6, "baseOnBalls": 1, "hits": 4, "inningsPitched": "6.0", "earnedRuns": 2}, "opponent": {"name": "San Diego Padres"}, "date": "2026-04-15"},
+{"stat": {"strikeOuts": 3, "baseOnBalls": 0, "hits": 7, "inningsPitched": "5.0", "earnedRuns": 3}, "opponent": {"name": "Athletics"}, "date": "2026-04-20"},
+{"stat": {"strikeOuts": 4, "baseOnBalls": 2, "hits": 7, "inningsPitched": "6.0", "earnedRuns": 2}, "opponent": {"name": "St. Louis Cardinals"}, "date": "2026-04-26"},
+{"stat": {"strikeOuts": 14, "baseOnBalls": 0, "hits": 6, "inningsPitched": "7.0", "earnedRuns": 1}, "opponent": {"name": "Kansas City Royals"}, "date": "2026-05-02"},
+{"stat": {"strikeOuts": 4, "baseOnBalls": 3, "hits": 5, "inningsPitched": "6.0", "earnedRuns": 5}, "opponent": {"name": "Chicago White Sox"}, "date": "2026-05-08"},
+{"stat": {"strikeOuts": 6, "baseOnBalls": 1, "hits": 5, "inningsPitched": "6.0", "earnedRuns": 1}, "opponent": {"name": "San Diego Padres"}, "date": "2026-05-15"},
+{"stat": {"strikeOuts": 4, "baseOnBalls": 3, "hits": 5, "inningsPitched": "5.0", "earnedRuns": 2}, "opponent": {"name": "Chicago White Sox"}, "date": "2026-05-20"},
+{"stat": {"strikeOuts": 3, "baseOnBalls": 2, "hits": 1, "inningsPitched": "6.0", "earnedRuns": 0}, "opponent": {"name": "Athletics"}, "date": "2026-05-26"},
+{"stat": {"strikeOuts": 7, "baseOnBalls": 0, "hits": 2, "inningsPitched": "6.0", "earnedRuns": 2}, "opponent": {"name": "New York Mets"}, "date": "2026-06-01"},
+{"stat": {"strikeOuts": 3, "baseOnBalls": 2, "hits": 3, "inningsPitched": "5.0", "earnedRuns": 1}, "opponent": {"name": "Baltimore Orioles"}, "date": "2026-06-08"},
+{"stat": {"strikeOuts": 2, "baseOnBalls": 0, "hits": 9, "inningsPitched": "4.0", "earnedRuns": 6}, "opponent": {"name": "Washington Nationals"}, "date": "2026-06-14"},
+{"stat": {"strikeOuts": 6, "baseOnBalls": 2, "hits": 4, "inningsPitched": "5.1", "earnedRuns": 5}, "opponent": {"name": "Boston Red Sox"}, "date": "2026-06-20"}
+]}

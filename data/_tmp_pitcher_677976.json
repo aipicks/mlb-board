@@ -1,0 +1,7 @@
+{"id": 677976, "splits": [
+{"stat": {"strikeOuts": 2, "baseOnBalls": 1, "hits": 6, "inningsPitched": "4.0", "earnedRuns": 2}, "opponent": {"name": "Tampa Bay Rays"}, "date": "2026-07-02"},
+{"stat": {"strikeOuts": 2, "baseOnBalls": 3, "hits": 3, "inningsPitched": "5.2", "earnedRuns": 0}, "opponent": {"name": "New York Mets"}, "date": "2026-07-08"},
+{"stat": {"strikeOuts": 3, "baseOnBalls": 4, "hits": 4, "inningsPitched": "4.1", "earnedRuns": 1}, "opponent": {"name": "San Diego Padres"}, "date": "2026-07-18"},
+{"stat": {"strikeOuts": 3, "baseOnBalls": 1, "hits": 4, "inningsPitched": "5.0", "earnedRuns": 0}, "opponent": {"name": "Detroit Tigers"}, "date": "2026-07-23"},
+{"stat": {"strikeOuts": 4, "baseOnBalls": 1, "hits": 4, "inningsPitched": "7.0", "earnedRuns": 0}, "opponent": {"name": "Minnesota Twins"}, "date": "2026-07-29"}
+]}
