@@ -1,0 +1,13 @@
+{"id": 702056, "splits": [
+{"stat": {"strikeOuts": 3, "baseOnBalls": 0, "hits": 4, "inningsPitched": "5.1", "earnedRuns": 0}, "opponent": {"name": "Boston Red Sox"}, "date": "2026-04-28"},
+{"stat": {"strikeOuts": 6, "baseOnBalls": 3, "hits": 5, "inningsPitched": "4.0", "earnedRuns": 1}, "opponent": {"name": "Minnesota Twins"}, "date": "2026-05-03"},
+{"stat": {"strikeOuts": 6, "baseOnBalls": 2, "hits": 4, "inningsPitched": "4.0", "earnedRuns": 0}, "opponent": {"name": "Los Angeles Angels"}, "date": "2026-05-09"},
+{"stat": {"strikeOuts": 6, "baseOnBalls": 3, "hits": 4, "inningsPitched": "6.0", "earnedRuns": 2}, "opponent": {"name": "Detroit Tigers"}, "date": "2026-05-15"},
+{"stat": {"strikeOuts": 8, "baseOnBalls": 0, "hits": 2, "inningsPitched": "6.0", "earnedRuns": 0}, "opponent": {"name": "New York Yankees"}, "date": "2026-05-20"},
+{"stat": {"strikeOuts": 6, "baseOnBalls": 2, "hits": 5, "inningsPitched": "6.2", "earnedRuns": 5}, "opponent": {"name": "Miami Marlins"}, "date": "2026-05-25"},
+{"stat": {"strikeOuts": 4, "baseOnBalls": 7, "hits": 2, "inningsPitched": "5.0", "earnedRuns": 1}, "opponent": {"name": "Baltimore Orioles"}, "date": "2026-05-30"},
+{"stat": {"strikeOuts": 5, "baseOnBalls": 2, "hits": 5, "inningsPitched": "5.2", "earnedRuns": 6}, "opponent": {"name": "Baltimore Orioles"}, "date": "2026-06-05"},
+{"stat": {"strikeOuts": 3, "baseOnBalls": 6, "hits": 4, "inningsPitched": "5.0", "earnedRuns": 5}, "opponent": {"name": "New York Yankees"}, "date": "2026-06-12"},
+{"stat": {"strikeOuts": 6, "baseOnBalls": 0, "hits": 4, "inningsPitched": "7.1", "earnedRuns": 3}, "opponent": {"name": "Boston Red Sox"}, "date": "2026-06-18"},
+{"stat": {"strikeOuts": 5, "baseOnBalls": 5, "hits": 2, "inningsPitched": "5.2", "earnedRuns": 1}, "opponent": {"name": "Houston Astros"}, "date": "2026-06-24"}
+]}

@@ -1,0 +1,10 @@
+{"id": 694918, "splits": [
+{"stat": {"strikeOuts": 2, "baseOnBalls": 0, "hits": 2, "inningsPitched": "3.0", "earnedRuns": 0}, "opponent": {"name": "New York Mets"}, "date": "2026-04-02"},
+{"stat": {"strikeOuts": 2, "baseOnBalls": 1, "hits": 0, "inningsPitched": "1.0", "earnedRuns": 0}, "opponent": {"name": "Philadelphia Phillies"}, "date": "2026-04-06"},
+{"stat": {"strikeOuts": 0, "baseOnBalls": 0, "hits": 0, "inningsPitched": "1.0", "earnedRuns": 0}, "opponent": {"name": "Philadelphia Phillies"}, "date": "2026-04-08"},
+{"stat": {"strikeOuts": 1, "baseOnBalls": 0, "hits": 3, "inningsPitched": "1.0", "earnedRuns": 2}, "opponent": {"name": "Baltimore Orioles"}, "date": "2026-04-10"},
+{"stat": {"strikeOuts": 1, "baseOnBalls": 0, "hits": 0, "inningsPitched": "1.0", "earnedRuns": 0}, "opponent": {"name": "Cincinnati Reds"}, "date": "2026-04-15"},
+{"stat": {"strikeOuts": 0, "baseOnBalls": 0, "hits": 0, "inningsPitched": "1.0", "earnedRuns": 0}, "opponent": {"name": "Washington Nationals"}, "date": "2026-04-17"},
+{"stat": {"strikeOuts": 2, "baseOnBalls": 1, "hits": 1, "inningsPitched": "2.0", "earnedRuns": 0}, "opponent": {"name": "Los Angeles Dodgers"}, "date": "2026-04-23"},
+{"stat": {"strikeOuts": 2, "baseOnBalls": 1, "hits": 4, "inningsPitched": "2.0", "earnedRuns": 2}, "opponent": {"name": "Philadelphia Phillies"}, "date": "2026-04-28"}
+]}

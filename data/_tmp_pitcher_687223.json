@@ -1,0 +1,12 @@
+{"id": 687223, "splits": [
+{"stat": {"strikeOuts": 3, "baseOnBalls": 1, "hits": 2, "inningsPitched": "3.1", "earnedRuns": 1}, "opponent": {"name": "Philadelphia Phillies"}, "date": "2026-06-24"},
+{"stat": {"strikeOuts": 1, "baseOnBalls": 0, "hits": 2, "inningsPitched": "1.0", "earnedRuns": 0}, "opponent": {"name": "Boston Red Sox"}, "date": "2026-07-01"},
+{"stat": {"strikeOuts": 3, "baseOnBalls": 0, "hits": 4, "inningsPitched": "1.0", "earnedRuns": 4}, "opponent": {"name": "Pittsburgh Pirates"}, "date": "2026-07-04"},
+{"stat": {"strikeOuts": 0, "baseOnBalls": 1, "hits": 0, "inningsPitched": "1.0", "earnedRuns": 0}, "opponent": {"name": "Houston Astros"}, "date": "2026-07-07"},
+{"stat": {"strikeOuts": 4, "baseOnBalls": 0, "hits": 3, "inningsPitched": "3.0", "earnedRuns": 1}, "opponent": {"name": "New York Yankees"}, "date": "2026-07-10"},
+{"stat": {"strikeOuts": 1, "baseOnBalls": 0, "hits": 1, "inningsPitched": "0.1", "earnedRuns": 1}, "opponent": {"name": "Athletics"}, "date": "2026-07-18"},
+{"stat": {"strikeOuts": 2, "baseOnBalls": 1, "hits": 4, "inningsPitched": "1.2", "earnedRuns": 4}, "opponent": {"name": "Colorado Rockies"}, "date": "2026-07-21"},
+{"stat": {"strikeOuts": 1, "baseOnBalls": 3, "hits": 2, "inningsPitched": "1.1", "earnedRuns": 2}, "opponent": {"name": "Arizona Diamondbacks"}, "date": "2026-07-24"},
+{"stat": {"strikeOuts": 0, "baseOnBalls": 0, "hits": 0, "inningsPitched": "1.1", "earnedRuns": 0}, "opponent": {"name": "Toronto Blue Jays"}, "date": "2026-07-27"},
+{"stat": {"strikeOuts": 0, "baseOnBalls": 1, "hits": 1, "inningsPitched": "2.0", "earnedRuns": 0}, "opponent": {"name": "Atlanta Braves"}, "date": "2026-07-30"}
+]}
