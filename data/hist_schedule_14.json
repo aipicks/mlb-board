@@ -1,0 +1,17 @@
+{"dates":[{"date":"2026-08-04","games":[
+{"teams":{"away":{"team":{"name":"Los Angeles Angels"},"score":1,"probablePitcher":{"fullName":"Grayson Rodriguez"}},"home":{"team":{"name":"Baltimore Orioles"},"score":3,"probablePitcher":{"fullName":"Cade Povich"}}}},
+{"teams":{"away":{"team":{"name":"New York Mets"},"score":6,"probablePitcher":{"fullName":"Sean Manaea"}},"home":{"team":{"name":"Cleveland Guardians"},"score":2,"probablePitcher":{"fullName":"Joey Cantillo"}}}},
+{"teams":{"away":{"team":{"name":"Athletics"},"score":4,"probablePitcher":{"fullName":"J.T. Ginn"}},"home":{"team":{"name":"Cincinnati Reds"},"score":5,"probablePitcher":{"fullName":"Brady Singer"}}}},
+{"teams":{"away":{"team":{"name":"Washington Nationals"},"score":0,"probablePitcher":{"fullName":"Carson Palmquist"}},"home":{"team":{"name":"Philadelphia Phillies"},"score":5,"probablePitcher":{"fullName":"Jesús Luzardo"}}}},
+{"teams":{"away":{"team":{"name":"St. Louis Cardinals"},"score":0,"probablePitcher":{"fullName":"Hunter Dobbins"}},"home":{"team":{"name":"New York Yankees"},"score":2,"probablePitcher":{"fullName":"Ryan Weathers"}}}},
+{"teams":{"away":{"team":{"name":"Chicago White Sox"},"score":2,"probablePitcher":{"fullName":"Davis Martin"}},"home":{"team":{"name":"Boston Red Sox"},"score":14,"probablePitcher":{"fullName":"Patrick Sandoval"}}}},
+{"teams":{"away":{"team":{"name":"Miami Marlins"},"score":2,"probablePitcher":{"fullName":"Ryan Gusto"}},"home":{"team":{"name":"Atlanta Braves"},"score":4,"probablePitcher":{"fullName":"Grant Holmes"}}}},
+{"teams":{"away":{"team":{"name":"Minnesota Twins"},"score":2,"probablePitcher":{"fullName":"Joe Ryan"}},"home":{"team":{"name":"Kansas City Royals"},"score":8,"probablePitcher":{"fullName":"Randy Dobnak"}}}},
+{"teams":{"away":{"team":{"name":"Pittsburgh Pirates"},"score":2,"probablePitcher":{"fullName":"Jared Jones"}},"home":{"team":{"name":"Milwaukee Brewers"},"score":4,"probablePitcher":{"fullName":"Logan Henderson"}}}},
+{"teams":{"away":{"team":{"name":"Los Angeles Dodgers"},"score":1,"probablePitcher":{"fullName":"Tarik Skubal"}},"home":{"team":{"name":"Chicago Cubs"},"score":5,"probablePitcher":{"fullName":"Javier Assad"}}}},
+{"teams":{"away":{"team":{"name":"San Francisco Giants"},"score":4,"probablePitcher":{"fullName":"Blade Tidwell"}},"home":{"team":{"name":"Texas Rangers"},"score":5,"probablePitcher":{"fullName":"MacKenzie Gore"}}}},
+{"teams":{"away":{"team":{"name":"Toronto Blue Jays"},"score":2,"probablePitcher":{"fullName":"Trey Yesavage"}},"home":{"team":{"name":"Houston Astros"},"score":7,"probablePitcher":{"fullName":"Hayden Wesneski"}}}},
+{"teams":{"away":{"team":{"name":"Tampa Bay Rays"},"score":9,"probablePitcher":{"fullName":"Freddy Peralta"}},"home":{"team":{"name":"Colorado Rockies"},"score":7,"probablePitcher":{"fullName":"Gabriel Hughes"}}}},
+{"teams":{"away":{"team":{"name":"San Diego Padres"},"score":9,"probablePitcher":{"fullName":"Randy Vásquez"}},"home":{"team":{"name":"Arizona Diamondbacks"},"score":4,"probablePitcher":{"fullName":"Eduardo Rodriguez"}}}},
+{"teams":{"away":{"team":{"name":"Detroit Tigers"},"score":8,"probablePitcher":{"fullName":"Troy Melton"}},"home":{"team":{"name":"Seattle Mariners"},"score":0,"probablePitcher":{"fullName":"Emerson Hancock"}}}}
+]}]}
