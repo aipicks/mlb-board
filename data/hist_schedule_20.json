@@ -1,0 +1,12 @@
+{"dates":[{"date":"2026-08-10","games":[
+{"teams":{"away":{"team":{"name":"Boston Red Sox"},"score":1,"probablePitcher":{"fullName":"Sonny Gray"}},"home":{"team":{"name":"Toronto Blue Jays"},"score":2,"probablePitcher":{"fullName":"Jameson Taillon"}}}},
+{"teams":{"away":{"team":{"name":"New York Mets"},"score":8,"probablePitcher":{"fullName":"Christian Scott"}},"home":{"team":{"name":"Atlanta Braves"},"score":5,"probablePitcher":{"fullName":"Bryce Elder"}}}},
+{"teams":{"away":{"team":{"name":"Baltimore Orioles"},"score":5,"probablePitcher":{"fullName":"Trevor Rogers"}},"home":{"team":{"name":"Minnesota Twins"},"score":9,"probablePitcher":{"fullName":"Dean Kremer"}}}},
+{"teams":{"away":{"team":{"name":"Philadelphia Phillies"},"score":6,"probablePitcher":{"fullName":"Andrew Painter"}},"home":{"team":{"name":"St. Louis Cardinals"},"score":5,"probablePitcher":{"fullName":"Hunter Dobbins"}}}},
+{"teams":{"away":{"team":{"name":"Texas Rangers"},"score":4,"probablePitcher":{"fullName":"MacKenzie Gore"}},"home":{"team":{"name":"Los Angeles Angels"},"score":1,"probablePitcher":{"fullName":"Reid Detmers"}}}},
+{"teams":{"away":{"team":{"name":"Colorado Rockies"},"score":0,"probablePitcher":{"fullName":"Gabriel Hughes"}},"home":{"team":{"name":"Arizona Diamondbacks"},"score":9,"probablePitcher":{"fullName":"Michael Soroka"}}}},
+{"teams":{"away":{"team":{"name":"Tampa Bay Rays"},"score":10,"probablePitcher":{"fullName":"Freddy Peralta"}},"home":{"team":{"name":"Athletics"},"score":6,"probablePitcher":{"fullName":"Jacob Lopez"}}}},
+{"teams":{"away":{"team":{"name":"Milwaukee Brewers"},"score":2,"probablePitcher":{"fullName":"Logan Henderson"}},"home":{"team":{"name":"San Diego Padres"},"score":3,"probablePitcher":{"fullName":"Casey Mize"}}}},
+{"teams":{"away":{"team":{"name":"Houston Astros"},"score":6,"probablePitcher":{"fullName":"Hayden Wesneski"}},"home":{"team":{"name":"San Francisco Giants"},"score":3,"probablePitcher":{"fullName":"Blade Tidwell"}}}},
+{"teams":{"away":{"team":{"name":"Kansas City Royals"},"score":5,"probablePitcher":{"fullName":"Noah Cameron"}},"home":{"team":{"name":"Los Angeles Dodgers"},"score":6,"probablePitcher":{"fullName":"Tarik Skubal"}}}}
+]}]}
