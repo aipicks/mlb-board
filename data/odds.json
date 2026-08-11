@@ -1,15 +1,12 @@
 [
-{"away":"New York Mets","home":"Pittsburgh Pirates","commence":"2026-08-07T22:40:00Z","ml_away":118,"ml_home":-130,"rl_away":1.5,"rl_home":-1.5,"total_pt":8.5,"total_over":105,"total_under":-125},
-{"away":"Toronto Blue Jays","home":"Philadelphia Phillies","commence":"2026-08-07T22:40:00Z","ml_away":189,"ml_home":-210,"rl_away":1.5,"rl_home":-1.5,"total_pt":8,"total_over":100,"total_under":-120},
-{"away":"Atlanta Braves","home":"New York Yankees","commence":"2026-08-07T23:05:00Z","ml_away":122,"ml_home":-135,"rl_away":1.5,"rl_home":-1.5,"total_pt":8,"total_over":-115,"total_under":-105},
-{"away":"Athletics","home":"Boston Red Sox","commence":"2026-08-07T23:10:00Z","ml_away":231,"ml_home":-260,"rl_away":1.5,"rl_home":-1.5,"total_pt":8.5,"total_over":-105,"total_under":-115},
-{"away":"Los Angeles Angels","home":"Miami Marlins","commence":"2026-08-07T23:10:00Z","ml_away":146,"ml_home":-161,"rl_away":1.5,"rl_home":-1.5,"total_pt":8.5,"total_over":-117,"total_under":-103},
-{"away":"Cleveland Guardians","home":"Chicago White Sox","commence":"2026-08-07T23:40:00Z","ml_away":-139,"ml_home":126,"rl_away":-1.5,"rl_home":1.5,"total_pt":7.5,"total_over":-115,"total_under":-105},
-{"away":"Minnesota Twins","home":"Milwaukee Brewers","commence":"2026-08-07T23:40:00Z","ml_away":169,"ml_home":-188,"rl_away":1.5,"rl_home":-1.5,"total_pt":8,"total_over":-105,"total_under":-115},
-{"away":"Chicago Cubs","home":"Kansas City Royals","commence":"2026-08-08T00:10:00Z","ml_away":-165,"ml_home":149,"rl_away":-1.5,"rl_home":1.5,"total_pt":9,"total_over":-115,"total_under":-105},
-{"away":"Colorado Rockies","home":"St. Louis Cardinals","commence":"2026-08-08T00:15:00Z","ml_away":151,"ml_home":-167,"rl_away":1.5,"rl_home":-1.5,"total_pt":8.5,"total_over":-120,"total_under":100},
-{"away":"Baltimore Orioles","home":"Texas Rangers","commence":"2026-08-08T00:15:00Z","ml_away":132,"ml_home":-146,"rl_away":1.5,"rl_home":-1.5,"total_pt":7.5,"total_over":100,"total_under":-120},
-{"away":"Los Angeles Dodgers","home":"Arizona Diamondbacks","commence":"2026-08-08T01:40:00Z","ml_away":-176,"ml_home":159,"rl_away":-1.5,"rl_home":1.5,"total_pt":9,"total_over":-120,"total_under":100},
-{"away":"Houston Astros","home":"San Diego Padres","commence":"2026-08-08T01:40:00Z","ml_away":100,"ml_home":-110,"rl_away":1.5,"rl_home":-1.5,"total_pt":8,"total_over":-120,"total_under":100},
-{"away":"Tampa Bay Rays","home":"Seattle Mariners","commence":"2026-08-08T01:45:00Z","ml_away":103,"ml_home":-113,"rl_away":1.5,"rl_home":-1.5,"total_pt":7,"total_over":-105,"total_under":-115}
+{"away":"Boston Red Sox","home":"Toronto Blue Jays","commence":"2026-08-10T23:07:00Z","ml_away":-150,"ml_home":136,"rl_away":-1.5,"rl_home":1.5,"total_pt":8,"total_over":-120,"total_under":100},
+{"away":"New York Mets","home":"Atlanta Braves","commence":"2026-08-10T23:15:00Z","ml_away":132,"ml_home":-146,"rl_away":1.5,"rl_home":-1.5,"total_pt":8.5,"total_over":-110,"total_under":-110},
+{"away":"Baltimore Orioles","home":"Minnesota Twins","commence":"2026-08-10T23:40:00Z","ml_away":-113,"ml_home":103,"rl_away":-1.5,"rl_home":1.5,"total_pt":8.5,"total_over":-105,"total_under":-115},
+{"away":"Philadelphia Phillies","home":"St. Louis Cardinals","commence":"2026-08-10T23:45:00Z","ml_away":-116,"ml_home":105,"rl_away":-1.5,"rl_home":1.5,"total_pt":9,"total_over":-107,"total_under":-113},
+{"away":"Texas Rangers","home":"Los Angeles Angels","commence":"2026-08-11T01:38:00Z","ml_away":-112,"ml_home":102,"rl_away":-1.5,"rl_home":1.5,"total_pt":8,"total_over":-110,"total_under":-110},
+{"away":"Colorado Rockies","home":"Arizona Diamondbacks","commence":"2026-08-11T01:40:00Z","ml_away":177,"ml_home":-197,"rl_away":1.5,"rl_home":-1.5,"total_pt":8.5,"total_over":-125,"total_under":105},
+{"away":"Milwaukee Brewers","home":"San Diego Padres","commence":"2026-08-11T01:40:00Z","ml_away":-116,"ml_home":105,"rl_away":-1.5,"rl_home":1.5,"total_pt":7.5,"total_over":100,"total_under":-120},
+{"away":"Tampa Bay Rays","home":"Athletics","commence":"2026-08-11T01:40:00Z","ml_away":-155,"ml_home":140,"rl_away":-1.5,"rl_home":1.5,"total_pt":10,"total_over":-104,"total_under":-116},
+{"away":"Houston Astros","home":"San Francisco Giants","commence":"2026-08-11T01:45:00Z","ml_away":-148,"ml_home":134,"rl_away":-1.5,"rl_home":1.5,"total_pt":8.5,"total_over":-108,"total_under":-112},
+{"away":"Kansas City Royals","home":"Los Angeles Dodgers","commence":"2026-08-11T02:10:00Z","ml_away":234,"ml_home":-263,"rl_away":1.5,"rl_home":-1.5,"total_pt":7.5,"total_over":102,"total_under":-122}
 ]
