@@ -1,0 +1,13 @@
+[
+{"stat":{"strikeOuts":3,"baseOnBalls":1,"hits":3,"inningsPitched":"2.0","earnedRuns":2},"opponent":{"name":"Kansas City Royals"},"date":"2026-04-04"},
+{"stat":{"strikeOuts":8,"baseOnBalls":0,"hits":3,"inningsPitched":"6.0","earnedRuns":2},"opponent":{"name":"Washington Nationals"},"date":"2026-05-03"},
+{"stat":{"strikeOuts":5,"baseOnBalls":1,"hits":4,"inningsPitched":"5.0","earnedRuns":2},"opponent":{"name":"New York Yankees"},"date":"2026-05-10"},
+{"stat":{"strikeOuts":7,"baseOnBalls":1,"hits":6,"inningsPitched":"5.0","earnedRuns":1},"opponent":{"name":"Minnesota Twins"},"date":"2026-05-16"},
+{"stat":{"strikeOuts":7,"baseOnBalls":3,"hits":2,"inningsPitched":"5.0","earnedRuns":0},"opponent":{"name":"Los Angeles Dodgers"},"date":"2026-05-22"},
+{"stat":{"strikeOuts":4,"baseOnBalls":1,"hits":3,"inningsPitched":"5.1","earnedRuns":3},"opponent":{"name":"St. Louis Cardinals"},"date":"2026-07-09"},
+{"stat":{"strikeOuts":4,"baseOnBalls":0,"hits":3,"inningsPitched":"5.0","earnedRuns":1},"opponent":{"name":"Miami Marlins"},"date":"2026-07-17"},
+{"stat":{"strikeOuts":9,"baseOnBalls":0,"hits":5,"inningsPitched":"5.0","earnedRuns":2},"opponent":{"name":"New York Mets"},"date":"2026-07-22"},
+{"stat":{"strikeOuts":7,"baseOnBalls":2,"hits":2,"inningsPitched":"5.2","earnedRuns":0},"opponent":{"name":"San Francisco Giants"},"date":"2026-07-28"},
+{"stat":{"strikeOuts":8,"baseOnBalls":1,"hits":4,"inningsPitched":"6.0","earnedRuns":2},"opponent":{"name":"Pittsburgh Pirates"},"date":"2026-08-04"},
+{"stat":{"strikeOuts":7,"baseOnBalls":1,"hits":5,"inningsPitched":"6.1","earnedRuns":3},"opponent":{"name":"San Diego Padres"},"date":"2026-08-10"}
+]

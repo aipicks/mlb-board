@@ -1,0 +1,11 @@
+{"dates":[{"date":"2026-08-13","games":[
+{"teams":{"away":{"team":{"name":"Cleveland Guardians"},"score":0,"probablePitcher":{"fullName":"Parker Messick"}},"home":{"team":{"name":"Detroit Tigers"},"score":3,"probablePitcher":{"fullName":"Keider Montero"}}}},
+{"teams":{"away":{"team":{"name":"Cincinnati Reds"},"score":9,"probablePitcher":{"fullName":"Andrew Abbott"}},"home":{"team":{"name":"Chicago White Sox"},"score":8,"probablePitcher":{"fullName":"Davis Martin"}}}},
+{"teams":{"away":{"team":{"name":"Pittsburgh Pirates"},"score":13,"probablePitcher":{"fullName":"Braxton Ashcraft"}},"home":{"team":{"name":"Miami Marlins"},"score":1,"probablePitcher":{"fullName":"Tyler Phillips"}}}},
+{"teams":{"away":{"team":{"name":"Seattle Mariners"},"score":1,"probablePitcher":{"fullName":"Logan Gilbert"}},"home":{"team":{"name":"New York Yankees"},"score":0,"probablePitcher":{"fullName":"Max Fried"}}}},
+{"teams":{"away":{"team":{"name":"Boston Red Sox"},"score":7,"probablePitcher":{"fullName":"Payton Tolle"}},"home":{"team":{"name":"Toronto Blue Jays"},"score":0,"probablePitcher":{"fullName":"Max Scherzer"}}}},
+{"teams":{"away":{"team":{"name":"Chicago Cubs"},"score":0,"probablePitcher":{"fullName":"Kevin Gausman"}},"home":{"team":{"name":"Washington Nationals"},"score":7,"probablePitcher":{"fullName":"Cade Cavalli"}}}},
+{"teams":{"away":{"team":{"name":"Philadelphia Phillies"},"score":7,"probablePitcher":{"fullName":"Aaron Nola"}},"home":{"team":{"name":"Minnesota Twins"},"score":1,"probablePitcher":{"fullName":"Taj Bradley"}}}},
+{"teams":{"away":{"team":{"name":"Texas Rangers"},"score":0,"probablePitcher":{"fullName":"Jacob deGrom"}},"home":{"team":{"name":"Los Angeles Angels"},"score":7,"probablePitcher":{"fullName":"Walbert Ureña"}}}},
+{"teams":{"away":{"team":{"name":"Milwaukee Brewers"},"score":5,"probablePitcher":{"fullName":"Shane Drohan"}},"home":{"team":{"name":"Los Angeles Dodgers"},"score":4,"probablePitcher":{"fullName":"Roki Sasaki"}}}}
+]}]}
