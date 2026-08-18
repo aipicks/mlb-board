@@ -1,0 +1,13 @@
+{"dates":[{"date":"2026-08-17","games":[
+{"teams":{"away":{"team":{"name":"St. Louis Cardinals"},"score":2,"probablePitcher":{"fullName":"Quinn Mathews"}},"home":{"team":{"name":"Cincinnati Reds"},"score":1,"probablePitcher":{"fullName":"Kent Emanuel"}}}},
+{"teams":{"away":{"team":{"name":"St. Louis Cardinals"},"score":5,"probablePitcher":{"fullName":"Andre Pallante"}},"home":{"team":{"name":"Cincinnati Reds"},"score":6,"probablePitcher":{"fullName":"Rhett Lowder"}}}},
+{"teams":{"away":{"team":{"name":"Baltimore Orioles"},"score":6,"probablePitcher":{"fullName":"Brandon Young"}},"home":{"team":{"name":"Tampa Bay Rays"},"score":7,"probablePitcher":{"fullName":"Shane McClanahan"}}}},
+{"teams":{"away":{"team":{"name":"Miami Marlins"},"score":5,"probablePitcher":{"fullName":"Janson Junk"}},"home":{"team":{"name":"Philadelphia Phillies"},"score":6,"probablePitcher":{"fullName":"Cristopher Sánchez"}}}},
+{"teams":{"away":{"team":{"name":"Detroit Tigers"},"score":8,"probablePitcher":{"fullName":"Framber Valdez"}},"home":{"team":{"name":"Pittsburgh Pirates"},"score":5,"probablePitcher":{"fullName":"Carmen Mlodzinski"}}}},
+{"teams":{"away":{"team":{"name":"Arizona Diamondbacks"},"score":1,"probablePitcher":{"fullName":"Mitch Bratt"}},"home":{"team":{"name":"Boston Red Sox"},"score":11,"probablePitcher":{"fullName":"Alec Gamboa"}}}},
+{"teams":{"away":{"team":{"name":"San Diego Padres"},"score":1,"probablePitcher":{"fullName":"Walker Buehler"}},"home":{"team":{"name":"New York Mets"},"score":2,"probablePitcher":{"fullName":"Nolan McLean"}}}},
+{"teams":{"away":{"team":{"name":"Athletics"},"score":5,"probablePitcher":{"fullName":"Mason Barnett"}},"home":{"team":{"name":"Kansas City Royals"},"score":9,"probablePitcher":{"fullName":"Michael Wacha"}}}},
+{"teams":{"away":{"team":{"name":"Atlanta Braves"},"score":2,"probablePitcher":{"fullName":"Martín Pérez"}},"home":{"team":{"name":"Minnesota Twins"},"score":4,"probablePitcher":{"fullName":"Bailey Ober"}}}},
+{"teams":{"away":{"team":{"name":"Chicago White Sox"},"score":5,"probablePitcher":{"fullName":"Luis Castillo"}},"home":{"team":{"name":"Chicago Cubs"},"score":7,"probablePitcher":{"fullName":"Shota Imanaga"}}}},
+{"teams":{"away":{"team":{"name":"Los Angeles Dodgers"},"score":11,"probablePitcher":{"fullName":"Blake Snell"}},"home":{"team":{"name":"Colorado Rockies"},"score":5,"probablePitcher":{"fullName":"Tomoyuki Sugano"}}}}
+]}]}
