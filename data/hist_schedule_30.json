@@ -1,0 +1,11 @@
+{"dates":[{"date":"2026-08-20","games":[
+{"teams":{"away":{"team":{"name":"St. Louis Cardinals"},"score":10,"probablePitcher":{"fullName":"Michael McGreevy"}},"home":{"team":{"name":"Cincinnati Reds"},"score":9,"probablePitcher":{"fullName":"Brady Singer"}}}},
+{"teams":{"away":{"team":{"name":"San Francisco Giants"},"score":2,"probablePitcher":{"fullName":"Landen Roupp"}},"home":{"team":{"name":"Cleveland Guardians"},"score":5,"probablePitcher":{"fullName":"Gavin Williams"}}}},
+{"teams":{"away":{"team":{"name":"Toronto Blue Jays"},"score":5,"probablePitcher":{"fullName":"Shane Bieber"}},"home":{"team":{"name":"Tampa Bay Rays"},"score":1,"probablePitcher":{"fullName":"Ian Seymour"}}}},
+{"teams":{"away":{"team":{"name":"Athletics"},"score":2,"probablePitcher":{"fullName":"Gage Jump"}},"home":{"team":{"name":"Kansas City Royals"},"score":6,"probablePitcher":{"fullName":"Randy Dobnak"}}}},
+{"teams":{"away":{"team":{"name":"Atlanta Braves"},"score":2,"probablePitcher":{"fullName":"Grant Holmes"}},"home":{"team":{"name":"Chicago White Sox"},"score":0,"probablePitcher":{"fullName":"Anthony Kay"}}}},
+{"teams":{"away":{"team":{"name":"Seattle Mariners"},"score":4,"probablePitcher":{"fullName":"George Kirby"}},"home":{"team":{"name":"Milwaukee Brewers"},"score":7,"probablePitcher":{"fullName":"Robert Gasser"}}}},
+{"teams":{"away":{"team":{"name":"New York Yankees"},"score":6,"probablePitcher":{"fullName":"Gerrit Cole"}},"home":{"team":{"name":"Baltimore Orioles"},"score":1,"probablePitcher":{"fullName":"Kyle Bradish"}}}},
+{"teams":{"away":{"team":{"name":"Washington Nationals"},"score":0,"probablePitcher":{"fullName":"Andrew Alvarez"}},"home":{"team":{"name":"Texas Rangers"},"score":2,"probablePitcher":{"fullName":"Jacob deGrom"}}}},
+{"teams":{"away":{"team":{"name":"Los Angeles Angels"},"score":18,"probablePitcher":{"fullName":"Grayson Rodriguez"}},"home":{"team":{"name":"Houston Astros"},"score":3,"probablePitcher":{"fullName":"Peter Lambert"}}}}
+]}]}
