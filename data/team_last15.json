@@ -3,274 +3,274 @@
   {
    "team": "Boston Red Sox",
    "gamesPlayed": 15,
-   "runs": 87,
-   "strikeOuts": 116,
-   "baseOnBalls": 65,
-   "hits": 146
-  },
-  {
-   "team": "Tampa Bay Rays",
-   "gamesPlayed": 15,
-   "runs": 82,
-   "strikeOuts": 96,
-   "baseOnBalls": 47,
-   "hits": 149
-  },
-  {
-   "team": "Milwaukee Brewers",
-   "gamesPlayed": 15,
-   "runs": 80,
-   "strikeOuts": 151,
-   "baseOnBalls": 68,
-   "hits": 125
+   "runs": 89,
+   "strikeOuts": 111,
+   "baseOnBalls": 66,
+   "hits": 150
   },
   {
    "team": "Philadelphia Phillies",
    "gamesPlayed": 15,
-   "runs": 78,
-   "strikeOuts": 90,
-   "baseOnBalls": 75,
+   "runs": 80,
+   "strikeOuts": 92,
+   "baseOnBalls": 78,
    "hits": 140
+  },
+  {
+   "team": "St. Louis Cardinals",
+   "gamesPlayed": 15,
+   "runs": 79,
+   "strikeOuts": 122,
+   "baseOnBalls": 55,
+   "hits": 128
+  },
+  {
+   "team": "Chicago White Sox",
+   "gamesPlayed": 15,
+   "runs": 78,
+   "strikeOuts": 140,
+   "baseOnBalls": 63,
+   "hits": 126
+  },
+  {
+   "team": "Milwaukee Brewers",
+   "gamesPlayed": 15,
+   "runs": 78,
+   "strikeOuts": 150,
+   "baseOnBalls": 64,
+   "hits": 130
   },
   {
    "team": "Chicago Cubs",
    "gamesPlayed": 15,
    "runs": 76,
-   "strikeOuts": 127,
-   "baseOnBalls": 53,
-   "hits": 130
+   "strikeOuts": 130,
+   "baseOnBalls": 52,
+   "hits": 133
   },
   {
-   "team": "St. Louis Cardinals",
+   "team": "Tampa Bay Rays",
    "gamesPlayed": 15,
    "runs": 76,
-   "strikeOuts": 117,
-   "baseOnBalls": 57,
-   "hits": 125
+   "strikeOuts": 95,
+   "baseOnBalls": 43,
+   "hits": 144
   },
   {
    "team": "New York Mets",
    "gamesPlayed": 15,
-   "runs": 74,
+   "runs": 72,
    "strikeOuts": 134,
-   "baseOnBalls": 54,
-   "hits": 129
-  },
-  {
-   "team": "Colorado Rockies",
-   "gamesPlayed": 15,
-   "runs": 73,
-   "strikeOuts": 125,
-   "baseOnBalls": 48,
-   "hits": 127
-  },
-  {
-   "team": "Chicago White Sox",
-   "gamesPlayed": 15,
-   "runs": 72,
-   "strikeOuts": 147,
-   "baseOnBalls": 63,
-   "hits": 124
-  },
-  {
-   "team": "Detroit Tigers",
-   "gamesPlayed": 15,
-   "runs": 72,
-   "strikeOuts": 121,
-   "baseOnBalls": 53,
-   "hits": 129
-  },
-  {
-   "team": "San Diego Padres",
-   "gamesPlayed": 15,
-   "runs": 70,
-   "strikeOuts": 109,
-   "baseOnBalls": 55,
-   "hits": 129
-  },
-  {
-   "team": "Toronto Blue Jays",
-   "gamesPlayed": 15,
-   "runs": 69,
-   "strikeOuts": 124,
-   "baseOnBalls": 49,
-   "hits": 139
+   "baseOnBalls": 52,
+   "hits": 128
   },
   {
    "team": "Arizona Diamondbacks",
    "gamesPlayed": 15,
-   "runs": 66,
-   "strikeOuts": 112,
-   "baseOnBalls": 57,
-   "hits": 128
-  },
-  {
-   "team": "Athletics",
-   "gamesPlayed": 15,
-   "runs": 66,
-   "strikeOuts": 106,
-   "baseOnBalls": 40,
-   "hits": 119
+   "runs": 71,
+   "strikeOuts": 113,
+   "baseOnBalls": 60,
+   "hits": 137
   },
   {
    "team": "Kansas City Royals",
    "gamesPlayed": 15,
-   "runs": 66,
+   "runs": 69,
    "strikeOuts": 103,
-   "baseOnBalls": 48,
-   "hits": 117
-  },
-  {
-   "team": "Washington Nationals",
-   "gamesPlayed": 15,
-   "runs": 66,
-   "strikeOuts": 142,
-   "baseOnBalls": 43,
-   "hits": 120
-  },
-  {
-   "team": "Baltimore Orioles",
-   "gamesPlayed": 15,
-   "runs": 64,
-   "strikeOuts": 144,
-   "baseOnBalls": 52,
-   "hits": 121
-  },
-  {
-   "team": "Miami Marlins",
-   "gamesPlayed": 15,
-   "runs": 64,
-   "strikeOuts": 127,
-   "baseOnBalls": 55,
-   "hits": 124
-  },
-  {
-   "team": "Pittsburgh Pirates",
-   "gamesPlayed": 15,
-   "runs": 64,
-   "strikeOuts": 132,
-   "baseOnBalls": 47,
-   "hits": 114
-  },
-  {
-   "team": "Los Angeles Dodgers",
-   "gamesPlayed": 15,
-   "runs": 63,
-   "strikeOuts": 112,
-   "baseOnBalls": 38,
+   "baseOnBalls": 49,
    "hits": 122
   },
   {
    "team": "Cleveland Guardians",
    "gamesPlayed": 15,
-   "runs": 61,
-   "strikeOuts": 109,
+   "runs": 68,
+   "strikeOuts": 107,
+   "baseOnBalls": 56,
+   "hits": 135
+  },
+  {
+   "team": "Washington Nationals",
+   "gamesPlayed": 15,
+   "runs": 68,
+   "strikeOuts": 139,
+   "baseOnBalls": 44,
+   "hits": 124
+  },
+  {
+   "team": "Los Angeles Dodgers",
+   "gamesPlayed": 15,
+   "runs": 67,
+   "strikeOuts": 122,
+   "baseOnBalls": 43,
+   "hits": 124
+  },
+  {
+   "team": "San Diego Padres",
+   "gamesPlayed": 15,
+   "runs": 67,
+   "strikeOuts": 112,
+   "baseOnBalls": 57,
+   "hits": 122
+  },
+  {
+   "team": "Detroit Tigers",
+   "gamesPlayed": 15,
+   "runs": 66,
+   "strikeOuts": 115,
+   "baseOnBalls": 55,
+   "hits": 122
+  },
+  {
+   "team": "Pittsburgh Pirates",
+   "gamesPlayed": 15,
+   "runs": 66,
+   "strikeOuts": 135,
+   "baseOnBalls": 47,
+   "hits": 117
+  },
+  {
+   "team": "Colorado Rockies",
+   "gamesPlayed": 15,
+   "runs": 65,
+   "strikeOuts": 126,
+   "baseOnBalls": 55,
+   "hits": 118
+  },
+  {
+   "team": "Miami Marlins",
+   "gamesPlayed": 15,
+   "runs": 65,
+   "strikeOuts": 128,
    "baseOnBalls": 59,
-   "hits": 128
+   "hits": 122
+  },
+  {
+   "team": "Toronto Blue Jays",
+   "gamesPlayed": 15,
+   "runs": 65,
+   "strikeOuts": 119,
+   "baseOnBalls": 50,
+   "hits": 143
+  },
+  {
+   "team": "Athletics",
+   "gamesPlayed": 15,
+   "runs": 64,
+   "strikeOuts": 108,
+   "baseOnBalls": 43,
+   "hits": 118
+  },
+  {
+   "team": "Baltimore Orioles",
+   "gamesPlayed": 15,
+   "runs": 64,
+   "strikeOuts": 138,
+   "baseOnBalls": 51,
+   "hits": 123
   },
   {
    "team": "Minnesota Twins",
    "gamesPlayed": 15,
    "runs": 60,
-   "strikeOuts": 118,
-   "baseOnBalls": 53,
-   "hits": 131
-  },
-  {
-   "team": "Los Angeles Angels",
-   "gamesPlayed": 15,
-   "runs": 59,
-   "strikeOuts": 132,
-   "baseOnBalls": 43,
-   "hits": 113
-  },
-  {
-   "team": "Atlanta Braves",
-   "gamesPlayed": 15,
-   "runs": 55,
-   "strikeOuts": 135,
-   "baseOnBalls": 34,
-   "hits": 113
+   "strikeOuts": 121,
+   "baseOnBalls": 49,
+   "hits": 126
   },
   {
    "team": "Houston Astros",
    "gamesPlayed": 15,
-   "runs": 55,
-   "strikeOuts": 115,
-   "baseOnBalls": 46,
-   "hits": 107
-  },
-  {
-   "team": "Cincinnati Reds",
-   "gamesPlayed": 15,
-   "runs": 53,
-   "strikeOuts": 145,
-   "baseOnBalls": 45,
-   "hits": 92
-  },
-  {
-   "team": "New York Yankees",
-   "gamesPlayed": 15,
-   "runs": 53,
-   "strikeOuts": 146,
-   "baseOnBalls": 51,
-   "hits": 104
-  },
-  {
-   "team": "Texas Rangers",
-   "gamesPlayed": 15,
-   "runs": 48,
-   "strikeOuts": 130,
-   "baseOnBalls": 47,
+   "runs": 58,
+   "strikeOuts": 111,
+   "baseOnBalls": 44,
    "hits": 106
+  },
+  {
+   "team": "Los Angeles Angels",
+   "gamesPlayed": 15,
+   "runs": 58,
+   "strikeOuts": 135,
+   "baseOnBalls": 46,
+   "hits": 112
+  },
+  {
+   "team": "Atlanta Braves",
+   "gamesPlayed": 15,
+   "runs": 52,
+   "strikeOuts": 131,
+   "baseOnBalls": 36,
+   "hits": 111
   },
   {
    "team": "Seattle Mariners",
    "gamesPlayed": 15,
-   "runs": 46,
-   "strikeOuts": 133,
+   "runs": 52,
+   "strikeOuts": 132,
    "baseOnBalls": 54,
-   "hits": 109
+   "hits": 113
+  },
+  {
+   "team": "New York Yankees",
+   "gamesPlayed": 15,
+   "runs": 49,
+   "strikeOuts": 149,
+   "baseOnBalls": 55,
+   "hits": 98
+  },
+  {
+   "team": "Cincinnati Reds",
+   "gamesPlayed": 15,
+   "runs": 47,
+   "strikeOuts": 140,
+   "baseOnBalls": 43,
+   "hits": 88
+  },
+  {
+   "team": "Texas Rangers",
+   "gamesPlayed": 15,
+   "runs": 45,
+   "strikeOuts": 135,
+   "baseOnBalls": 46,
+   "hits": 106
   },
   {
    "team": "San Francisco Giants",
    "gamesPlayed": 15,
-   "runs": 43,
-   "strikeOuts": 130,
-   "baseOnBalls": 45,
-   "hits": 100
+   "runs": 42,
+   "strikeOuts": 136,
+   "baseOnBalls": 43,
+   "hits": 101
   }
  ],
  "wins": {
-  "New York Mets": 11,
-  "Chicago Cubs": 10,
+  "New York Mets": 10,
+  "New York Yankees": 10,
   "Philadelphia Phillies": 10,
   "San Diego Padres": 10,
-  "St. Louis Cardinals": 10,
-  "Tampa Bay Rays": 10,
-  "Toronto Blue Jays": 10,
+  "Chicago Cubs": 9,
+  "Los Angeles Dodgers": 9,
   "Milwaukee Brewers": 9,
-  "New York Yankees": 9,
+  "St. Louis Cardinals": 9,
+  "Tampa Bay Rays": 9,
+  "Toronto Blue Jays": 9,
+  "Arizona Diamondbacks": 8,
+  "Chicago White Sox": 8,
   "Kansas City Royals": 8,
   "Los Angeles Angels": 8,
-  "Los Angeles Dodgers": 8,
   "Texas Rangers": 8,
-  "Arizona Diamondbacks": 7,
-  "Atlanta Braves": 7,
   "Boston Red Sox": 7,
-  "Chicago White Sox": 7,
-  "Detroit Tigers": 7,
+  "Houston Astros": 7,
+  "Miami Marlins": 7,
   "Minnesota Twins": 7,
+  "Atlanta Braves": 6,
   "Baltimore Orioles": 6,
-  "Cincinnati Reds": 6,
-  "Houston Astros": 6,
-  "Miami Marlins": 6,
+  "Cleveland Guardians": 6,
+  "Detroit Tigers": 6,
   "Pittsburgh Pirates": 6,
+  "Seattle Mariners": 6,
   "Washington Nationals": 6,
-  "Cleveland Guardians": 5,
+  "Cincinnati Reds": 5,
   "Colorado Rockies": 5,
-  "San Francisco Giants": 5,
-  "Seattle Mariners": 5,
-  "Athletics": 4
+  "Athletics": 4,
+  "San Francisco Giants": 4
  }
 }
