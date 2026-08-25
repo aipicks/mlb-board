@@ -1,0 +1,12 @@
+{"dates":[{"date":"2026-08-24","games":[
+{"teams":{"away":{"team":{"name":"Tampa Bay Rays"},"score":4,"probablePitcher":{"fullName":"Drew Rasmussen"}},"home":{"team":{"name":"Detroit Tigers"},"score":1,"probablePitcher":{"fullName":"Framber Valdez"}}}},
+{"teams":{"away":{"team":{"name":"Boston Red Sox"},"score":4,"probablePitcher":{"fullName":"Ranger Suárez"}},"home":{"team":{"name":"Miami Marlins"},"score":2,"probablePitcher":{"fullName":"Sandy Alcantara"}}}},
+{"teams":{"away":{"team":{"name":"Colorado Rockies"},"score":3,"probablePitcher":{"fullName":"Ryan Feltner"}},"home":{"team":{"name":"Washington Nationals"},"score":13,"probablePitcher":{"fullName":"Cade Cavalli"}}}},
+{"teams":{"away":{"team":{"name":"Texas Rangers"},"score":11,"probablePitcher":{"fullName":"Kumar Rocker"}},"home":{"team":{"name":"Chicago White Sox"},"score":2,"probablePitcher":{"fullName":"José Urquidy"}}}},
+{"teams":{"away":{"team":{"name":"Cleveland Guardians"},"score":4,"probablePitcher":{"fullName":"Parker Messick"}},"home":{"team":{"name":"Los Angeles Angels"},"score":2,"probablePitcher":{"fullName":"George Klassen"}}}},
+{"teams":{"away":{"team":{"name":"Chicago Cubs"},"score":7,"probablePitcher":{"fullName":"Kevin Gausman"}},"home":{"team":{"name":"Arizona Diamondbacks"},"score":0,"probablePitcher":{"fullName":"Merrill Kelly"}}}},
+{"teams":{"away":{"team":{"name":"Pittsburgh Pirates"},"score":3,"probablePitcher":{"fullName":"Braxton Ashcraft"}},"home":{"team":{"name":"San Diego Padres"},"score":2,"probablePitcher":{"fullName":"Robbie Ray"}}}},
+{"teams":{"away":{"team":{"name":"Minnesota Twins"},"score":9,"probablePitcher":{"fullName":"Zebby Matthews"}},"home":{"team":{"name":"Athletics"},"score":6,"probablePitcher":{"fullName":"Jeffrey Springs"}}}},
+{"teams":{"away":{"team":{"name":"Philadelphia Phillies"},"score":2,"probablePitcher":{"fullName":"Zack Wheeler"}},"home":{"team":{"name":"Seattle Mariners"},"score":9,"probablePitcher":{"fullName":"Logan Gilbert"}}}},
+{"teams":{"away":{"team":{"name":"Cincinnati Reds"},"score":0,"probablePitcher":{"fullName":"Chase Burns"}},"home":{"team":{"name":"San Francisco Giants"},"score":5,"probablePitcher":{"fullName":"Carson Whisenhunt"}}}}
+]}]}
