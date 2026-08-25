@@ -1,15 +1,275 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "games": [
-    {"gamePk": 824235, "utc": "2026-08-24T22:40:00Z", "away": {"id": 139, "name": "Rays", "rec": "77-53", "pid": 656876, "pname": "Drew Rasmussen"}, "home": {"id": 116, "name": "Tigers", "rec": "61-69", "pid": 664285, "pname": "Framber Valdez"}},
-    {"gamePk": 823828, "utc": "2026-08-24T22:40:00Z", "away": {"id": 111, "name": "Red Sox", "rec": "71-59", "pid": 624133, "pname": "Ranger Suárez"}, "home": {"id": 146, "name": "Marlins", "rec": "67-64", "pid": 645261, "pname": "Sandy Alcantara"}},
-    {"gamePk": 822695, "utc": "2026-08-24T22:45:00Z", "away": {"id": 115, "name": "Rockies", "rec": "50-80", "pid": 663372, "pname": "Ryan Feltner"}, "home": {"id": 120, "name": "Nationals", "rec": "61-71", "pid": 676917, "pname": "Cade Cavalli"}},
-    {"gamePk": 824557, "utc": "2026-08-24T23:40:00Z", "away": {"id": 140, "name": "Rangers", "rec": "65-66", "pid": 677958, "pname": "Kumar Rocker"}, "home": {"id": 145, "name": "White Sox", "rec": "68-62", "pid": 664353, "pname": "José Urquidy"}},
-    {"gamePk": 823992, "utc": "2026-08-25T01:38:00Z", "away": {"id": 114, "name": "Guardians", "rec": "65-66", "pid": 800048, "pname": "Parker Messick"}, "home": {"id": 108, "name": "Angels", "rec": "52-79", "pid": 691946, "pname": "George Klassen"}},
-    {"gamePk": 825041, "utc": "2026-08-25T01:40:00Z", "away": {"id": 112, "name": "Cubs", "rec": "75-56", "pid": 592332, "pname": "Kevin Gausman"}, "home": {"id": 109, "name": "D-backs", "rec": "69-62", "pid": 518876, "pname": "Merrill Kelly"}},
-    {"gamePk": 823260, "utc": "2026-08-25T01:40:00Z", "away": {"id": 134, "name": "Pirates", "rec": "63-69", "pid": 677952, "pname": "Braxton Ashcraft"}, "home": {"id": 135, "name": "Padres", "rec": "71-60", "pid": 592662, "pname": "Robbie Ray"}},
-    {"gamePk": 824964, "utc": "2026-08-25T01:40:00Z", "away": {"id": 142, "name": "Twins", "rec": "63-68", "pid": 805673, "pname": "Zebby Matthews"}, "home": {"id": 133, "name": "Athletics", "rec": "51-80", "pid": 605488, "pname": "Jeffrey Springs"}},
-    {"gamePk": 823097, "utc": "2026-08-25T01:40:00Z", "away": {"id": 143, "name": "Phillies", "rec": "73-58", "pid": 554430, "pname": "Zack Wheeler"}, "home": {"id": 136, "name": "Mariners", "rec": "62-69", "pid": 669302, "pname": "Logan Gilbert"}},
-    {"gamePk": 823183, "utc": "2026-08-25T01:45:00Z", "away": {"id": 113, "name": "Reds", "rec": "62-69", "pid": 695505, "pname": "Chase Burns"}, "home": {"id": 137, "name": "Giants", "rec": "52-78", "pid": 687931, "pname": "Carson Whisenhunt"}}
+    {
+      "gamePk": 824233,
+      "utc": "2026-08-25T22:40:00Z",
+      "away": {
+        "id": 139,
+        "name": "Rays",
+        "rec": "78-53",
+        "pid": 693855,
+        "pname": "Ian Seymour"
+      },
+      "home": {
+        "id": 116,
+        "name": "Tigers",
+        "rec": "61-70",
+        "pid": 695549,
+        "pname": "Jackson Jobe"
+      }
+    },
+    {
+      "gamePk": 823826,
+      "utc": "2026-08-25T22:40:00Z",
+      "away": {
+        "id": 111,
+        "name": "Red Sox",
+        "rec": "72-59",
+        "pid": 801139,
+        "pname": "Payton Tolle"
+      },
+      "home": {
+        "id": 146,
+        "name": "Marlins",
+        "rec": "67-65",
+        "pid": 663969,
+        "pname": "Tyler Phillips"
+      }
+    },
+    {
+      "gamePk": 822693,
+      "utc": "2026-08-25T22:45:00Z",
+      "away": {
+        "id": 115,
+        "name": "Rockies",
+        "rec": "50-81",
+        "pid": null,
+        "pname": "TBD"
+      },
+      "home": {
+        "id": 120,
+        "name": "Nationals",
+        "rec": "62-71",
+        "pid": 674841,
+        "pname": "Andrew Alvarez"
+      }
+    },
+    {
+      "gamePk": 823505,
+      "utc": "2026-08-25T23:05:00Z",
+      "away": {
+        "id": 117,
+        "name": "Astros",
+        "rec": "65-66",
+        "pid": 814490,
+        "pname": "Ethan Pecko"
+      },
+      "home": {
+        "id": 147,
+        "name": "Yankees",
+        "rec": "74-56",
+        "pid": 701542,
+        "pname": "Will Warren"
+      }
+    },
+    {
+      "gamePk": 822773,
+      "utc": "2026-08-25T23:07:00Z",
+      "away": {
+        "id": 118,
+        "name": "Royals",
+        "rec": "58-74",
+        "pid": 607625,
+        "pname": "Seth Lugo"
+      },
+      "home": {
+        "id": 141,
+        "name": "Blue Jays",
+        "rec": "64-68",
+        "pid": 453286,
+        "pname": "Max Scherzer"
+      }
+    },
+    {
+      "gamePk": 823585,
+      "utc": "2026-08-25T23:10:00Z",
+      "away": {
+        "id": 158,
+        "name": "Brewers",
+        "rec": "81-50",
+        "pid": 690986,
+        "pname": "Kyle Harrison"
+      },
+      "home": {
+        "id": 121,
+        "name": "Mets",
+        "rec": "59-72",
+        "pid": 804267,
+        "pname": "Zac Thornton"
+      }
+    },
+    {
+      "gamePk": 824881,
+      "utc": "2026-08-25T23:15:00Z",
+      "away": {
+        "id": 119,
+        "name": "Dodgers",
+        "rec": "80-51",
+        "pid": 607192,
+        "pname": "Tyler Glasnow"
+      },
+      "home": {
+        "id": 144,
+        "name": "Braves",
+        "rec": "76-55",
+        "pid": 693821,
+        "pname": "Bryce Elder"
+      }
+    },
+    {
+      "gamePk": 824556,
+      "utc": "2026-08-25T23:40:00Z",
+      "away": {
+        "id": 140,
+        "name": "Rangers",
+        "rec": "66-66",
+        "pid": 594798,
+        "pname": "Jacob deGrom"
+      },
+      "home": {
+        "id": 145,
+        "name": "White Sox",
+        "rec": "68-63",
+        "pid": 641743,
+        "pname": "Anthony Kay"
+      }
+    },
+    {
+      "gamePk": 823016,
+      "utc": "2026-08-25T23:45:00Z",
+      "away": {
+        "id": 110,
+        "name": "Orioles",
+        "rec": "63-68",
+        "pid": 605135,
+        "pname": "Chris Bassitt"
+      },
+      "home": {
+        "id": 138,
+        "name": "Cardinals",
+        "rec": "66-66",
+        "pid": 669461,
+        "pname": "Matthew Liberatore"
+      }
+    },
+    {
+      "gamePk": 823989,
+      "utc": "2026-08-26T01:38:00Z",
+      "away": {
+        "id": 114,
+        "name": "Guardians",
+        "rec": "66-66",
+        "pid": 668909,
+        "pname": "Gavin Williams"
+      },
+      "home": {
+        "id": 108,
+        "name": "Angels",
+        "rec": "52-80",
+        "pid": 700712,
+        "pname": "Walbert Ure\u00f1a"
+      }
+    },
+    {
+      "gamePk": 825042,
+      "utc": "2026-08-26T01:40:00Z",
+      "away": {
+        "id": 112,
+        "name": "Cubs",
+        "rec": "76-56",
+        "pid": 605280,
+        "pname": "Clay Holmes"
+      },
+      "home": {
+        "id": 109,
+        "name": "D-backs",
+        "rec": "69-63",
+        "pid": 694297,
+        "pname": "Brandon Pfaadt"
+      }
+    },
+    {
+      "gamePk": 823259,
+      "utc": "2026-08-26T01:40:00Z",
+      "away": {
+        "id": 134,
+        "name": "Pirates",
+        "rec": "64-69",
+        "pid": 694973,
+        "pname": "Paul Skenes"
+      },
+      "home": {
+        "id": 135,
+        "name": "Padres",
+        "rec": "71-61",
+        "pid": 650633,
+        "pname": "Michael King"
+      }
+    },
+    {
+      "gamePk": 824962,
+      "utc": "2026-08-26T01:40:00Z",
+      "away": {
+        "id": 142,
+        "name": "Twins",
+        "rec": "64-68",
+        "pid": 671737,
+        "pname": "Taj Bradley"
+      },
+      "home": {
+        "id": 133,
+        "name": "Athletics",
+        "rec": "51-81",
+        "pid": 695611,
+        "pname": "Gage Jump"
+      }
+    },
+    {
+      "gamePk": 823098,
+      "utc": "2026-08-26T01:40:00Z",
+      "away": {
+        "id": 143,
+        "name": "Phillies",
+        "rec": "73-59",
+        "pid": 605400,
+        "pname": "Aaron Nola"
+      },
+      "home": {
+        "id": 136,
+        "name": "Mariners",
+        "rec": "63-69",
+        "pid": 669923,
+        "pname": "George Kirby"
+      }
+    },
+    {
+      "gamePk": 823181,
+      "utc": "2026-08-26T01:45:00Z",
+      "away": {
+        "id": 113,
+        "name": "Reds",
+        "rec": "62-70",
+        "pid": 663903,
+        "pname": "Brady Singer"
+      },
+      "home": {
+        "id": 137,
+        "name": "Giants",
+        "rec": "53-78",
+        "pid": 605288,
+        "pname": "Adrian Houser"
+      }
+    }
   ]
 }
