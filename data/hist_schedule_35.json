@@ -1,0 +1,339 @@
+{
+ "dates": [
+  {
+   "date": "2026-08-25",
+   "games": [
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Tampa Bay Rays"
+       },
+       "score": 1,
+       "probablePitcher": {
+        "fullName": "Ian Seymour"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Detroit Tigers"
+       },
+       "score": 4,
+       "probablePitcher": {
+        "fullName": "Jackson Jobe"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Boston Red Sox"
+       },
+       "score": 7,
+       "probablePitcher": {
+        "fullName": "Payton Tolle"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Miami Marlins"
+       },
+       "score": 3,
+       "probablePitcher": {
+        "fullName": "Tyler Phillips"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Colorado Rockies"
+       },
+       "score": 3,
+       "probablePitcher": {
+        "fullName": "TBD"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Washington Nationals"
+       },
+       "score": 1,
+       "probablePitcher": {
+        "fullName": "Andrew Alvarez"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Houston Astros"
+       },
+       "score": 9,
+       "probablePitcher": {
+        "fullName": "Ethan Pecko"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "New York Yankees"
+       },
+       "score": 7,
+       "probablePitcher": {
+        "fullName": "Will Warren"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Kansas City Royals"
+       },
+       "score": 5,
+       "probablePitcher": {
+        "fullName": "Seth Lugo"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Toronto Blue Jays"
+       },
+       "score": 3,
+       "probablePitcher": {
+        "fullName": "Max Scherzer"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Milwaukee Brewers"
+       },
+       "score": 2,
+       "probablePitcher": {
+        "fullName": "Kyle Harrison"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "New York Mets"
+       },
+       "score": 3,
+       "probablePitcher": {
+        "fullName": "Zac Thornton"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Los Angeles Dodgers"
+       },
+       "score": 3,
+       "probablePitcher": {
+        "fullName": "Tyler Glasnow"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Atlanta Braves"
+       },
+       "score": 4,
+       "probablePitcher": {
+        "fullName": "Bryce Elder"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Texas Rangers"
+       },
+       "score": 7,
+       "probablePitcher": {
+        "fullName": "Jacob deGrom"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Chicago White Sox"
+       },
+       "score": 11,
+       "probablePitcher": {
+        "fullName": "Anthony Kay"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Baltimore Orioles"
+       },
+       "score": 13,
+       "probablePitcher": {
+        "fullName": "Chris Bassitt"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "St. Louis Cardinals"
+       },
+       "score": 1,
+       "probablePitcher": {
+        "fullName": "Matthew Liberatore"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Cleveland Guardians"
+       },
+       "score": 8,
+       "probablePitcher": {
+        "fullName": "Gavin Williams"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Los Angeles Angels"
+       },
+       "score": 6,
+       "probablePitcher": {
+        "fullName": "Walbert Ure\u00f1a"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Chicago Cubs"
+       },
+       "score": 4,
+       "probablePitcher": {
+        "fullName": "Clay Holmes"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Arizona Diamondbacks"
+       },
+       "score": 5,
+       "probablePitcher": {
+        "fullName": "Brandon Pfaadt"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Pittsburgh Pirates"
+       },
+       "score": 1,
+       "probablePitcher": {
+        "fullName": "Paul Skenes"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "San Diego Padres"
+       },
+       "score": 0,
+       "probablePitcher": {
+        "fullName": "Michael King"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Minnesota Twins"
+       },
+       "score": 2,
+       "probablePitcher": {
+        "fullName": "Taj Bradley"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Athletics"
+       },
+       "score": 4,
+       "probablePitcher": {
+        "fullName": "Gage Jump"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Philadelphia Phillies"
+       },
+       "score": 1,
+       "probablePitcher": {
+        "fullName": "Aaron Nola"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Seattle Mariners"
+       },
+       "score": 4,
+       "probablePitcher": {
+        "fullName": "George Kirby"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Cincinnati Reds"
+       },
+       "score": 1,
+       "probablePitcher": {
+        "fullName": "Brady Singer"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "San Francisco Giants"
+       },
+       "score": 3,
+       "probablePitcher": {
+        "fullName": "Adrian Houser"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
