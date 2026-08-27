@@ -1,0 +1,339 @@
+{
+ "dates": [
+  {
+   "date": "2026-08-26",
+   "games": [
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Tampa Bay Rays"
+       },
+       "score": 3,
+       "probablePitcher": {
+        "fullName": "Freddy Peralta"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Detroit Tigers"
+       },
+       "score": 0,
+       "probablePitcher": {
+        "fullName": "Troy Melton"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Chicago Cubs"
+       },
+       "score": 0,
+       "probablePitcher": {
+        "fullName": "Matthew Boyd"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Arizona Diamondbacks"
+       },
+       "score": 2,
+       "probablePitcher": {
+        "fullName": "Eduardo Rodriguez"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Cincinnati Reds"
+       },
+       "score": 10,
+       "probablePitcher": {
+        "fullName": "Nick Lodolo"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "San Francisco Giants"
+       },
+       "score": 9,
+       "probablePitcher": {
+        "fullName": "Landen Roupp"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Cleveland Guardians"
+       },
+       "score": 4,
+       "probablePitcher": {
+        "fullName": "Joey Cantillo"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Los Angeles Angels"
+       },
+       "score": 3,
+       "probablePitcher": {
+        "fullName": "Grayson Rodriguez"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Pittsburgh Pirates"
+       },
+       "score": 0,
+       "probablePitcher": {
+        "fullName": "Bubba Chandler"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "San Diego Padres"
+       },
+       "score": 3,
+       "probablePitcher": {
+        "fullName": "Randy V\u00e1squez"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Philadelphia Phillies"
+       },
+       "score": 6,
+       "probablePitcher": {
+        "fullName": "Jes\u00fas Luzardo"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Seattle Mariners"
+       },
+       "score": 0,
+       "probablePitcher": {
+        "fullName": "Bryan Woo"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Boston Red Sox"
+       },
+       "score": 0,
+       "probablePitcher": {
+        "fullName": "Sonny Gray"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Miami Marlins"
+       },
+       "score": 4,
+       "probablePitcher": {
+        "fullName": "Ryan Gusto"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Colorado Rockies"
+       },
+       "score": 13,
+       "probablePitcher": {
+        "fullName": "Tanner Gordon"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Washington Nationals"
+       },
+       "score": 1,
+       "probablePitcher": {
+        "fullName": "Matt Waldron"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Houston Astros"
+       },
+       "score": 3,
+       "probablePitcher": {
+        "fullName": "Peter Lambert"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "New York Yankees"
+       },
+       "score": 9,
+       "probablePitcher": {
+        "fullName": "Elmer Rodr\u00edguez"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Kansas City Royals"
+       },
+       "score": 0,
+       "probablePitcher": {
+        "fullName": "Randy Dobnak"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Toronto Blue Jays"
+       },
+       "score": 3,
+       "probablePitcher": {
+        "fullName": "Spencer Miles"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Milwaukee Brewers"
+       },
+       "score": 8,
+       "probablePitcher": {
+        "fullName": "Dustin May"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "New York Mets"
+       },
+       "score": 1,
+       "probablePitcher": {
+        "fullName": "Robert Stock"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Los Angeles Dodgers"
+       },
+       "score": 5,
+       "probablePitcher": {
+        "fullName": "Roki Sasaki"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Atlanta Braves"
+       },
+       "score": 6,
+       "probablePitcher": {
+        "fullName": "AJ Smith-Shawver"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Texas Rangers"
+       },
+       "score": 4,
+       "probablePitcher": {
+        "fullName": "MacKenzie Gore"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Chicago White Sox"
+       },
+       "score": 10,
+       "probablePitcher": {
+        "fullName": "Sean Burke"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Baltimore Orioles"
+       },
+       "score": 8,
+       "probablePitcher": {
+        "fullName": "Kyle Bradish"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "St. Louis Cardinals"
+       },
+       "score": 7,
+       "probablePitcher": {
+        "fullName": "Michael McGreevy"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Minnesota Twins"
+       },
+       "score": 4,
+       "probablePitcher": {
+        "fullName": "Connor Prielipp"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Athletics"
+       },
+       "score": 7,
+       "probablePitcher": {
+        "fullName": "J.T. Ginn"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
