@@ -1,0 +1,163 @@
+{
+ "dates": [
+  {
+   "date": "2026-08-27",
+   "games": [
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Colorado Rockies"
+       },
+       "score": 1,
+       "probablePitcher": {
+        "fullName": "Gabriel Hughes"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Washington Nationals"
+       },
+       "score": 7,
+       "probablePitcher": {
+        "fullName": "Jake Irvin"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Baltimore Orioles"
+       },
+       "score": 5,
+       "probablePitcher": {
+        "fullName": "Trevor Rogers"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "St. Louis Cardinals"
+       },
+       "score": 7,
+       "probablePitcher": {
+        "fullName": "Gordon Graceffo"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Houston Astros"
+       },
+       "score": 5,
+       "probablePitcher": {
+        "fullName": "Hayden Wesneski"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "New York Yankees"
+       },
+       "score": 1,
+       "probablePitcher": {
+        "fullName": "Gerrit Cole"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Kansas City Royals"
+       },
+       "score": 13,
+       "probablePitcher": {
+        "fullName": "Noah Cameron"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Toronto Blue Jays"
+       },
+       "score": 2,
+       "probablePitcher": {
+        "fullName": "Spencer Arrighetti"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Milwaukee Brewers"
+       },
+       "score": 8,
+       "probablePitcher": {
+        "fullName": "Jacob Misiorowski"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "New York Mets"
+       },
+       "score": 2,
+       "probablePitcher": {
+        "fullName": "Sean Manaea"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Los Angeles Dodgers"
+       },
+       "score": 0,
+       "probablePitcher": {
+        "fullName": "Yoshinobu Yamamoto"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Atlanta Braves"
+       },
+       "score": 1,
+       "probablePitcher": {
+        "fullName": "Chris Sale"
+       }
+      }
+     }
+    },
+    {
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Arizona Diamondbacks"
+       },
+       "score": 1,
+       "probablePitcher": {
+        "fullName": "Jose Cabrera"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "San Francisco Giants"
+       },
+       "score": 6,
+       "probablePitcher": {
+        "fullName": "Landen Roupp"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
