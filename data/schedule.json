@@ -1,95 +1,47 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-07",
   "games": [
     {
-      "gamePk": 824472,
-      "utc": "2026-09-01T22:40:00Z",
-      "away": {"id": 135, "name": "Padres", "rec": "73-65", "pid": 681190, "pname": "Randy Vásquez"},
-      "home": {"id": 113, "name": "Reds", "rec": "65-73", "pid": 666157, "pname": "Nick Lodolo"}
+      "gamePk": 824062,
+      "utc": "2026-09-07T18:10:00Z",
+      "away": {"id": 109, "name": "D-backs", "rec": "76-68", "pid": 571882, "pname": "Derek Law"},
+      "home": {"id": 118, "name": "Royals", "rec": "64-80", "pid": 702070, "pname": "Noah Cameron"}
     },
     {
-      "gamePk": 823340,
-      "utc": "2026-09-01T22:40:00Z",
-      "away": {"id": 137, "name": "Giants", "rec": "57-81", "pid": 657277, "pname": "Logan Webb"},
-      "home": {"id": 134, "name": "Pirates", "rec": "67-71", "pid": 694973, "pname": "Paul Skenes"}
+      "gamePk": 823742,
+      "utc": "2026-09-07T18:10:00Z",
+      "away": {"id": 112, "name": "Cubs", "rec": "81-63", "pid": 571510, "pname": "Matthew Boyd"},
+      "home": {"id": 158, "name": "Brewers", "rec": "88-56", "pid": 688107, "pname": "Robert Gasser"}
     },
     {
-      "gamePk": 822929,
-      "utc": "2026-09-01T22:40:00Z",
-      "away": {"id": 121, "name": "Mets", "rec": "62-76", "pid": 640455, "pname": "Sean Manaea"},
-      "home": {"id": 139, "name": "Rays", "rec": "82-55", "pid": 642547, "pname": "Freddy Peralta"}
+      "gamePk": 824229,
+      "utc": "2026-09-07T19:10:00Z",
+      "away": {"id": 142, "name": "Twins", "rec": "68-75", "pid": 657746, "pname": "Joe Ryan"},
+      "home": {"id": 116, "name": "Tigers", "rec": "65-78", "pid": 675512, "pname": "Troy Melton"}
     },
     {
-      "gamePk": 824391,
-      "utc": "2026-09-01T22:40:00Z",
-      "away": {"id": 141, "name": "Blue Jays", "rec": "68-70", "pid": 693686, "pname": "Spencer Miles"},
-      "home": {"id": 114, "name": "Guardians", "rec": "69-68", "pid": 668909, "pname": "Gavin Williams"}
+      "gamePk": 823254,
+      "utc": "2026-09-07T21:10:00Z",
+      "away": {"id": 120, "name": "Nationals", "rec": "67-78", "pid": 663623, "pname": "Jake Irvin"},
+      "home": {"id": 135, "name": "Padres", "rec": "75-68", "pid": 601713, "pname": "Nick Pivetta"}
     },
     {
-      "gamePk": 824716,
-      "utc": "2026-09-01T22:45:00Z",
-      "away": {"id": 136, "name": "Mariners", "rec": "64-74", "pid": 693433, "pname": "Bryan Woo"},
-      "home": {"id": 111, "name": "Red Sox", "rec": "75-63", "pid": null, "pname": "TBD"}
+      "gamePk": 823175,
+      "utc": "2026-09-08T00:10:00Z",
+      "away": {"id": 138, "name": "Cardinals", "rec": "72-72", "pid": 700241, "pname": "Michael McGreevy"},
+      "home": {"id": 137, "name": "Giants", "rec": "59-85", "pid": 657277, "pname": "Logan Webb"}
     },
     {
-      "gamePk": 822687,
-      "utc": "2026-09-01T22:45:00Z",
-      "away": {"id": 144, "name": "Braves", "rec": "82-56", "pid": 700363, "pname": "AJ Smith-Shawver"},
-      "home": {"id": 120, "name": "Nationals", "rec": "66-74", "pid": 663623, "pname": "Jake Irvin"}
+      "gamePk": 823902,
+      "utc": "2026-09-08T01:10:00Z",
+      "away": {"id": 113, "name": "Reds", "rec": "69-74", "pid": 695505, "pname": "Chase Burns"},
+      "home": {"id": 119, "name": "Dodgers", "rec": "86-57", "pid": null, "pname": "TBD"}
     },
     {
-      "gamePk": 823661,
-      "utc": "2026-09-01T23:40:00Z",
-      "away": {"id": 116, "name": "Tigers", "rec": "63-74", "pid": 675512, "pname": "Troy Melton"},
-      "home": {"id": 142, "name": "Twins", "rec": "66-72", "pid": 702193, "pname": "Andrew Morris"}
-    },
-    {
-      "gamePk": 824070,
-      "utc": "2026-09-01T23:40:00Z",
-      "away": {"id": 146, "name": "Marlins", "rec": "69-69", "pid": 663969, "pname": "Tyler Phillips"},
-      "home": {"id": 118, "name": "Royals", "rec": "62-76", "pid": 677976, "pname": "Randy Dobnak"}
-    },
-    {
-      "gamePk": 824633,
-      "utc": "2026-09-01T23:40:00Z",
-      "away": {"id": 158, "name": "Brewers", "rec": "85-53", "pid": 688107, "pname": "Robert Gasser"},
-      "home": {"id": 112, "name": "Cubs", "rec": "78-60", "pid": 571510, "pname": "Matthew Boyd"}
-    },
-    {
-      "gamePk": 822854,
-      "utc": "2026-09-02T00:05:00Z",
-      "away": {"id": 133, "name": "Athletics", "rec": "53-85", "pid": 669620, "pname": "Brady Basso"},
-      "home": {"id": 140, "name": "Rangers", "rec": "68-70", "pid": 669022, "pname": "MacKenzie Gore"}
-    },
-    {
-      "gamePk": 824148,
-      "utc": "2026-09-02T00:10:00Z",
-      "away": {"id": 145, "name": "White Sox", "rec": "72-65", "pid": 680732, "pname": "Sean Burke"},
-      "home": {"id": 117, "name": "Astros", "rec": "70-68", "pid": 669854, "pname": "Ronel Blanco"}
-    },
-    {
-      "gamePk": 824313,
-      "utc": "2026-09-02T00:40:00Z",
-      "away": {"id": 110, "name": "Orioles", "rec": "69-69", "pid": 680694, "pname": "Kyle Bradish"},
-      "home": {"id": 115, "name": "Rockies", "rec": "52-86", "pid": 687312, "pname": "Gabriel Hughes"}
-    },
-    {
-      "gamePk": 823984,
-      "utc": "2026-09-02T01:38:00Z",
-      "away": {"id": 147, "name": "Yankees", "rec": "78-60", "pid": 543037, "pname": "Gerrit Cole"},
-      "home": {"id": 108, "name": "Angels", "rec": "53-85", "pid": 680570, "pname": "Grayson Rodriguez"}
-    },
-    {
-      "gamePk": 825038,
-      "utc": "2026-09-02T01:40:00Z",
-      "away": {"id": 143, "name": "Phillies", "rec": "78-60", "pid": 666200, "pname": "Jesús Luzardo"},
-      "home": {"id": 109, "name": "D-backs", "rec": "73-66", "pid": 593958, "pname": "Eduardo Rodriguez"}
-    },
-    {
-      "gamePk": 823908,
-      "utc": "2026-09-02T02:10:00Z",
-      "away": {"id": 138, "name": "Cardinals", "rec": "68-70", "pid": 700241, "pname": "Michael McGreevy"},
-      "home": {"id": 119, "name": "Dodgers", "rec": "82-55", "pid": 641778, "pname": "Eric Lauer"}
+      "gamePk": 824958,
+      "utc": "2026-09-08T02:05:00Z",
+      "away": {"id": 141, "name": "Blue Jays", "rec": "72-72", "pid": 656302, "pname": "Dylan Cease"},
+      "home": {"id": 133, "name": "Athletics", "rec": "57-87", "pid": 682052, "pname": "Jacob Lopez"}
     }
   ]
 }

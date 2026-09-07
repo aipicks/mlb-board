@@ -1,17 +1,9 @@
 [
-{"away":"San Diego Padres","home":"Cincinnati Reds","commence":"2026-09-01T22:40:00Z","dome":false,"forecast":"No Impact","precip_pct":0,"precip_type":"Rain","temp":93.9,"wind_compass":"W","wind_mph":5.6,"wind_field_dir":"RL"},
-{"away":"San Francisco Giants","home":"Pittsburgh Pirates","commence":"2026-09-01T22:40:00Z","dome":false,"forecast":"No Impact","precip_pct":9,"precip_type":"Rain","temp":88.1,"wind_compass":"W","wind_mph":9.2,"wind_field_dir":"OUT"},
-{"away":"New York Mets","home":"Tampa Bay Rays","commence":"2026-09-01T22:40:00Z","dome":true},
-{"away":"Toronto Blue Jays","home":"Cleveland Guardians","commence":"2026-09-01T22:40:00Z","dome":false,"forecast":"No Impact","precip_pct":9,"precip_type":"Rain","temp":83.8,"wind_compass":"W","wind_mph":8.1,"wind_field_dir":"LR"},
-{"away":"Seattle Mariners","home":"Boston Red Sox","commence":"2026-09-01T22:45:00Z","dome":false,"forecast":"Likely Delay","precip_pct":56,"precip_type":"Rain","temp":64.7,"wind_compass":"W","wind_mph":8.4,"wind_field_dir":"RL"},
-{"away":"Atlanta Braves","home":"Washington Nationals","commence":"2026-09-01T22:45:00Z","dome":false,"forecast":"No Impact","precip_pct":20,"precip_type":"Rain","temp":90.9,"wind_compass":"W","wind_mph":8.1,"wind_field_dir":"LR"},
-{"away":"Detroit Tigers","home":"Minnesota Twins","commence":"2026-09-01T23:40:00Z","dome":false,"forecast":"No Impact","precip_pct":3,"precip_type":"Rain","temp":85.3,"wind_compass":"W","wind_mph":5.4,"wind_field_dir":"OUT"},
-{"away":"Miami Marlins","home":"Kansas City Royals","commence":"2026-09-01T23:40:00Z","dome":false,"forecast":"No Impact","precip_pct":0,"precip_type":"Rain","temp":96,"wind_compass":"W","wind_mph":9.2,"wind_field_dir":"OUT"},
-{"away":"Milwaukee Brewers","home":"Chicago Cubs","commence":"2026-09-01T23:40:00Z","dome":false,"forecast":"No Impact","precip_pct":20,"precip_type":"Rain","temp":85.9,"wind_compass":"W","wind_mph":8.1,"wind_field_dir":"OUT"},
-{"away":"Athletics","home":"Texas Rangers","commence":"2026-09-02T00:05:00Z","dome":true},
-{"away":"Chicago White Sox","home":"Houston Astros","commence":"2026-09-02T00:10:00Z","dome":true},
-{"away":"Baltimore Orioles","home":"Colorado Rockies","commence":"2026-09-02T00:40:00Z","dome":false,"forecast":"No Impact","precip_pct":7,"precip_type":"Rain","temp":83,"wind_compass":"W","wind_mph":5.8,"wind_field_dir":"RL"},
-{"away":"New York Yankees","home":"Los Angeles Angels","commence":"2026-09-02T01:38:00Z","dome":false,"forecast":"No Impact","precip_pct":0,"precip_type":"Rain","temp":76.9,"wind_compass":"W","wind_mph":8.1,"wind_field_dir":"OUT"},
-{"away":"Philadelphia Phillies","home":"Arizona Diamondbacks","commence":"2026-09-02T01:40:00Z","dome":true},
-{"away":"St. Louis Cardinals","home":"Los Angeles Dodgers","commence":"2026-09-02T02:10:00Z","dome":false,"forecast":"No Impact","precip_pct":0,"precip_type":"Rain","temp":74.9,"wind_compass":"W","wind_mph":9.2,"wind_field_dir":"OUT"}
+{"away":"Minnesota Twins","home":"Detroit Tigers","commence":"2026-09-07T19:10:00Z","dome":false,"forecast":"No Impact","precip_pct":0,"precip_type":"Rain","temp":77.3,"wind_compass":"W","wind_mph":8.4,"wind_field_dir":"LR"},
+{"away":"Washington Nationals","home":"San Diego Padres","commence":"2026-09-07T21:10:00Z","dome":false,"forecast":"No Impact","precip_pct":2,"precip_type":"Rain","temp":87.1,"wind_compass":"W","wind_mph":14,"wind_field_dir":"IN"},
+{"away":"St. Louis Cardinals","home":"San Francisco Giants","commence":"2026-09-08T00:10:00Z","dome":false,"forecast":"No Impact","precip_pct":0,"precip_type":"Rain","temp":66.6,"wind_compass":"W","wind_mph":14.4,"wind_field_dir":"OUT"},
+{"away":"Cincinnati Reds","home":"Los Angeles Dodgers","commence":"2026-09-08T01:10:00Z","dome":false,"forecast":"No Impact","precip_pct":2,"precip_type":"Rain","temp":83.6,"wind_compass":"W","wind_mph":8.3,"wind_field_dir":"OUT"},
+{"away":"Toronto Blue Jays","home":"Athletics","commence":"2026-09-08T02:05:00Z","dome":false,"forecast":"No Impact","precip_pct":0,"precip_type":"Rain","temp":85,"wind_compass":"W","wind_mph":2.6,"wind_field_dir":"LR"},
+{"away":"Chicago Cubs","home":"Milwaukee Brewers","commence":"2026-09-07T18:10:00Z","dome":true},
+{"away":"Arizona Diamondbacks","home":"Kansas City Royals","commence":"2026-09-07T18:10:00Z","dome":false,"forecast":"No Impact","precip_pct":10,"precip_type":"Rain","temp":89.8,"wind_compass":"W","wind_mph":10.7,"wind_field_dir":"RL"}
 ]
