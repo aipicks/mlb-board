@@ -1,0 +1,124 @@
+{
+ "dates": [
+  {
+   "date": "2026-09-10",
+   "games": [
+    {
+     "gamePk": 824872,
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Tampa Bay Rays"
+       },
+       "score": 1,
+       "probablePitcher": {
+        "fullName": "Nick Martinez"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Atlanta Braves"
+       },
+       "score": 3,
+       "probablePitcher": {
+        "fullName": "Mart\u00edn P\u00e9rez"
+       }
+      }
+     }
+    },
+    {
+     "gamePk": 823413,
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Houston Astros"
+       },
+       "score": 2,
+       "probablePitcher": {
+        "fullName": "Cristian Javier"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Philadelphia Phillies"
+       },
+       "score": 1,
+       "probablePitcher": {
+        "fullName": "Zack Wheeler"
+       }
+      }
+     }
+    },
+    {
+     "gamePk": 823088,
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Texas Rangers"
+       },
+       "score": 3,
+       "probablePitcher": {
+        "fullName": "Jacob deGrom"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Seattle Mariners"
+       },
+       "score": 4,
+       "probablePitcher": {
+        "fullName": "Logan Gilbert"
+       }
+      }
+     }
+    },
+    {
+     "gamePk": 823499,
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Colorado Rockies"
+       },
+       "score": 3,
+       "probablePitcher": {
+        "fullName": "Ryan Feltner"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "New York Yankees"
+       },
+       "score": 10,
+       "probablePitcher": {
+        "fullName": "Max Fried"
+       }
+      }
+     }
+    },
+    {
+     "gamePk": 824550,
+     "teams": {
+      "away": {
+       "team": {
+        "name": "Pittsburgh Pirates"
+       },
+       "score": 2,
+       "probablePitcher": {
+        "fullName": "Jared Jones"
+       }
+      },
+      "home": {
+       "team": {
+        "name": "Chicago White Sox"
+       },
+       "score": 0,
+       "probablePitcher": {
+        "fullName": "Hagen Smith"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
