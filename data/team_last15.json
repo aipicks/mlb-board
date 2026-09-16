@@ -6,9 +6,8 @@
    "runs": 59,
    "strikeOuts": 151,
    "baseOnBalls": 41,
-   "hits": 112,
+   "hits": 115,
    "_source_gamePks": [
-    823986,
     823987,
     823982,
     823984,
@@ -22,18 +21,18 @@
     822684,
     822685,
     822682,
-    823981
+    823981,
+    823980
    ]
   },
   {
    "team": "Arizona Diamondbacks",
    "gamesPlayed": 15,
-   "runs": 57,
-   "strikeOuts": 121,
-   "baseOnBalls": 48,
+   "runs": 52,
+   "strikeOuts": 129,
+   "baseOnBalls": 50,
    "hits": 121,
    "_source_gamePks": [
-    823177,
     823176,
     825040,
     825038,
@@ -47,18 +46,18 @@
     825036,
     825035,
     825033,
-    825034
+    825034,
+    825030
    ]
   },
   {
    "team": "Baltimore Orioles",
    "gamesPlayed": 15,
-   "runs": 56,
-   "strikeOuts": 157,
+   "runs": 55,
+   "strikeOuts": 161,
    "baseOnBalls": 47,
-   "hits": 111,
+   "hits": 112,
    "_source_gamePks": [
-    824959,
     824314,
     824313,
     824312,
@@ -72,18 +71,18 @@
     822767,
     822768,
     822764,
-    823575
+    823575,
+    823574
    ]
   },
   {
    "team": "Boston Red Sox",
    "gamesPlayed": 15,
-   "runs": 59,
-   "strikeOuts": 130,
+   "runs": 55,
+   "strikeOuts": 137,
    "baseOnBalls": 43,
-   "hits": 121,
+   "hits": 118,
    "_source_gamePks": [
-    823539,
     823501,
     823502,
     824719,
@@ -97,18 +96,18 @@
     824714,
     824713,
     824711,
-    824712
+    824712,
+    822849
    ]
   },
   {
    "team": "Chicago Cubs",
    "gamesPlayed": 15,
-   "runs": 86,
-   "strikeOuts": 100,
-   "baseOnBalls": 61,
-   "hits": 127,
+   "runs": 84,
+   "strikeOuts": 95,
+   "baseOnBalls": 64,
+   "hits": 123,
    "_source_gamePks": [
-    824636,
     824635,
     824633,
     824634,
@@ -122,18 +121,18 @@
     824631,
     824630,
     824628,
-    824629
+    824629,
+    824627
    ]
   },
   {
    "team": "Cincinnati Reds",
    "gamesPlayed": 15,
-   "runs": 67,
+   "runs": 62,
    "strikeOuts": 152,
-   "baseOnBalls": 46,
-   "hits": 122,
+   "baseOnBalls": 45,
+   "hits": 118,
    "_source_gamePks": [
-    824637,
     824636,
     824473,
     824472,
@@ -147,18 +146,18 @@
     823736,
     823737,
     823734,
-    824465
+    824465,
+    824466
    ]
   },
   {
    "team": "Cleveland Guardians",
    "gamesPlayed": 15,
-   "runs": 72,
-   "strikeOuts": 101,
-   "baseOnBalls": 41,
-   "hits": 125,
+   "runs": 68,
+   "strikeOuts": 98,
+   "baseOnBalls": 40,
+   "hits": 120,
    "_source_gamePks": [
-    824393,
     824391,
     824390,
     824388,
@@ -172,18 +171,18 @@
     823659,
     823657,
     823658,
-    824386
+    824386,
+    824384
    ]
   },
   {
    "team": "Colorado Rockies",
    "gamesPlayed": 15,
-   "runs": 62,
-   "strikeOuts": 141,
-   "baseOnBalls": 38,
-   "hits": 134,
+   "runs": 70,
+   "strikeOuts": 135,
+   "baseOnBalls": 36,
+   "hits": 142,
    "_source_gamePks": [
-    824874,
     824876,
     824314,
     824313,
@@ -197,18 +196,18 @@
     824227,
     824224,
     824225,
-    824308
+    824308,
+    824307
    ]
   },
   {
    "team": "Detroit Tigers",
    "gamesPlayed": 15,
-   "runs": 77,
-   "strikeOuts": 145,
-   "baseOnBalls": 55,
-   "hits": 124,
+   "runs": 86,
+   "strikeOuts": 146,
+   "baseOnBalls": 61,
+   "hits": 132,
    "_source_gamePks": [
-    824232,
     823663,
     823661,
     823660,
@@ -222,18 +221,18 @@
     824227,
     824224,
     824225,
-    822765
+    822765,
+    822762
    ]
   },
   {
    "team": "Houston Astros",
    "gamesPlayed": 15,
-   "runs": 53,
-   "strikeOuts": 126,
-   "baseOnBalls": 40,
+   "runs": 55,
+   "strikeOuts": 125,
+   "baseOnBalls": 39,
    "hits": 112,
    "_source_gamePks": [
-    823582,
     823580,
     824149,
     824148,
@@ -247,18 +246,18 @@
     823413,
     822930,
     822927,
-    822928
+    822928,
+    824143
    ]
   },
   {
    "team": "Kansas City Royals",
    "gamesPlayed": 15,
-   "runs": 68,
-   "strikeOuts": 108,
-   "baseOnBalls": 54,
-   "hits": 127,
+   "runs": 57,
+   "strikeOuts": 113,
+   "baseOnBalls": 51,
+   "hits": 115,
    "_source_gamePks": [
-    822771,
     824396,
     824392,
     824393,
@@ -272,18 +271,18 @@
     824063,
     824064,
     824711,
-    824712
+    824712,
+    824143
    ]
   },
   {
    "team": "Los Angeles Dodgers",
    "gamesPlayed": 15,
-   "runs": 82,
-   "strikeOuts": 115,
-   "baseOnBalls": 74,
-   "hits": 111,
+   "runs": 85,
+   "strikeOuts": 118,
+   "baseOnBalls": 77,
+   "hits": 113,
    "_source_gamePks": [
-    824230,
     824232,
     823908,
     823906,
@@ -297,18 +296,18 @@
     823817,
     823819,
     823815,
-    824465
+    824465,
+    824466
    ]
   },
   {
    "team": "Washington Nationals",
    "gamesPlayed": 15,
-   "runs": 68,
+   "runs": 65,
    "strikeOuts": 135,
-   "baseOnBalls": 51,
-   "hits": 121,
+   "baseOnBalls": 48,
+   "hits": 123,
    "_source_gamePks": [
-    822691,
     822690,
     822688,
     822689,
@@ -322,18 +321,18 @@
     823251,
     822684,
     822685,
-    822682
+    822682,
+    822683
    ]
   },
   {
    "team": "New York Mets",
    "gamesPlayed": 15,
-   "runs": 91,
+   "runs": 90,
    "strikeOuts": 116,
-   "baseOnBalls": 55,
-   "hits": 133,
+   "baseOnBalls": 58,
+   "hits": 134,
    "_source_gamePks": [
-    823582,
     823580,
     822932,
     822929,
@@ -347,18 +346,18 @@
     823498,
     823496,
     823495,
-    823575
+    823575,
+    823574
    ]
   },
   {
    "team": "Athletics",
    "gamesPlayed": 15,
-   "runs": 63,
-   "strikeOuts": 121,
-   "baseOnBalls": 43,
-   "hits": 126,
+   "runs": 61,
+   "strikeOuts": 126,
+   "baseOnBalls": 42,
+   "hits": 121,
    "_source_gamePks": [
-    824960,
     824961,
     824959,
     822855,
@@ -372,18 +371,18 @@
     824957,
     824956,
     824954,
-    824955
+    824955,
+    822925
    ]
   },
   {
    "team": "Pittsburgh Pirates",
    "gamesPlayed": 15,
    "runs": 61,
-   "strikeOuts": 117,
+   "strikeOuts": 116,
    "baseOnBalls": 54,
-   "hits": 130,
+   "hits": 134,
    "_source_gamePks": [
-    823013,
     823011,
     823010,
     823340,
@@ -397,18 +396,18 @@
     824550,
     824631,
     824630,
-    824628
+    824628,
+    823333
    ]
   },
   {
    "team": "San Diego Padres",
    "gamesPlayed": 15,
-   "runs": 72,
-   "strikeOuts": 114,
-   "baseOnBalls": 52,
-   "hits": 133,
+   "runs": 71,
+   "strikeOuts": 115,
+   "baseOnBalls": 50,
+   "hits": 140,
    "_source_gamePks": [
-    822935,
     822936,
     822933,
     824473,
@@ -422,18 +421,18 @@
     823251,
     823173,
     823170,
-    824308
+    824308,
+    824307
    ]
   },
   {
    "team": "Seattle Mariners",
    "gamesPlayed": 15,
-   "runs": 82,
-   "strikeOuts": 138,
-   "baseOnBalls": 52,
-   "hits": 136,
+   "runs": 80,
+   "strikeOuts": 137,
+   "baseOnBalls": 49,
+   "hits": 137,
    "_source_gamePks": [
-    822770,
     822766,
     824719,
     824716,
@@ -447,18 +446,18 @@
     823088,
     824954,
     824955,
-    823981
+    823981,
+    823980
    ]
   },
   {
    "team": "San Francisco Giants",
    "gamesPlayed": 15,
-   "runs": 77,
-   "strikeOuts": 130,
+   "runs": 86,
+   "strikeOuts": 132,
    "baseOnBalls": 58,
-   "hits": 122,
+   "hits": 130,
    "_source_gamePks": [
-    823177,
     823176,
     824911,
     823340,
@@ -472,18 +471,18 @@
     823172,
     823173,
     823170,
-    823006
+    823006,
+    823007
    ]
   },
   {
    "team": "St. Louis Cardinals",
    "gamesPlayed": 15,
-   "runs": 81,
-   "strikeOuts": 121,
+   "runs": 82,
+   "strikeOuts": 119,
    "baseOnBalls": 46,
-   "hits": 137,
+   "hits": 139,
    "_source_gamePks": [
-    823011,
     823010,
     823908,
     823906,
@@ -497,18 +496,18 @@
     823012,
     823009,
     823008,
-    823006
+    823006,
+    823007
    ]
   },
   {
    "team": "Tampa Bay Rays",
    "gamesPlayed": 15,
-   "runs": 78,
-   "strikeOuts": 95,
-   "baseOnBalls": 43,
-   "hits": 136,
+   "runs": 73,
+   "strikeOuts": 98,
+   "baseOnBalls": 41,
+   "hits": 131,
    "_source_gamePks": [
-    822936,
     822933,
     822932,
     822929,
@@ -522,18 +521,18 @@
     824872,
     822930,
     822927,
-    822928
+    822928,
+    822925
    ]
   },
   {
    "team": "Texas Rangers",
    "gamesPlayed": 15,
-   "runs": 80,
-   "strikeOuts": 129,
-   "baseOnBalls": 48,
-   "hits": 131,
+   "runs": 81,
+   "strikeOuts": 132,
+   "baseOnBalls": 49,
+   "hits": 130,
    "_source_gamePks": [
-    823741,
     823740,
     822855,
     822854,
@@ -547,18 +546,18 @@
     823088,
     825036,
     825035,
-    825033
+    825033,
+    822849
    ]
   },
   {
    "team": "Toronto Blue Jays",
    "gamesPlayed": 15,
-   "runs": 76,
+   "runs": 73,
    "strikeOuts": 106,
-   "baseOnBalls": 56,
-   "hits": 141,
+   "baseOnBalls": 52,
+   "hits": 142,
    "_source_gamePks": [
-    822770,
     822766,
     824391,
     824390,
@@ -572,18 +571,18 @@
     822767,
     822768,
     822764,
-    822765
+    822765,
+    822762
    ]
   },
   {
    "team": "Minnesota Twins",
    "gamesPlayed": 15,
-   "runs": 67,
-   "strikeOuts": 116,
-   "baseOnBalls": 48,
-   "hits": 109,
+   "runs": 66,
+   "strikeOuts": 115,
+   "baseOnBalls": 46,
+   "hits": 111,
    "_source_gamePks": [
-    823665,
     823662,
     823663,
     823661,
@@ -597,18 +596,18 @@
     823659,
     823657,
     823658,
-    823656
+    823656,
+    823654
    ]
   },
   {
    "team": "Philadelphia Phillies",
    "gamesPlayed": 15,
-   "runs": 62,
-   "strikeOuts": 109,
-   "baseOnBalls": 42,
-   "hits": 120,
+   "runs": 61,
+   "strikeOuts": 108,
+   "baseOnBalls": 38,
+   "hits": 118,
    "_source_gamePks": [
-    823986,
     823987,
     825040,
     825038,
@@ -622,18 +621,18 @@
     823413,
     824873,
     824870,
-    824869
+    824869,
+    822683
    ]
   },
   {
    "team": "Atlanta Braves",
    "gamesPlayed": 15,
-   "runs": 63,
-   "strikeOuts": 122,
-   "baseOnBalls": 41,
-   "hits": 122,
+   "runs": 66,
+   "strikeOuts": 120,
+   "baseOnBalls": 40,
+   "hits": 121,
    "_source_gamePks": [
-    824876,
     824911,
     822687,
     822686,
@@ -647,18 +646,18 @@
     824873,
     824870,
     824869,
-    824629
+    824629,
+    824627
    ]
   },
   {
    "team": "Chicago White Sox",
    "gamesPlayed": 15,
-   "runs": 51,
-   "strikeOuts": 149,
-   "baseOnBalls": 64,
-   "hits": 97,
+   "runs": 56,
+   "strikeOuts": 156,
+   "baseOnBalls": 70,
+   "hits": 99,
    "_source_gamePks": [
-    823662,
     824149,
     824148,
     824147,
@@ -672,18 +671,18 @@
     823012,
     823009,
     823008,
-    824386
+    824386,
+    824384
    ]
   },
   {
    "team": "Miami Marlins",
    "gamesPlayed": 15,
-   "runs": 85,
-   "strikeOuts": 133,
-   "baseOnBalls": 48,
-   "hits": 137,
+   "runs": 83,
+   "strikeOuts": 135,
+   "baseOnBalls": 44,
+   "hits": 138,
    "_source_gamePks": [
-    822688,
     822689,
     824070,
     824068,
@@ -697,18 +696,18 @@
     823817,
     823819,
     823815,
-    825034
+    825034,
+    825030
    ]
   },
   {
    "team": "New York Yankees",
    "gamesPlayed": 15,
-   "runs": 88,
-   "strikeOuts": 125,
-   "baseOnBalls": 45,
-   "hits": 142,
+   "runs": 87,
+   "strikeOuts": 126,
+   "baseOnBalls": 48,
+   "hits": 143,
    "_source_gamePks": [
-    823501,
     823502,
     823982,
     823984,
@@ -722,18 +721,18 @@
     823498,
     823496,
     823495,
-    823656
+    823656,
+    823654
    ]
   },
   {
    "team": "Milwaukee Brewers",
    "gamesPlayed": 15,
    "runs": 104,
-   "strikeOuts": 140,
-   "baseOnBalls": 63,
-   "hits": 152,
+   "strikeOuts": 137,
+   "baseOnBalls": 66,
+   "hits": 153,
    "_source_gamePks": [
-    823741,
     823740,
     824635,
     824633,
@@ -747,36 +746,37 @@
     823739,
     823736,
     823737,
-    823734
+    823734,
+    823333
    ]
   }
  ],
  "wins": {
-  "Los Angeles Angels": 5,
-  "Arizona Diamondbacks": 8,
+  "Los Angeles Angels": 6,
+  "Arizona Diamondbacks": 7,
   "Baltimore Orioles": 6,
-  "Boston Red Sox": 8,
+  "Boston Red Sox": 7,
   "Chicago Cubs": 7,
   "Cincinnati Reds": 6,
   "Cleveland Guardians": 8,
-  "Colorado Rockies": 3,
-  "Detroit Tigers": 8,
-  "Houston Astros": 7,
-  "Kansas City Royals": 7,
-  "Los Angeles Dodgers": 10,
+  "Colorado Rockies": 4,
+  "Detroit Tigers": 9,
+  "Houston Astros": 8,
+  "Kansas City Royals": 6,
+  "Los Angeles Dodgers": 11,
   "Washington Nationals": 7,
-  "New York Mets": 9,
+  "New York Mets": 8,
   "Athletics": 7,
   "Pittsburgh Pirates": 10,
   "San Diego Padres": 9,
   "Seattle Mariners": 6,
-  "San Francisco Giants": 7,
+  "San Francisco Giants": 8,
   "St. Louis Cardinals": 7,
   "Tampa Bay Rays": 10,
-  "Texas Rangers": 8,
-  "Toronto Blue Jays": 9,
+  "Texas Rangers": 9,
+  "Toronto Blue Jays": 8,
   "Minnesota Twins": 6,
-  "Philadelphia Phillies": 8,
+  "Philadelphia Phillies": 7,
   "Atlanta Braves": 7,
   "Chicago White Sox": 5,
   "Miami Marlins": 6,
