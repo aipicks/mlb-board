@@ -403,12 +403,11 @@
 {
 "team": "San Diego Padres",
 "gamesPlayed": 15,
-"runs": 97,
-"strikeOuts": 127,
+"runs": 95,
+"strikeOuts": 123,
 "baseOnBalls": 42,
-"hits": 160,
+"hits": 159,
 "_source_gamePks": [
-823171,
 824308,
 824307,
 824306,
@@ -422,7 +421,8 @@
 823248,
 823245,
 823246,
-849843
+849843,
+849842
 ]
 },
 {
@@ -628,13 +628,11 @@
 {
 "team": "Atlanta Braves",
 "gamesPlayed": 15,
-"runs": 70,
-"strikeOuts": 125,
-"baseOnBalls": 44,
-"hits": 127,
+"runs": 63,
+"strikeOuts": 123,
+"baseOnBalls": 46,
+"hits": 117,
 "_source_gamePks": [
-824870,
-824869,
 824629,
 824627,
 824626,
@@ -647,18 +645,19 @@
 823816,
 823813,
 823814,
-849845
+849845,
+849841,
+849844
 ]
 },
 {
 "team": "Chicago White Sox",
 "gamesPlayed": 15,
-"runs": 88,
-"strikeOuts": 145,
-"baseOnBalls": 58,
-"hits": 126,
+"runs": 94,
+"strikeOuts": 149,
+"baseOnBalls": 57,
+"hits": 130,
 "_source_gamePks": [
-823008,
 824386,
 824384,
 824382,
@@ -672,7 +671,8 @@
 824544,
 824543,
 824542,
-849849
+849849,
+849846
 ]
 },
 {
@@ -703,12 +703,11 @@
 {
 "team": "New York Yankees",
 "gamesPlayed": 15,
-"runs": 75,
-"strikeOuts": 137,
-"baseOnBalls": 49,
-"hits": 120,
+"runs": 82,
+"strikeOuts": 141,
+"baseOnBalls": 51,
+"hits": 127,
 "_source_gamePks": [
-823496,
 823495,
 823656,
 823654,
@@ -722,7 +721,8 @@
 823493,
 823491,
 823489,
-849851
+849851,
+849848
 ]
 },
 {
@@ -778,9 +778,9 @@
 "Minnesota Twins": 8,
 "Philadelphia Phillies": 6,
 "Atlanta Braves": 8,
-"Chicago White Sox": 9,
+"Chicago White Sox": 10,
 "Miami Marlins": 8,
-"New York Yankees": 9,
+"New York Yankees": 10,
 "Milwaukee Brewers": 12
 }
 }

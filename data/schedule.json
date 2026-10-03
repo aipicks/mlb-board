@@ -1,76 +1,76 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-03",
   "games": [
     {
-      "gamePk": 849841,
-      "utc": "2026-09-30T18:00:00Z",
-      "away": {
-        "id": 143,
-        "name": "Phillies",
-        "rec": "88-74",
-        "pid": 650911,
-        "pname": "Cristopher S\u00e1nchez"
-      },
-      "home": {
-        "id": 144,
-        "name": "Braves",
-        "rec": "94-68",
-        "pid": 641816,
-        "pname": "Tyler Mahle"
-      }
-    },
-    {
-      "gamePk": 849846,
-      "utc": "2026-09-30T21:00:00Z",
+      "gamePk": 849829,
+      "utc": "2026-10-03T17:00:00Z",
       "away": {
         "id": 145,
         "name": "White Sox",
         "rec": "84-78",
-        "pid": 680732,
-        "pname": "Sean Burke"
+        "pid": 696146,
+        "pname": "Hagen Smith"
       },
       "home": {
-        "id": 117,
-        "name": "Astros",
-        "rec": "81-81",
-        "pid": 686613,
-        "pname": "Hunter Brown"
+        "id": 114,
+        "name": "Guardians",
+        "rec": "85-77",
+        "pid": 800048,
+        "pname": "Parker Messick"
       }
     },
     {
-      "gamePk": 849848,
-      "utc": "2026-10-01T00:00:00Z",
+      "gamePk": 849828,
+      "utc": "2026-10-03T20:00:00Z",
       "away": {
-        "id": 111,
-        "name": "Red Sox",
-        "rec": "87-75",
-        "pid": 543243,
-        "pname": "Sonny Gray"
+        "id": 144,
+        "name": "Braves",
+        "rec": "94-68",
+        "pid": 800311,
+        "pname": "Didier Fuentes"
       },
       "home": {
+        "id": 119,
+        "name": "Dodgers",
+        "rec": "100-62",
+        "pid": 669373,
+        "pname": "Tarik Skubal"
+      }
+    },
+    {
+      "gamePk": 849835,
+      "utc": "2026-10-03T22:30:00Z",
+      "away": {
         "id": 147,
         "name": "Yankees",
         "rec": "93-68",
-        "pid": 608331,
-        "pname": "Max Fried"
+        "pid": 543037,
+        "pname": "Gerrit Cole"
+      },
+      "home": {
+        "id": 139,
+        "name": "Rays",
+        "rec": "98-64",
+        "pid": 656876,
+        "pname": "Drew Rasmussen"
       }
     },
     {
-      "gamePk": 849842,
-      "utc": "2026-10-01T02:00:00Z",
+      "gamePk": 849830,
+      "utc": "2026-10-04T00:30:00Z",
       "away": {
-        "id": 112,
-        "name": "Cubs",
-        "rec": "89-73",
-        "pid": 592332,
-        "pname": "Kevin Gausman"
-      },
-      "home": {
         "id": 135,
         "name": "Padres",
         "rec": "91-71",
-        "pid": 601713,
-        "pname": "Nick Pivetta"
+        "pid": 592662,
+        "pname": "Robbie Ray"
+      },
+      "home": {
+        "id": 158,
+        "name": "Brewers",
+        "rec": "103-59",
+        "pid": 694819,
+        "pname": "Jacob Misiorowski"
       }
     }
   ]
