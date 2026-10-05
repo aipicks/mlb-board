@@ -1,76 +1,40 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-05",
   "games": [
     {
-      "gamePk": 849829,
-      "utc": "2026-10-03T17:00:00Z",
+      "gamePk": 849834,
+      "utc": "2026-10-05T21:00:00Z",
       "away": {
         "id": 145,
         "name": "White Sox",
         "rec": "84-78",
-        "pid": 696146,
-        "pname": "Hagen Smith"
+        "pid": 641743,
+        "pname": "Anthony Kay"
       },
       "home": {
         "id": 114,
         "name": "Guardians",
         "rec": "85-77",
-        "pid": 800048,
-        "pname": "Parker Messick"
+        "pid": 668909,
+        "pname": "Gavin Williams"
       }
     },
     {
-      "gamePk": 849828,
-      "utc": "2026-10-03T20:00:00Z",
-      "away": {
-        "id": 144,
-        "name": "Braves",
-        "rec": "94-68",
-        "pid": 800311,
-        "pname": "Didier Fuentes"
-      },
-      "home": {
-        "id": 119,
-        "name": "Dodgers",
-        "rec": "100-62",
-        "pid": 669373,
-        "pname": "Tarik Skubal"
-      }
-    },
-    {
-      "gamePk": 849835,
-      "utc": "2026-10-03T22:30:00Z",
+      "gamePk": 849839,
+      "utc": "2026-10-06T00:00:00Z",
       "away": {
         "id": 147,
         "name": "Yankees",
         "rec": "93-68",
-        "pid": 543037,
-        "pname": "Gerrit Cole"
+        "pid": 693645,
+        "pname": "Cam Schlittler"
       },
       "home": {
         "id": 139,
         "name": "Rays",
         "rec": "98-64",
-        "pid": 656876,
-        "pname": "Drew Rasmussen"
-      }
-    },
-    {
-      "gamePk": 849830,
-      "utc": "2026-10-04T00:30:00Z",
-      "away": {
-        "id": 135,
-        "name": "Padres",
-        "rec": "91-71",
-        "pid": 592662,
-        "pname": "Robbie Ray"
-      },
-      "home": {
-        "id": 158,
-        "name": "Brewers",
-        "rec": "103-59",
-        "pid": 694819,
-        "pname": "Jacob Misiorowski"
+        "pid": 642547,
+        "pname": "Freddy Peralta"
       }
     }
   ]

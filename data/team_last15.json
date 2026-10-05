@@ -153,12 +153,11 @@
 {
 "team": "Cleveland Guardians",
 "gamesPlayed": 15,
-"runs": 80,
-"strikeOuts": 96,
-"baseOnBalls": 56,
-"hits": 131,
+"runs": 75,
+"strikeOuts": 99,
+"baseOnBalls": 55,
+"hits": 127,
 "_source_gamePks": [
-823659,
 823657,
 823658,
 824386,
@@ -172,7 +171,8 @@
 824707,
 824058,
 824057,
-824055
+824055,
+849829
 ]
 },
 {
@@ -279,12 +279,10 @@
 "team": "Los Angeles Dodgers",
 "gamesPlayed": 15,
 "runs": 67,
-"strikeOuts": 107,
-"baseOnBalls": 66,
-"hits": 130,
+"strikeOuts": 113,
+"baseOnBalls": 62,
+"hits": 131,
 "_source_gamePks": [
-823819,
-823815,
 824465,
 824466,
 824467,
@@ -297,7 +295,9 @@
 823895,
 823167,
 823165,
-823164
+823164,
+849828,
+849823
 ]
 },
 {
@@ -403,13 +403,11 @@
 {
 "team": "San Diego Padres",
 "gamesPlayed": 15,
-"runs": 95,
-"strikeOuts": 123,
-"baseOnBalls": 42,
-"hits": 159,
+"runs": 89,
+"strikeOuts": 125,
+"baseOnBalls": 47,
+"hits": 149,
 "_source_gamePks": [
-824308,
-824307,
 824306,
 824305,
 823252,
@@ -422,7 +420,9 @@
 823245,
 823246,
 849843,
-849842
+849842,
+849830,
+849825
 ]
 },
 {
@@ -503,12 +503,11 @@
 {
 "team": "Tampa Bay Rays",
 "gamesPlayed": 15,
-"runs": 71,
-"strikeOuts": 123,
-"baseOnBalls": 46,
-"hits": 121,
+"runs": 69,
+"strikeOuts": 124,
+"baseOnBalls": 45,
+"hits": 119,
 "_source_gamePks": [
-822927,
 822928,
 822925,
 822926,
@@ -516,13 +515,14 @@
 822923,
 822921,
 822922,
-823543,
 823494,
+823543,
 823492,
 823493,
 823409,
 823407,
-823408
+823408,
+849835
 ]
 },
 {
@@ -628,13 +628,11 @@
 {
 "team": "Atlanta Braves",
 "gamesPlayed": 15,
-"runs": 63,
-"strikeOuts": 123,
-"baseOnBalls": 46,
-"hits": 117,
+"runs": 60,
+"strikeOuts": 124,
+"baseOnBalls": 49,
+"hits": 110,
 "_source_gamePks": [
-824629,
-824627,
 824626,
 824138,
 824137,
@@ -647,18 +645,19 @@
 823814,
 849845,
 849841,
-849844
+849844,
+849828,
+849823
 ]
 },
 {
 "team": "Chicago White Sox",
 "gamesPlayed": 15,
-"runs": 94,
-"strikeOuts": 149,
-"baseOnBalls": 57,
-"hits": 130,
+"runs": 90,
+"strikeOuts": 145,
+"baseOnBalls": 56,
+"hits": 127,
 "_source_gamePks": [
-824386,
 824384,
 824382,
 824548,
@@ -672,7 +671,8 @@
 824543,
 824542,
 849849,
-849846
+849846,
+849829
 ]
 },
 {
@@ -703,38 +703,36 @@
 {
 "team": "New York Yankees",
 "gamesPlayed": 15,
-"runs": 82,
-"strikeOuts": 141,
-"baseOnBalls": 51,
-"hits": 127,
+"runs": 80,
+"strikeOuts": 144,
+"baseOnBalls": 49,
+"hits": 125,
 "_source_gamePks": [
-823495,
 823656,
 823654,
 823655,
 825032,
 825029,
 825028,
-823543,
 823494,
+823543,
 823492,
 823493,
-823491,
 823489,
+823491,
 849851,
-849848
+849848,
+849835
 ]
 },
 {
 "team": "Milwaukee Brewers",
 "gamesPlayed": 15,
-"runs": 90,
-"strikeOuts": 145,
+"runs": 64,
+"strikeOuts": 146,
 "baseOnBalls": 59,
-"hits": 142,
+"hits": 117,
 "_source_gamePks": [
-823736,
-823737,
 823734,
 823333,
 823332,
@@ -747,7 +745,9 @@
 823411,
 823735,
 823733,
-823731
+823731,
+849830,
+849825
 ]
 }
 ],
@@ -758,17 +758,17 @@
 "Boston Red Sox": 7,
 "Chicago Cubs": 7,
 "Cincinnati Reds": 6,
-"Cleveland Guardians": 11,
+"Cleveland Guardians": 10,
 "Colorado Rockies": 3,
 "Detroit Tigers": 8,
 "Houston Astros": 6,
 "Kansas City Royals": 5,
-"Los Angeles Dodgers": 10,
+"Los Angeles Dodgers": 11,
 "Washington Nationals": 10,
 "New York Mets": 6,
 "Athletics": 5,
 "Pittsburgh Pirates": 8,
-"San Diego Padres": 12,
+"San Diego Padres": 11,
 "Seattle Mariners": 8,
 "San Francisco Giants": 4,
 "St. Louis Cardinals": 5,
@@ -780,7 +780,7 @@
 "Atlanta Braves": 8,
 "Chicago White Sox": 10,
 "Miami Marlins": 8,
-"New York Yankees": 10,
+"New York Yankees": 9,
 "Milwaukee Brewers": 12
 }
 }
