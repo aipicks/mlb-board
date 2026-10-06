@@ -79095,6 +79095,7 @@
 ]
 },
 {
+"id": 808967,
 "stats": [
 {
 "splits": [
@@ -81955,6 +81956,112 @@
 "link": "/api/v1.1/game/824466/feed/live",
 "content": {
 "link": "/api/v1/game/824466/content"
+},
+"gameNumber": 1,
+"dayNight": "day"
+}
+},
+{
+"season": "2026",
+"stat": {
+"summary": "6.0 IP, 2 ER, 4 K, BB",
+"gamesPlayed": 1,
+"gamesStarted": 1,
+"flyOuts": 2,
+"groundOuts": 8,
+"airOuts": 7,
+"runs": 4,
+"doubles": 0,
+"triples": 0,
+"homeRuns": 1,
+"strikeOuts": 4,
+"baseOnBalls": 1,
+"intentionalWalks": 0,
+"hits": 5,
+"hitByPitch": 1,
+"avg": ".182",
+"atBats": 23,
+"obp": ".269",
+"slg": ".348",
+"ops": ".617",
+"caughtStealing": 0,
+"stolenBases": 1,
+"stolenBasePercentage": "1.000",
+"caughtStealingPercentage": ".000",
+"groundIntoDoublePlay": 0,
+"numberOfPitches": 88,
+"era": "2.53",
+"inningsPitched": "6.0",
+"wins": 0,
+"losses": 1,
+"saves": 0,
+"saveOpportunities": 0,
+"holds": 0,
+"blownSaves": 0,
+"earnedRuns": 2,
+"whip": "0.87",
+"battersFaced": 26,
+"outs": 18,
+"gamesPitched": 1,
+"completeGames": 0,
+"shutouts": 0,
+"strikes": 63,
+"strikePercentage": ".720",
+"hitBatsmen": 1,
+"balks": 0,
+"wildPitches": 0,
+"pickoffs": 0,
+"totalBases": 8,
+"groundOutsToAirouts": "1.16",
+"winPercentage": ".000",
+"pitchesPerInning": "14.67",
+"gamesFinished": 0,
+"strikeoutWalkRatio": "4.00",
+"strikeoutsPer9Inn": "6.00",
+"walksPer9Inn": "1.50",
+"hitsPer9Inn": "7.50",
+"runsScoredPer9": "6.00",
+"homeRunsPer9": "1.50",
+"inheritedRunners": 0,
+"inheritedRunnersScored": 0,
+"catchersInterference": 0,
+"sacBunts": 0,
+"sacFlies": 1
+},
+"team": {
+"id": 119,
+"name": "Los Angeles Dodgers",
+"link": "/api/v1/teams/119"
+},
+"player": {
+"id": 808967,
+"fullName": "Yoshinobu Yamamoto",
+"link": "/api/v1/people/808967"
+},
+"league": {
+"id": 104,
+"name": "National League",
+"link": "/api/v1/league/104"
+},
+"sport": {
+"id": 1,
+"link": "/api/v1/sports/1",
+"abbreviation": "MLB"
+},
+"opponent": {
+"id": 135,
+"name": "San Diego Padres",
+"link": "/api/v1/teams/135"
+},
+"date": "2026-09-23",
+"gameType": "R",
+"isHome": true,
+"isWin": false,
+"game": {
+"gamePk": 823894,
+"link": "/api/v1.1/game/823894/feed/live",
+"content": {
+"link": "/api/v1/game/823894/content"
 },
 "gameNumber": 1,
 "dayNight": "day"
@@ -155912,6 +156019,7 @@
 ]
 },
 {
+"id": 519242,
 "stats": [
 {
 "splits": [
@@ -158782,6 +158890,7 @@
 ]
 },
 {
+"id": 669160,
 "stats": [
 {
 "splits": [
@@ -161960,6 +162069,112 @@
 "link": "/api/v1.1/game/823412/feed/live",
 "content": {
 "link": "/api/v1/game/823412/content"
+},
+"gameNumber": 1,
+"dayNight": "day"
+}
+},
+{
+"season": "2026",
+"stat": {
+"summary": "3.0 IP, 2 ER, 5 K, BB",
+"gamesPlayed": 1,
+"gamesStarted": 1,
+"flyOuts": 2,
+"groundOuts": 0,
+"airOuts": 4,
+"runs": 2,
+"doubles": 0,
+"triples": 0,
+"homeRuns": 1,
+"strikeOuts": 5,
+"baseOnBalls": 1,
+"intentionalWalks": 0,
+"hits": 3,
+"hitByPitch": 0,
+"avg": ".256",
+"atBats": 12,
+"obp": ".308",
+"slg": ".500",
+"ops": ".808",
+"caughtStealing": 0,
+"stolenBases": 1,
+"stolenBasePercentage": "1.000",
+"caughtStealingPercentage": ".000",
+"groundIntoDoublePlay": 0,
+"numberOfPitches": 58,
+"era": "4.70",
+"inningsPitched": "3.0",
+"wins": 0,
+"losses": 0,
+"saves": 0,
+"saveOpportunities": 0,
+"holds": 0,
+"blownSaves": 0,
+"earnedRuns": 2,
+"whip": "1.32",
+"battersFaced": 13,
+"outs": 9,
+"gamesPitched": 1,
+"completeGames": 0,
+"shutouts": 0,
+"strikes": 38,
+"strikePercentage": ".660",
+"hitBatsmen": 0,
+"balks": 0,
+"wildPitches": 0,
+"pickoffs": 0,
+"totalBases": 6,
+"groundOutsToAirouts": "0.86",
+"winPercentage": ".---",
+"pitchesPerInning": "19.33",
+"gamesFinished": 0,
+"strikeoutWalkRatio": "5.00",
+"strikeoutsPer9Inn": "15.00",
+"walksPer9Inn": "3.00",
+"hitsPer9Inn": "9.00",
+"runsScoredPer9": "6.00",
+"homeRunsPer9": "3.00",
+"inheritedRunners": 0,
+"inheritedRunnersScored": 0,
+"catchersInterference": 0,
+"sacBunts": 0,
+"sacFlies": 0
+},
+"team": {
+"id": 158,
+"name": "Milwaukee Brewers",
+"link": "/api/v1/teams/158"
+},
+"player": {
+"id": 669160,
+"fullName": "Dustin May",
+"link": "/api/v1/people/669160"
+},
+"league": {
+"id": 104,
+"name": "National League",
+"link": "/api/v1/league/104"
+},
+"sport": {
+"id": 1,
+"link": "/api/v1/sports/1",
+"abbreviation": "MLB"
+},
+"opponent": {
+"id": 138,
+"name": "St. Louis Cardinals",
+"link": "/api/v1/teams/138"
+},
+"date": "2026-09-26",
+"gameType": "R",
+"isHome": true,
+"isWin": true,
+"game": {
+"gamePk": 823733,
+"link": "/api/v1.1/game/823733/feed/live",
+"content": {
+"link": "/api/v1/game/823733/content"
 },
 "gameNumber": 1,
 "dayNight": "day"
