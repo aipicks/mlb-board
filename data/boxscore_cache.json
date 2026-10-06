@@ -6118,5 +6118,29 @@
 "relief_outs_away": 19,
 "relief_er_home": 2,
 "relief_outs_home": 16
+},
+"849834": {
+"hits_away": 6,
+"hits_home": 4,
+"strikeOuts_away": 13,
+"strikeOuts_home": 9,
+"baseOnBalls_away": 4,
+"baseOnBalls_home": 3,
+"relief_er_away": 1,
+"relief_outs_away": 26,
+"relief_er_home": 2,
+"relief_outs_home": 12
+},
+"849839": {
+"hits_away": 4,
+"hits_home": 8,
+"strikeOuts_away": 7,
+"strikeOuts_home": 4,
+"baseOnBalls_away": 2,
+"baseOnBalls_home": 2,
+"relief_er_away": 0,
+"relief_outs_away": 11,
+"relief_er_home": 1,
+"relief_outs_home": 13
 }
 }

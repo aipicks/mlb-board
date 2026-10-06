@@ -1,40 +1,40 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "games": [
     {
-      "gamePk": 849834,
-      "utc": "2026-10-05T21:00:00Z",
+      "gamePk": 849819,
+      "utc": "2026-10-06T22:00:00Z",
       "away": {
-        "id": 145,
-        "name": "White Sox",
-        "rec": "84-78",
-        "pid": 641743,
-        "pname": "Anthony Kay"
+        "id": 119,
+        "name": "Dodgers",
+        "rec": "100-62",
+        "pid": 808967,
+        "pname": "Yoshinobu Yamamoto"
       },
       "home": {
-        "id": 114,
-        "name": "Guardians",
-        "rec": "85-77",
-        "pid": 668909,
-        "pname": "Gavin Williams"
+        "id": 144,
+        "name": "Braves",
+        "rec": "94-68",
+        "pid": 519242,
+        "pname": "Chris Sale"
       }
     },
     {
-      "gamePk": 849839,
-      "utc": "2026-10-06T00:00:00Z",
+      "gamePk": 849826,
+      "utc": "2026-10-07T01:30:00Z",
       "away": {
-        "id": 147,
-        "name": "Yankees",
-        "rec": "93-68",
-        "pid": 693645,
-        "pname": "Cam Schlittler"
+        "id": 158,
+        "name": "Brewers",
+        "rec": "103-59",
+        "pid": 669160,
+        "pname": "Dustin May"
       },
       "home": {
-        "id": 139,
-        "name": "Rays",
-        "rec": "98-64",
-        "pid": 642547,
-        "pname": "Freddy Peralta"
+        "id": 135,
+        "name": "Padres",
+        "rec": "91-71",
+        "pid": 601713,
+        "pname": "Nick Pivetta"
       }
     }
   ]
