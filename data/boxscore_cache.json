@@ -8602,5 +8602,53 @@
 "baseOnBalls_home": 2,
 "relief_er_home": 1,
 "relief_outs_home": 14
+},
+"849833": {
+"hits_away": 11,
+"strikeOuts_away": 6,
+"baseOnBalls_away": 10,
+"relief_er_away": 2,
+"relief_outs_away": 25,
+"hits_home": 6,
+"strikeOuts_home": 19,
+"baseOnBalls_home": 3,
+"relief_er_home": 9,
+"relief_outs_home": 21
+},
+"849822": {
+"hits_away": 5,
+"strikeOuts_away": 5,
+"baseOnBalls_away": 3,
+"relief_er_away": 0,
+"relief_outs_away": 13,
+"hits_home": 3,
+"strikeOuts_home": 8,
+"baseOnBalls_home": 5,
+"relief_er_home": 2,
+"relief_outs_home": 8
+},
+"849838": {
+"hits_away": 7,
+"strikeOuts_away": 9,
+"baseOnBalls_away": 0,
+"relief_er_away": 1,
+"relief_outs_away": 16,
+"hits_home": 7,
+"strikeOuts_home": 12,
+"baseOnBalls_home": 3,
+"relief_er_home": 0,
+"relief_outs_home": 10
+},
+"849827": {
+"hits_away": 10,
+"strikeOuts_away": 3,
+"baseOnBalls_away": 4,
+"relief_er_away": 0,
+"relief_outs_away": 15,
+"hits_home": 3,
+"strikeOuts_home": 9,
+"baseOnBalls_home": 4,
+"relief_er_home": 2,
+"relief_outs_home": 18
 }
 }

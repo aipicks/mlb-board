@@ -1,77 +1,23 @@
 {
-  "date": "2026-10-07",
-  "games": [
-    {
-      "gamePk": 849833,
-      "utc": "2026-10-07T20:00:00Z",
-      "away": {
-        "id": 114,
-        "name": "Guardians",
-        "rec": "85-77",
-        "pid": 682982,
-        "pname": "Daniel Espino"
-      },
-      "home": {
-        "id": 145,
-        "name": "White Sox",
-        "rec": "84-78",
-        "pid": 656794,
-        "pname": "Sean Newcomb"
-      }
-    },
-    {
-      "gamePk": 849822,
-      "utc": "2026-10-07T22:00:00Z",
-      "away": {
-        "id": 119,
-        "name": "Dodgers",
-        "rec": "100-62",
-        "pid": 607192,
-        "pname": "Tyler Glasnow"
-      },
-      "home": {
-        "id": 144,
-        "name": "Braves",
-        "rec": "94-68",
-        "pid": 641816,
-        "pname": "Tyler Mahle"
-      }
-    },
-    {
-      "gamePk": 849838,
-      "utc": "2026-10-08T00:00:00Z",
-      "away": {
-        "id": 139,
-        "name": "Rays",
-        "rec": "98-64",
-        "pid": 607259,
-        "pname": "Nick Martinez"
-      },
-      "home": {
-        "id": 147,
-        "name": "Yankees",
-        "rec": "93-68",
-        "pid": 608331,
-        "pname": "Max Fried"
-      }
-    },
-    {
-      "gamePk": 849827,
-      "utc": "2026-10-08T02:00:00Z",
-      "away": {
-        "id": 158,
-        "name": "Brewers",
-        "rec": "103-59",
-        "pid": 688107,
-        "pname": "Robert Gasser"
-      },
-      "home": {
-        "id": 135,
-        "name": "Padres",
-        "rec": "91-71",
-        "pid": 621111,
-        "pname": "Walker Buehler"
-      }
-    }
-  ]
+ "date": "2026-10-08",
+ "games": [
+  {
+   "gamePk": 849832,
+   "utc": "2026-10-09T00:00:00Z",
+   "away": {
+    "id": 114,
+    "name": "Guardians",
+    "rec": "85-77",
+    "pid": 800048,
+    "pname": "Parker Messick"
+   },
+   "home": {
+    "id": 145,
+    "name": "White Sox",
+    "rec": "84-78",
+    "pid": 696146,
+    "pname": "Hagen Smith"
+   }
+  }
+ ]
 }
