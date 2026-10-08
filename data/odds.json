@@ -1,1 +1,25 @@
-[]
+[
+ {
+  "away": "Cleveland Guardians",
+  "home": "Chicago White Sox",
+  "ml_away": -115,
+  "ml_home": 104,
+  "rl_away": -1.5,
+  "rl_away_price": 153,
+  "rl_home": 1.5,
+  "rl_home_price": -175,
+  "total_pt": 7,
+  "total_over": -118,
+  "total_under": -102,
+  "f5_ml_away": -115,
+  "f5_ml_home": -105,
+  "f5_rl_away": -0.5,
+  "f5_rl_away_price": 125,
+  "f5_rl_home": 0.5,
+  "f5_rl_home_price": -145,
+  "f5_total_pt": null,
+  "f5_total_over": null,
+  "f5_total_under": null,
+  "commence": "2026-10-09T00:00:00Z"
+ }
+]
