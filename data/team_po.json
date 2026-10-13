@@ -1,0 +1,212 @@
+{
+"window": [
+"2026-09-29",
+"2026-10-12"
+],
+"hitting": [
+{
+"team": "Atlanta Braves",
+"gamesPlayed": 7,
+"runs": 22,
+"strikeOuts": 63,
+"baseOnBalls": 30,
+"hits": 40,
+"_source_gamePks": [
+849845,
+849841,
+849844,
+849828,
+849823,
+849819,
+849822
+]
+},
+{
+"team": "Boston Red Sox",
+"gamesPlayed": 2,
+"runs": 2,
+"strikeOuts": 19,
+"baseOnBalls": 3,
+"hits": 7,
+"_source_gamePks": [
+849851,
+849848
+]
+},
+{
+"team": "Chicago Cubs",
+"gamesPlayed": 2,
+"runs": 1,
+"strikeOuts": 19,
+"baseOnBalls": 7,
+"hits": 8,
+"_source_gamePks": [
+849843,
+849842
+]
+},
+{
+"team": "Chicago White Sox",
+"gamesPlayed": 7,
+"runs": 28,
+"strikeOuts": 96,
+"baseOnBalls": 29,
+"hits": 48,
+"_source_gamePks": [
+849849,
+849846,
+849829,
+849834,
+849833,
+849832,
+849831
+]
+},
+{
+"team": "Cleveland Guardians",
+"gamesPlayed": 6,
+"runs": 30,
+"strikeOuts": 47,
+"baseOnBalls": 28,
+"hits": 48,
+"_source_gamePks": [
+849829,
+849834,
+849833,
+849832,
+849831,
+849820
+]
+},
+{
+"team": "Houston Astros",
+"gamesPlayed": 2,
+"runs": 6,
+"strikeOuts": 22,
+"baseOnBalls": 3,
+"hits": 11,
+"_source_gamePks": [
+849849,
+849846
+]
+},
+{
+"team": "Los Angeles Dodgers",
+"gamesPlayed": 6,
+"runs": 19,
+"strikeOuts": 52,
+"baseOnBalls": 19,
+"hits": 37,
+"_source_gamePks": [
+849828,
+849823,
+849819,
+849822,
+849809,
+849812
+]
+},
+{
+"team": "Milwaukee Brewers",
+"gamesPlayed": 6,
+"runs": 22,
+"strikeOuts": 49,
+"baseOnBalls": 27,
+"hits": 51,
+"_source_gamePks": [
+849830,
+849825,
+849826,
+849827,
+849809,
+849812
+]
+},
+{
+"team": "New York Yankees",
+"gamesPlayed": 5,
+"runs": 23,
+"strikeOuts": 45,
+"baseOnBalls": 15,
+"hits": 38,
+"_source_gamePks": [
+849851,
+849848,
+849835,
+849839,
+849838
+]
+},
+{
+"team": "Philadelphia Phillies",
+"gamesPlayed": 3,
+"runs": 9,
+"strikeOuts": 25,
+"baseOnBalls": 4,
+"hits": 24,
+"_source_gamePks": [
+849845,
+849841,
+849844
+]
+},
+{
+"team": "San Diego Padres",
+"gamesPlayed": 6,
+"runs": 22,
+"strikeOuts": 45,
+"baseOnBalls": 18,
+"hits": 44,
+"_source_gamePks": [
+849843,
+849842,
+849830,
+849825,
+849826,
+849827
+]
+},
+{
+"team": "Tampa Bay Rays",
+"gamesPlayed": 4,
+"runs": 13,
+"strikeOuts": 26,
+"baseOnBalls": 7,
+"hits": 27,
+"_source_gamePks": [
+849835,
+849839,
+849838,
+849820
+]
+}
+],
+"wins": {
+"Chicago Cubs": 0,
+"San Diego Padres": 3,
+"Philadelphia Phillies": 1,
+"Atlanta Braves": 3,
+"Chicago White Sox": 4,
+"Houston Astros": 0,
+"Boston Red Sox": 0,
+"New York Yankees": 2,
+"Los Angeles Dodgers": 3,
+"Cleveland Guardians": 4,
+"Milwaukee Brewers": 5,
+"Tampa Bay Rays": 3
+},
+"losses": {
+"Chicago Cubs": 2,
+"San Diego Padres": 3,
+"Philadelphia Phillies": 2,
+"Atlanta Braves": 4,
+"Chicago White Sox": 3,
+"Houston Astros": 2,
+"Boston Red Sox": 2,
+"New York Yankees": 3,
+"Los Angeles Dodgers": 3,
+"Cleveland Guardians": 2,
+"Milwaukee Brewers": 1,
+"Tampa Bay Rays": 1
+}
+}
