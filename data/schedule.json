@@ -1,9 +1,9 @@
 {
- "date": "2026-10-08",
+ "date": "2026-10-13",
  "games": [
   {
-   "gamePk": 849832,
-   "utc": "2026-10-09T00:00:00Z",
+   "gamePk": 849813,
+   "utc": "2026-10-14T00:00:00Z",
    "away": {
     "id": 114,
     "name": "Guardians",
@@ -12,11 +12,11 @@
     "pname": "Parker Messick"
    },
    "home": {
-    "id": 145,
-    "name": "White Sox",
-    "rec": "84-78",
-    "pid": 696146,
-    "pname": "Hagen Smith"
+    "id": 139,
+    "name": "Rays",
+    "rec": "98-64",
+    "pid": 642547,
+    "pname": "Freddy Peralta"
    }
   }
  ]
