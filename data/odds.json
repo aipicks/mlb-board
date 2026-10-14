@@ -1,1 +1,25 @@
-[]
+[
+ {
+  "away": "Milwaukee Brewers",
+  "home": "Los Angeles Dodgers",
+  "ml_away": 147,
+  "ml_home": -163,
+  "rl_away": 1.5,
+  "rl_away_price": -154,
+  "rl_home": -1.5,
+  "rl_home_price": 134,
+  "total_pt": 7.5,
+  "total_over": -103,
+  "total_under": -117,
+  "f5_ml_away": 149,
+  "f5_ml_home": -170,
+  "f5_rl_away": 0.5,
+  "f5_rl_away_price": -104,
+  "f5_rl_home": -0.5,
+  "f5_rl_home_price": -116,
+  "f5_total_pt": 4,
+  "f5_total_over": -110,
+  "f5_total_under": -110,
+  "commence": "2026-10-15T00:00:00Z"
+ }
+]
