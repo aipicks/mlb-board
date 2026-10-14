@@ -8710,5 +8710,17 @@
 "baseOnBalls_home": 2,
 "relief_er_home": 5,
 "relief_outs_home": 9
+},
+"849813": {
+"hits_away": 6,
+"strikeOuts_away": 9,
+"baseOnBalls_away": 3,
+"relief_er_away": 0,
+"relief_outs_away": 9,
+"hits_home": 7,
+"strikeOuts_home": 6,
+"baseOnBalls_home": 2,
+"relief_er_home": 1,
+"relief_outs_home": 9
 }
 }
